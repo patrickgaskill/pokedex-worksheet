@@ -1,0 +1,1925 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "seen": false,
+    "genders": {
+      "female": false
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  { "id": 32, "name": "Nidoran♂", "seen": false, "genders": { "male": false } },
+  { "id": 33, "name": "Nidorino", "seen": false, "genders": { "male": false } },
+  { "id": 34, "name": "Nidoking", "seen": false, "genders": { "male": false } },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "seen": false,
+    "genders": {
+      "genderless": false
+    }
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "seen": false,
+    "regional": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "seen": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "seen": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "seen": false,
+    "regional": true,
+    "genders": { "female": false }
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "seen": false,
+    "regional": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "seen": false,
+    "regional": true,
+    "genders": {
+      "male": false
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "seen": false,
+    "legendary": true,
+    "genders": {
+      "genderless": false
+    }
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "seen": false,
+    "legendary": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 152,
+    "name": "Chikorita",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 153,
+    "name": "Bayleef",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 154,
+    "name": "Meganium",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 155,
+    "name": "Cyndaquil",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 156,
+    "name": "Quilava",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 157,
+    "name": "Typhlosion",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 158,
+    "name": "Totodile",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 159,
+    "name": "Croconaw",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 160,
+    "name": "Feraligatr",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 161,
+    "name": "Sentret",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 162,
+    "name": "Furret",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 163,
+    "name": "Hoothoot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 164,
+    "name": "Noctowl",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 165,
+    "name": "Ledyba",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 166,
+    "name": "Ledian",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 167,
+    "name": "Spinarak",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 168,
+    "name": "Ariados",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 169,
+    "name": "Crobat",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 170,
+    "name": "Chinchou",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 171,
+    "name": "Lanturn",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 172,
+    "name": "Pichu",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 173,
+    "name": "Cleffa",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 174,
+    "name": "Igglybuff",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 175,
+    "name": "Togepi",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 176,
+    "name": "Togetic",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 177,
+    "name": "Natu",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 178,
+    "name": "Xatu",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 179,
+    "name": "Mareep",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 180,
+    "name": "Flaaffy",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 181,
+    "name": "Ampharos",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 182,
+    "name": "Bellossom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 183,
+    "name": "Marill",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 184,
+    "name": "Azumarill",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 185,
+    "name": "Sudowoodo",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 186,
+    "name": "Politoed",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 187,
+    "name": "Hoppip",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 188,
+    "name": "Skiploom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 189,
+    "name": "Jumpluff",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 190,
+    "name": "Aipom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 191,
+    "name": "Sunkern",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 192,
+    "name": "Sunflora",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 193,
+    "name": "Yanma",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 194,
+    "name": "Wooper",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 195,
+    "name": "Quagsire",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 196,
+    "name": "Espeon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 197,
+    "name": "Umbreon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 198,
+    "name": "Murkrow",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 199,
+    "name": "Slowking",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 200,
+    "name": "Misdreavus",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 201,
+    "name": "Unown",
+    "seen": false,
+    "genders": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false,
+      "e": false,
+      "f": false,
+      "g": false,
+      "h": false,
+      "i": false,
+      "j": false,
+      "k": false,
+      "l": false,
+      "m": false,
+      "n": false,
+      "o": false,
+      "p": false,
+      "q": false,
+      "r": false,
+      "s": false,
+      "t": false,
+      "u": false,
+      "v": false,
+      "w": false,
+      "x": false,
+      "y": false,
+      "z": false
+    }
+  },
+  {
+    "id": 202,
+    "name": "Wobbuffet",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 203,
+    "name": "Girafarig",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 204,
+    "name": "Pineco",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 205,
+    "name": "Forretress",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 206,
+    "name": "Dunsparce",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 207,
+    "name": "Gligar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 208,
+    "name": "Steelix",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 209,
+    "name": "Snubbull",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 210,
+    "name": "Granbull",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 211,
+    "name": "Qwilfish",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 212,
+    "name": "Scizor",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 213,
+    "name": "Shuckle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 214,
+    "name": "Heracross",
+    "seen": false,
+    "regional": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 215,
+    "name": "Sneasel",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 216,
+    "name": "Teddiursa",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 217,
+    "name": "Ursaring",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 218,
+    "name": "Slugma",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 219,
+    "name": "Magcargo",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 220,
+    "name": "Swinub",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 221,
+    "name": "Piloswine",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 222,
+    "name": "Corsola",
+    "seen": false,
+    "regional": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 223,
+    "name": "Remoraid",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 224,
+    "name": "Octillery",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 226,
+    "name": "Mantine",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 227,
+    "name": "Skarmory",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 228,
+    "name": "Houndour",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 229,
+    "name": "Houndoom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 230,
+    "name": "Kingdra",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 231,
+    "name": "Phanpy",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 232,
+    "name": "Donphan",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 233,
+    "name": "Porygon2",
+    "seen": false,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 234,
+    "name": "Stantler",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 236,
+    "name": "Tyrogue",
+    "seen": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 237,
+    "name": "Hitmontop",
+    "seen": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 238,
+    "name": "Smoochum",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 239,
+    "name": "Elekid",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 240,
+    "name": "Magby",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 241,
+    "name": "Miltank",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 242,
+    "name": "Blissey",
+    "seen": false,
+    "genders": { "female": false }
+  },
+  {
+    "id": 243,
+    "name": "Raikou",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 244,
+    "name": "Entei",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 245,
+    "name": "Suicune",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 246,
+    "name": "Larvitar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 247,
+    "name": "Pupitar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 248,
+    "name": "Tyranitar",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 249,
+    "name": "Lugia",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  },
+  {
+    "id": 250,
+    "name": "Ho-Oh",
+    "seen": false,
+    "legendary": true,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 252,
+    "name": "Treecko",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 253,
+    "name": "Grovyle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 254,
+    "name": "Sceptile",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 255,
+    "name": "Torchic",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 256,
+    "name": "Combusken",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 257,
+    "name": "Blaziken",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 258,
+    "name": "Mudkip",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 259,
+    "name": "Marshtomp",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 260,
+    "name": "Swampert",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 261,
+    "name": "Poochyena",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 262,
+    "name": "Mightyena",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 263,
+    "name": "Zigzagoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 264,
+    "name": "Linoone",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 265,
+    "name": "Wurmple",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 266,
+    "name": "Silcoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 267,
+    "name": "Beautifly",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 268,
+    "name": "Cascoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 269,
+    "name": "Dustox",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 273,
+    "name": "Seedot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 274,
+    "name": "Nuzleaf",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 275,
+    "name": "Shiftry",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 280,
+    "name": "Ralts",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 281,
+    "name": "Kirlia",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 282,
+    "name": "Gardevoir",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 285,
+    "name": "Shroomish",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 286,
+    "name": "Breloom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 287,
+    "name": "Slakoth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 288,
+    "name": "Vigoroth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 289,
+    "name": "Slaking",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 296,
+    "name": "Makuhita",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 297,
+    "name": "Hariyama",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 298,
+    "name": "Azurill",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 300,
+    "name": "Skitty",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 301,
+    "name": "Delcatty",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 302,
+    "name": "Sableye",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 303,
+    "name": "Mawile",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": true,
+      "female": false,
+      "femaleShiny": true
+    }
+  },
+  {
+    "id": 307,
+    "name": "Meditite",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 308,
+    "name": "Medicham",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 309,
+    "name": "Electrike",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 310,
+    "name": "Manectric",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 311,
+    "name": "Plusle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 312,
+    "name": "Minun",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 315,
+    "name": "Roselia",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 316,
+    "name": "Gulpin",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 317,
+    "name": "Swalot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 325,
+    "name": "Spoink",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 326,
+    "name": "Grumpig",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 335,
+    "name": "Zangoose",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 336,
+    "name": "Seviper",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 353,
+    "name": "Shuppet",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 354,
+    "name": "Banette",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 355,
+    "name": "Duskull",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 356,
+    "name": "Dusclops",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 359,
+    "name": "Absol",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": true,
+      "female": false,
+      "femaleShiny": true
+    }
+  },
+  {
+    "id": 360,
+    "name": "Wynaut",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 383,
+    "name": "Groudon",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
+  }
+]
