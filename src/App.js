@@ -1,6 +1,6 @@
 import React from "react";
-import { AutoSizer, Grid } from "react-virtualized";
-import "react-virtualized/styles.css";
+import ReactTable from "react-table";
+import "react-table/react-table.css";
 import "./App.css";
 import defaultPokedex from "./pokedex.json";
 
@@ -9,48 +9,19 @@ class App extends React.Component {
     pokedex: defaultPokedex
   };
 
-  cellRenderer = ({ columnIndex, key, rowIndex, style }) => {
-    const { pokedex } = this.state;
-    switch (columnIndex) {
-      case 0:
-        return (
-          <div key={key} style={style}>
-            {pokedex[rowIndex].id}
-          </div>
-        );
-      case 1:
-        return (
-          <div key={key} style={style}>
-            {pokedex[rowIndex].name}
-          </div>
-        );
-      case 2:
-        return (
-          <div key={key} style={style}>
-            {pokedex[rowIndex].seen ? "Yes" : "No"}
-          </div>
-        );
-      default:
-        return null;
-    }
-  };
+  formatPokemonNumber = id => `#${id.toString().padStart(3, "0")}`;
 
   render() {
-    return (
-      <AutoSizer>
-        {({ height, width }) => (
-          <Grid
-            cellRenderer={this.cellRenderer}
-            columnCount={3}
-            columnWidth={100}
-            height={height}
-            rowCount={this.state.pokedex.length}
-            rowHeight={30}
-            width={width}
-          />
-        )}
-      </AutoSizer>
-    );
+    const columns = [
+      {
+        Header: "No.",
+        accessor: "id",
+        Cell: row => this.formatPokemonNumber(row.value)
+      },
+      { Header: "Name", accessor: "name" }
+    ];
+
+    return <ReactTable data={this.state.pokedex} columns={columns} />;
   }
 }
 
