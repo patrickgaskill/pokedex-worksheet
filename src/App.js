@@ -12,16 +12,27 @@ class App extends React.Component {
   formatPokemonNumber = id => `#${id.toString().padStart(3, "0")}`;
 
   render() {
+    const { pokedex } = this.state;
+
     const columns = [
       {
         Header: "No.",
         accessor: "id",
         Cell: row => this.formatPokemonNumber(row.value)
       },
-      { Header: "Name", accessor: "name" }
+      { Header: "Name", accessor: "name" },
+      { Header: "Seen", accessor: "seen" }
     ];
 
-    return <ReactTable data={this.state.pokedex} columns={columns} />;
+    return (
+      <ReactTable
+        data={pokedex}
+        showPagination={false}
+        defaultPageSize={pokedex.length}
+        filterable
+        columns={columns}
+      />
+    );
   }
 }
 
