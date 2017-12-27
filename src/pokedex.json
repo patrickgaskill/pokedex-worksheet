@@ -161,6 +161,12 @@
       "maleShiny": false,
       "female": false,
       "femaleShiny": false
+    },
+    "variants": {
+      "party": false,
+      "santa": false,
+      "ash": false,
+      "witch": false
     }
   },
   {
@@ -172,6 +178,12 @@
       "maleShiny": false,
       "female": false,
       "femaleShiny": false
+    },
+    "variants": {
+      "party": false,
+      "santa": false,
+      "ash": false,
+      "witch": false
     }
   },
   {
@@ -1058,6 +1070,11 @@
       "maleShiny": false,
       "female": false,
       "femaleShiny": false
+    },
+    "variants": {
+      "santa": false,
+      "ash": false,
+      "witch": false
     }
   },
   {
