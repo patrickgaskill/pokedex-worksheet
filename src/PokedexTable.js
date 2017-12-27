@@ -2,10 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Table } from "semantic-ui-react";
 import PokedexTableRow from "./PokedexTableRow";
+import { pokemonPropTypes } from "./constants";
 
 export default class PokedexTable extends React.Component {
   static propTypes = {
-    pokedex: PropTypes.any.isRequired,
+    pokedex: PropTypes.arrayOf(pokemonPropTypes).isRequired,
     onSeenClick: PropTypes.func.isRequired,
     onAmazingClick: PropTypes.func.isRequired,
     onGenderClick: PropTypes.func.isRequired,

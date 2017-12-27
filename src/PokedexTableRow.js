@@ -5,21 +5,12 @@ import SeenLabel from "./SeenLabel";
 import AmazingLabel from "./AmazingLabel";
 import GenderLabel from "./GenderLabel";
 import VariantLabel from "./VariantLabel";
-import { genderPropTypes, variantPropTypes } from "./constants";
+import { pokemonPropTypes } from "./constants";
 import { formatPokemonNumber } from "./utils";
 
 export default class PokedexTableRow extends React.Component {
   static propTypes = {
-    pokemon: PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      seen: PropTypes.bool.isRequired,
-      amazing: PropTypes.bool.isRequired,
-      regional: PropTypes.bool,
-      legendary: PropTypes.bool,
-      genders: PropTypes.shape(genderPropTypes).isRequired,
-      variants: PropTypes.shape(variantPropTypes)
-    }).isRequired,
+    pokemon: pokemonPropTypes.isRequired,
     onSeenClick: PropTypes.func.isRequired,
     onAmazingClick: PropTypes.func.isRequired,
     onGenderClick: PropTypes.func.isRequired,

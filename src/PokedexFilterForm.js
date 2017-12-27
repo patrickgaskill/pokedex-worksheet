@@ -11,6 +11,18 @@ export default class PokedexFilterForm extends React.Component {
     onIncludeSpecialsChange: PropTypes.func.isRequired
   };
 
+  shouldComponentUpdate(nextProps) {
+    if (nextProps.pokedexFilter !== this.props.pokedexFilter) {
+      return true;
+    }
+
+    if (nextProps.includeSpecials !== this.props.includeSpecials) {
+      return true;
+    }
+
+    return false;
+  }
+
   render() {
     const {
       pokedexFilter,

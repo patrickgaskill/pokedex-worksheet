@@ -1,8 +1,9 @@
 import React from "react";
 import update from "immutability-helper";
-import { Container, Menu, Segment } from "semantic-ui-react";
+import { Container, Menu, Grid } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import PokedexFilterForm from "./PokedexFilterForm";
+import ProgressBarList from "./ProgressBarList";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
 import defaultPokedex from "./pokedex.json";
@@ -84,18 +85,25 @@ class App extends React.Component {
   };
 
   render() {
-    const { pokedexFilter, includeSpecials } = this.state;
+    const { pokedex, pokedexFilter, includeSpecials } = this.state;
     return (
       <div>
-        <Menu as={Segment} fixed="top">
-          <PokedexFilterForm
-            pokedexFilter={pokedexFilter}
-            includeSpecials={includeSpecials}
-            onPokedexFilterChange={this.handlePokedexFilterChange}
-            onIncludeSpecialsChange={this.handleIncludeSpecialsChange}
-          />
+        <Menu as={Grid} fixed="top">
+          <Grid.Row>
+            <Grid.Column width={10}>
+              <PokedexFilterForm
+                pokedexFilter={pokedexFilter}
+                includeSpecials={includeSpecials}
+                onPokedexFilterChange={this.handlePokedexFilterChange}
+                onIncludeSpecialsChange={this.handleIncludeSpecialsChange}
+              />
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <ProgressBarList pokedex={pokedex} />
+            </Grid.Column>
+          </Grid.Row>
         </Menu>
-        <Container style={{ marginTop: "7em" }}>
+        <Container style={{ marginTop: "8em" }}>
           <PokedexTable
             pokedex={this.getFilteredPokedex()}
             onSeenClick={this.handleSeenClick}
