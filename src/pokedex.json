@@ -1402,6 +1402,12 @@
     "genders": { "male": false, "female": false }
   },
   {
+    "id": 225,
+    "name": "Delibird",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
     "id": 226,
     "name": "Mantine",
     "seen": false,
