@@ -1,17 +1,9 @@
 import React from "react";
-import ReactTable from "react-table";
-import "react-table/react-table.css";
 import update from "immutability-helper";
-import { Segment, Form, Label } from "semantic-ui-react";
+import { Segment, Form } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+import PokedexTable from "./PokedexTable";
 import "./App.css";
-import {
-  formatPokemonNumber,
-  mapGenderToColor,
-  mapGenderToContent,
-  mapGenderToIcon,
-  mapVariantToContent
-} from "./utils";
 import defaultPokedex from "./pokedex.json";
 
 class App extends React.Component {
@@ -29,32 +21,46 @@ class App extends React.Component {
     this.setState({ pokedexFilter: value });
   };
 
-  handleSeenClick = index => e => {
-    this.setState(prevState => ({
-      pokedex: update(prevState.pokedex, { [index]: { $toggle: ["seen"] } })
-    }));
+  handleSeenClick = id => e => {
+    this.setState(prevState => {
+      const index = prevState.pokedex.findIndex(p => p.id === id);
+      return {
+        pokedex: update(prevState.pokedex, { [index]: { $toggle: ["seen"] } })
+      };
+    });
   };
 
-  handleAmazingClick = index => e => {
-    this.setState(prevState => ({
-      pokedex: update(prevState.pokedex, { [index]: { $toggle: ["amazing"] } })
-    }));
+  handleAmazingClick = id => e => {
+    this.setState(prevState => {
+      const index = prevState.pokedex.findIndex(p => p.id === id);
+      return {
+        pokedex: update(prevState.pokedex, {
+          [index]: { $toggle: ["amazing"] }
+        })
+      };
+    });
   };
 
-  handleGenderClick = (index, gender) => e => {
-    this.setState(prevState => ({
-      pokedex: update(prevState.pokedex, {
-        [index]: { genders: { $toggle: [gender] } }
-      })
-    }));
+  handleGenderClick = id => gender => e => {
+    this.setState(prevState => {
+      const index = prevState.pokedex.findIndex(p => p.id === id);
+      return {
+        pokedex: update(prevState.pokedex, {
+          [index]: { genders: { $toggle: [gender] } }
+        })
+      };
+    });
   };
 
-  handleVariantClick = (index, variant) => e => {
-    this.setState(prevState => ({
-      pokedex: update(prevState.pokedex, {
-        [index]: { variants: { $toggle: [variant] } }
-      })
-    }));
+  handleVariantClick = id => variant => e => {
+    this.setState(prevState => {
+      const index = prevState.pokedex.findIndex(p => p.id === id);
+      return {
+        pokedex: update(prevState.pokedex, {
+          [index]: { variants: { $toggle: [variant] } }
+        })
+      };
+    });
   };
 
   getFilteredPokedex = () => {
@@ -75,69 +81,6 @@ class App extends React.Component {
 
     return filtered;
   };
-
-  columns = [
-    {
-      Header: "No.",
-      accessor: "id",
-      width: 60,
-      Cell: props => formatPokemonNumber(props.value)
-    },
-    { Header: "Name", accessor: "name", width: 120 },
-    {
-      Header: "Caught",
-      id: "caught",
-      sortable: false,
-      accessor: p => ({
-        seen: p.seen,
-        amazing: p.amazing,
-        genders: p.genders,
-        variants: p.variants || null
-      }),
-      style: {
-        whiteSpace: "normal"
-      },
-      Cell: props => (
-        <Label.Group>
-          <Label
-            as="a"
-            icon="eye"
-            content="Seen"
-            color={props.value.seen ? "purple" : null}
-            onClick={this.handleSeenClick(props.index)}
-          />
-          <Label
-            as="a"
-            icon="trophy"
-            content="Amazing"
-            color={props.value.amazing ? "red" : null}
-            onClick={this.handleAmazingClick(props.index)}
-          />
-          {Object.keys(props.value.genders).map(g => (
-            <Label
-              key={g}
-              as="a"
-              icon={mapGenderToIcon(g)}
-              content={mapGenderToContent(g)}
-              color={props.value.genders[g] ? mapGenderToColor(g) : null}
-              onClick={this.handleGenderClick(props.index, g)}
-            />
-          ))}
-          {props.value.variants &&
-            Object.keys(props.value.variants).map(v => (
-              <Label
-                key={v}
-                as="a"
-                icon="check"
-                content={mapVariantToContent(v)}
-                color={props.value.variants[v] ? "green" : null}
-                onClick={this.handleVariantClick(props.index, v)}
-              />
-            ))}
-        </Label.Group>
-      )
-    }
-  ];
 
   render() {
     const { pokedexFilter, includeSpecials } = this.state;
@@ -186,22 +129,12 @@ class App extends React.Component {
             </Form.Group>
           </Form>
         </Segment>
-        <ReactTable
-          className="-striped"
-          data={this.getFilteredPokedex()}
-          defaultPageSize={10}
-          columns={this.columns}
-          getTrProps={(state, rowInfo) => {
-            if (rowInfo) {
-              if (rowInfo.original.legendary) {
-                return { style: { background: "#FFECB3" } };
-              } else if (rowInfo.original.regional) {
-                return { style: { background: "#C8E6C9" } };
-              }
-            }
-
-            return {};
-          }}
+        <PokedexTable
+          pokedex={this.getFilteredPokedex()}
+          onSeenClick={this.handleSeenClick}
+          onAmazingClick={this.handleAmazingClick}
+          onGenderClick={this.handleGenderClick}
+          onVariantClick={this.handleVariantClick}
         />
       </div>
     );

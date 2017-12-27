@@ -249,9 +249,27 @@
     "amazing": false,
     "genders": { "female": false }
   },
-  { "id": 32, "name": "Nidoran♂", "seen": false, "genders": { "male": false } },
-  { "id": 33, "name": "Nidorino", "seen": false, "genders": { "male": false } },
-  { "id": 34, "name": "Nidoking", "seen": false, "genders": { "male": false } },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "seen": false,
+    "amazing": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "seen": false,
+    "amazing": false,
+    "genders": { "male": false }
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "seen": false,
+    "amazing": false,
+    "genders": { "male": false }
+  },
   {
     "id": 35,
     "name": "Clefairy",
