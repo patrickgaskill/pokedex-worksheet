@@ -42,7 +42,7 @@ export const mapGenderToColor = gender => {
       return "blue";
     case "female":
     case "femaleShiny":
-      return "red";
+      return "pink";
     case "genderless":
     case "genderlessShiny":
       return "grey";

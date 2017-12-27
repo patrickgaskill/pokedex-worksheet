@@ -34,6 +34,12 @@ class App extends React.Component {
     }));
   };
 
+  handleAmazingClick = index => e => {
+    this.setState(prevState => ({
+      pokedex: update(prevState.pokedex, { [index]: { $toggle: ["amazing"] } })
+    }));
+  };
+
   handleGenderClick = (index, gender) => e => {
     this.setState(prevState => ({
       pokedex: update(prevState.pokedex, {
@@ -58,6 +64,8 @@ class App extends React.Component {
       filtered = filtered.filter(p => !Object.values(p.genders).includes(true));
     } else if (pokedexFilter === "genders") {
       filtered = filtered.filter(p => Object.values(p.genders).includes(false));
+    } else if (pokedexFilter === "amazing") {
+      filtered = filtered.filter(p => !p.amazing);
     }
 
     if (!includeSpecials) {
@@ -81,6 +89,7 @@ class App extends React.Component {
       sortable: false,
       accessor: p => ({
         seen: p.seen,
+        amazing: p.amazing,
         genders: p.genders,
         variants: p.variants || null
       }),
@@ -95,6 +104,13 @@ class App extends React.Component {
             content="Seen"
             color={props.value.seen ? "purple" : null}
             onClick={this.handleSeenClick(props.index)}
+          />
+          <Label
+            as="a"
+            icon="trophy"
+            content="Amazing"
+            color={props.value.amazing ? "red" : null}
+            onClick={this.handleAmazingClick(props.index)}
           />
           {Object.keys(props.value.genders).map(g => (
             <Label
@@ -149,6 +165,14 @@ class App extends React.Component {
                 name="pokedexFilterGroup"
                 value="genders"
                 checked={pokedexFilter === "genders"}
+                onChange={this.handlePokedexFilterChange}
+              />
+              <Form.Radio
+                radio
+                label="Show missing amazing"
+                name="pokedexFilterGroup"
+                value="amazing"
+                checked={pokedexFilter === "amazing"}
                 onChange={this.handlePokedexFilterChange}
               />
             </Form.Group>
