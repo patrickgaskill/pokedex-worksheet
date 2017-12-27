@@ -103,13 +103,15 @@ class App extends React.Component {
         data={pokedex}
         columns={this.columns}
         getTrProps={(state, rowInfo) => {
-          if (rowInfo.original.legendary) {
-            return { style: { background: "#FFECB3" } };
-          } else if (rowInfo.original.regional) {
-            return { style: { background: "#C8E6C9" } };
-          } else {
-            return {};
+          if (rowInfo) {
+            if (rowInfo.original.legendary) {
+              return { style: { background: "#FFECB3" } };
+            } else if (rowInfo.original.regional) {
+              return { style: { background: "#C8E6C9" } };
+            }
           }
+
+          return {};
         }}
       />
     );
