@@ -9,7 +9,8 @@ import {
   formatPokemonNumber,
   mapGenderToColor,
   mapGenderToContent,
-  mapGenderToIcon
+  mapGenderToIcon,
+  mapVariantToContent
 } from "./utils";
 import defaultPokedex from "./pokedex.json";
 
@@ -128,7 +129,7 @@ class App extends React.Component {
                 key={v}
                 as="a"
                 icon="check"
-                content={v.charAt(0).toUpperCase() + v.slice(1)}
+                content={mapVariantToContent(v)}
                 color={props.value.variants[v] ? "green" : null}
                 onClick={this.handleVariantClick(props.index, v)}
               />

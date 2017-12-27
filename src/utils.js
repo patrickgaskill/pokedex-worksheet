@@ -50,3 +50,18 @@ export const mapGenderToColor = gender => {
       return "grey";
   }
 };
+
+export const mapVariantToContent = variant => {
+  switch (variant) {
+    case "party":
+      return "Party Hat";
+    case "santa":
+      return "Santa Hat";
+    case "ash":
+      return "Ash's Hat";
+    case "witch":
+      return "Witch Hat";
+    default:
+      return null;
+  }
+};
