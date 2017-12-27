@@ -15,6 +15,20 @@ class App extends React.Component {
     pokedex: defaultPokedex
   };
 
+  componentDidMount() {
+    if (localStorage.state) {
+      const nextState = JSON.parse(localStorage.state);
+      this.setState(prevState => ({
+        ...prevState,
+        ...nextState
+      }));
+    }
+  }
+
+  componentDidUpdate() {
+    localStorage.state = JSON.stringify(this.state);
+  }
+
   handleIncludeSpecialsChange = (e, { checked }) => {
     this.setState({ includeSpecials: checked });
   };

@@ -18,8 +18,26 @@ export default class PokedexTableRow extends React.Component {
   };
 
   shouldComponentUpdate(nextProps) {
-    if (nextProps.pokemon !== this.props.pokemon) {
+    if (nextProps.pokemon.seen !== this.props.pokemon.seen) {
       return true;
+    }
+
+    if (nextProps.pokemon.amazing !== this.props.pokemon.amazing) {
+      return true;
+    }
+
+    for (const g of Object.keys(nextProps.pokemon.genders)) {
+      if (nextProps.pokemon.genders[g] !== this.props.pokemon.genders[g]) {
+        return true;
+      }
+    }
+
+    if (nextProps.pokemon.variants) {
+      for (const v of Object.keys(nextProps.pokemon.variants)) {
+        if (nextProps.pokemon.variants[v] !== this.props.pokemon.variants[v]) {
+          return true;
+        }
+      }
     }
 
     return false;
