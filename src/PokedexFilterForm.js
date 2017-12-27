@@ -49,7 +49,7 @@ export default class PokedexFilterForm extends React.Component {
           />
           <Form.Radio
             radio
-            label="Show missing genders"
+            label="Show missing genders & variants"
             name="pokedexFilterGroup"
             value="genders"
             checked={pokedexFilter === "genders"}
@@ -57,7 +57,7 @@ export default class PokedexFilterForm extends React.Component {
           />
           <Form.Radio
             radio
-            label="Show missing amazing"
+            label="Show missing amazing final evolutions"
             name="pokedexFilterGroup"
             value="amazing"
             checked={pokedexFilter === "amazing"}

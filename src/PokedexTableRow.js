@@ -35,7 +35,8 @@ export default class PokedexTableRow extends React.Component {
         regional,
         legendary,
         genders,
-        variants
+        variants,
+        evolvesInto
       },
       onSeenClick,
       onAmazingClick,
@@ -61,7 +62,9 @@ export default class PokedexTableRow extends React.Component {
         <Table.Cell>
           <Label.Group>
             <SeenLabel seen={seen} onClick={onSeenClick} />
-            <AmazingLabel amazing={amazing} onClick={onAmazingClick} />
+            {!evolvesInto && (
+              <AmazingLabel amazing={amazing} onClick={onAmazingClick} />
+            )}
             {Object.keys(genders).map(g => (
               <GenderLabel
                 key={g}

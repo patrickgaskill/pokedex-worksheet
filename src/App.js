@@ -72,9 +72,13 @@ class App extends React.Component {
     if (pokedexFilter === "uncaught") {
       filtered = filtered.filter(p => !Object.values(p.genders).includes(true));
     } else if (pokedexFilter === "genders") {
-      filtered = filtered.filter(p => Object.values(p.genders).includes(false));
+      filtered = filtered.filter(
+        p =>
+          Object.values(p.genders).includes(false) ||
+          Object.values(p.variants).includes(false)
+      );
     } else if (pokedexFilter === "amazing") {
-      filtered = filtered.filter(p => !p.amazing);
+      filtered = filtered.filter(p => !p.evolvesInto && !p.amazing);
     }
 
     if (!includeSpecials) {
@@ -103,7 +107,7 @@ class App extends React.Component {
             </Grid.Column>
           </Grid.Row>
         </Menu>
-        <Container style={{ marginTop: "8em" }}>
+        <Container style={{ marginTop: "10em" }}>
           <PokedexTable
             pokedex={this.getFilteredPokedex()}
             onSeenClick={this.handleSeenClick}

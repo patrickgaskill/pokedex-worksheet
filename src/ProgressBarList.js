@@ -33,6 +33,12 @@ export default class ProgressBarList extends React.PureComponent {
       0
     );
 
+  getAmazingFinalEvolutionsValue = () =>
+    this.props.pokedex.filter(p => !p.evolvesInto && p.amazing).length;
+
+  getAmazingFinalEvolutionsTotal = () =>
+    this.props.pokedex.filter(p => !p.evolvesInto).length;
+
   render() {
     const pokedexLength = this.props.pokedex.length;
     return (
@@ -51,6 +57,11 @@ export default class ProgressBarList extends React.PureComponent {
           label="Genders & variants"
           value={this.getGendersAndVariantsValue()}
           total={this.getGendersAndVariantsTotal()}
+        />
+        <ProgressBarListItem
+          label="Amazing final evolutions"
+          value={this.getAmazingFinalEvolutionsValue()}
+          total={this.getAmazingFinalEvolutionsTotal()}
         />
       </List>
     );

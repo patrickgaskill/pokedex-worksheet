@@ -47,6 +47,12 @@ for (const v of possibleVariants) {
   variantPropTypes[v] = PropTypes.bool;
 }
 
+const evolutionPropTypes = PropTypes.shape({
+  id: PropTypes.number.isRequired,
+  candy: PropTypes.number.isRequired,
+  item: PropTypes.string
+});
+
 export const pokemonPropTypes = PropTypes.shape({
   id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
@@ -55,7 +61,9 @@ export const pokemonPropTypes = PropTypes.shape({
   regional: PropTypes.bool,
   legendary: PropTypes.bool,
   genders: PropTypes.shape(genderPropTypes).isRequired,
-  variants: PropTypes.shape(variantPropTypes)
+  variants: PropTypes.shape(variantPropTypes),
+  usesCandy: PropTypes.number.isRequired,
+  evolvesInto: PropTypes.arrayOf(evolutionPropTypes)
 });
 
 export { genderPropTypes, variantPropTypes };
