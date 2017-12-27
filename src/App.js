@@ -2,18 +2,21 @@ import React from "react";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 import update from "immutability-helper";
-import { Checkbox, Label } from "semantic-ui-react";
+import { Label } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import "./App.css";
-import GenderIcon from "./GenderIcon";
+import {
+  formatPokemonNumber,
+  mapGenderToColor,
+  mapGenderToContent,
+  mapGenderToIcon
+} from "./utils";
 import defaultPokedex from "./pokedex.json";
 
 class App extends React.Component {
   state = {
     pokedex: defaultPokedex
   };
-
-  formatPokemonNumber = id => `#${id.toString().padStart(3, "0")}`;
 
   handleSeenClick = index => e => {
     this.setState(prevState => ({
@@ -42,63 +45,53 @@ class App extends React.Component {
       Header: "No.",
       accessor: "id",
       width: 60,
-      Cell: props => this.formatPokemonNumber(props.value)
+      Cell: props => formatPokemonNumber(props.value)
     },
     { Header: "Name", accessor: "name", width: 120 },
     {
-      Header: "Seen",
-      accessor: "seen",
-      style: { textAlign: "center" },
-      width: 60,
+      Header: "Caught",
+      id: "caught",
+      sortable: false,
+      accessor: p => ({
+        seen: p.seen,
+        genders: p.genders,
+        variants: p.variants || null
+      }),
+      style: {
+        whiteSpace: "normal"
+      },
       Cell: props => (
-        <Checkbox
-          checked={props.value}
-          onClick={this.handleSeenClick(props.index)}
-        />
-      )
-    },
-    {
-      Header: "Genders Caught",
-      accessor: "genders",
-      Cell: props => (
-        <div>
-          {Object.keys(props.value).map(g => (
-            <GenderIcon
+        <Label.Group>
+          <Label
+            as="a"
+            icon="eye"
+            content="Seen"
+            color={props.value.seen ? "purple" : null}
+            onClick={this.handleSeenClick(props.index)}
+          />
+          {Object.keys(props.value.genders).map(g => (
+            <Label
               key={g}
-              gender={g}
-              disabled={!props.value[g]}
+              as="a"
+              icon={mapGenderToIcon(g)}
+              content={mapGenderToContent(g)}
+              color={props.value.genders[g] ? mapGenderToColor(g) : null}
               onClick={this.handleGenderClick(props.index, g)}
             />
           ))}
-        </div>
+          {props.value.variants &&
+            Object.keys(props.value.variants).map(v => (
+              <Label
+                key={v}
+                as="a"
+                icon="check"
+                content={v.charAt(0).toUpperCase() + v.slice(1)}
+                color={props.value.variants[v] ? "green" : null}
+                onClick={this.handleVariantClick(props.index, v)}
+              />
+            ))}
+        </Label.Group>
       )
-    },
-    {
-      Header: "Variants Caught",
-      accessor: "variants",
-      Cell: props =>
-        props.value ? (
-          <Label.Group>
-            {Object.keys(props.value).map(
-              v =>
-                props.value[v] ? (
-                  <Label
-                    as="a"
-                    color="green"
-                    icon="check"
-                    content={v}
-                    onClick={this.handleVariantClick(props.index, v)}
-                  />
-                ) : (
-                  <Label
-                    as="a"
-                    content={v}
-                    onClick={this.handleVariantClick(props.index, v)}
-                  />
-                )
-            )}
-          </Label.Group>
-        ) : null
     }
   ];
 
