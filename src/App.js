@@ -98,7 +98,20 @@ class App extends React.Component {
   render() {
     const { pokedex } = this.state;
     return (
-      <ReactTable className="-striped" data={pokedex} columns={this.columns} />
+      <ReactTable
+        className="-striped"
+        data={pokedex}
+        columns={this.columns}
+        getTrProps={(state, rowInfo) => {
+          if (rowInfo.original.legendary) {
+            return { style: { background: "#FFECB3" } };
+          } else if (rowInfo.original.regional) {
+            return { style: { background: "#C8E6C9" } };
+          } else {
+            return {};
+          }
+        }}
+      />
     );
   }
 }
