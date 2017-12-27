@@ -189,6 +189,7 @@ class App extends React.Component {
         <ReactTable
           className="-striped"
           data={this.getFilteredPokedex()}
+          defaultPageSize={10}
           columns={this.columns}
           getTrProps={(state, rowInfo) => {
             if (rowInfo) {
