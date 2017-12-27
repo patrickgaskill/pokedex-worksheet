@@ -10,6 +10,10 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.2",
+    "@fortawesome/react-fontawesome": "^0.0.17",
+    "classnames": "^2.2.5",
     "immutability-helper": "^2.6.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
