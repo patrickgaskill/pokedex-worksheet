@@ -87,7 +87,7 @@ export default class GenderIcon extends React.PureComponent {
     const { gender, disabled, onClick } = this.props;
     return (
       <span
-        className="fa-layers fa-fw"
+        className="fa-layers fa-fw fa-lg"
         style={{
           color: disabled ? genderColors.disabled : this.mapGenderToColor(),
           cursor: "pointer"

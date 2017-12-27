@@ -2,8 +2,10 @@ import React from "react";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 import update from "immutability-helper";
-import GenderIcon from "./GenderIcon";
+import { Checkbox, Label } from "semantic-ui-react";
+import "semantic-ui-css/semantic.min.css";
 import "./App.css";
+import GenderIcon from "./GenderIcon";
 import defaultPokedex from "./pokedex.json";
 
 class App extends React.Component {
@@ -27,6 +29,14 @@ class App extends React.Component {
     }));
   };
 
+  handleVariantClick = (index, variant) => e => {
+    this.setState(prevState => ({
+      pokedex: update(prevState.pokedex, {
+        [index]: { variants: { $toggle: [variant] } }
+      })
+    }));
+  };
+
   columns = [
     {
       Header: "No.",
@@ -41,8 +51,7 @@ class App extends React.Component {
       style: { textAlign: "center" },
       width: 60,
       Cell: props => (
-        <input
-          type="checkbox"
+        <Checkbox
           checked={props.value}
           onClick={this.handleSeenClick(props.index)}
         />
@@ -63,6 +72,33 @@ class App extends React.Component {
           ))}
         </div>
       )
+    },
+    {
+      Header: "Variants Caught",
+      accessor: "variants",
+      Cell: props =>
+        props.value ? (
+          <Label.Group>
+            {Object.keys(props.value).map(
+              v =>
+                props.value[v] ? (
+                  <Label
+                    as="a"
+                    color="green"
+                    icon="check"
+                    content={v}
+                    onClick={this.handleVariantClick(props.index, v)}
+                  />
+                ) : (
+                  <Label
+                    as="a"
+                    content={v}
+                    onClick={this.handleVariantClick(props.index, v)}
+                  />
+                )
+            )}
+          </Label.Group>
+        ) : null
     }
   ];
 
