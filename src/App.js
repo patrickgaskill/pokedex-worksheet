@@ -1,7 +1,8 @@
 import React from "react";
 import update from "immutability-helper";
-import { Segment, Form } from "semantic-ui-react";
+import { Container, Menu, Segment } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+import PokedexFilterForm from "./PokedexFilterForm";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
 import defaultPokedex from "./pokedex.json";
@@ -86,56 +87,23 @@ class App extends React.Component {
     const { pokedexFilter, includeSpecials } = this.state;
     return (
       <div>
-        <Segment basic>
-          <Form>
-            <Form.Group inline>
-              <Form.Radio
-                label="Show all"
-                name="pokedexFilterGroup"
-                value="all"
-                checked={pokedexFilter === "all"}
-                onChange={this.handlePokedexFilterChange}
-              />
-              <Form.Radio
-                label="Show uncaught"
-                name="pokedexFilterGroup"
-                value="uncaught"
-                checked={pokedexFilter === "uncaught"}
-                onChange={this.handlePokedexFilterChange}
-              />
-              <Form.Radio
-                radio
-                label="Show missing genders"
-                name="pokedexFilterGroup"
-                value="genders"
-                checked={pokedexFilter === "genders"}
-                onChange={this.handlePokedexFilterChange}
-              />
-              <Form.Radio
-                radio
-                label="Show missing amazing"
-                name="pokedexFilterGroup"
-                value="amazing"
-                checked={pokedexFilter === "amazing"}
-                onChange={this.handlePokedexFilterChange}
-              />
-            </Form.Group>
-            <Form.Group>
-              <Form.Checkbox
-                label="Include regionals and legendaries"
-                checked={includeSpecials}
-                onChange={this.handleIncludeSpecialsChange}
-              />
-            </Form.Group>
-          </Form>
-        </Segment>
-        <PokedexTable
-          pokedex={this.getFilteredPokedex()}
-          onSeenClick={this.handleSeenClick}
-          onAmazingClick={this.handleAmazingClick}
-          onGenderClick={this.handleGenderClick}
-          onVariantClick={this.handleVariantClick}
-        />
+        <Menu as={Segment} fixed="top">
+          <PokedexFilterForm
+            pokedexFilter={pokedexFilter}
+            includeSpecials={includeSpecials}
+            onPokedexFilterChange={this.handlePokedexFilterChange}
+            onIncludeSpecialsChange={this.handleIncludeSpecialsChange}
+          />
+        </Menu>
+        <Container style={{ marginTop: "7em" }}>
+          <PokedexTable
+            pokedex={this.getFilteredPokedex()}
+            onSeenClick={this.handleSeenClick}
+            onAmazingClick={this.handleAmazingClick}
+            onGenderClick={this.handleGenderClick}
+            onVariantClick={this.handleVariantClick}
+          />
+        </Container>
       </div>
     );
   }

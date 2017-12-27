@@ -36,7 +36,16 @@ export default class PokedexTableRow extends React.Component {
 
   render() {
     const {
-      pokemon: { id, name, seen, amazing, genders, variants },
+      pokemon: {
+        id,
+        name,
+        seen,
+        amazing,
+        regional,
+        legendary,
+        genders,
+        variants
+      },
       onSeenClick,
       onAmazingClick,
       onGenderClick,
@@ -44,7 +53,19 @@ export default class PokedexTableRow extends React.Component {
     } = this.props;
     return (
       <Table.Row>
-        <Table.Cell>{formatPokemonNumber(id)}</Table.Cell>
+        <Table.Cell>
+          {regional && (
+            <Label color="green" ribbon>
+              Regional
+            </Label>
+          )}
+          {legendary && (
+            <Label color="orange" ribbon>
+              Legendary
+            </Label>
+          )}
+          {formatPokemonNumber(id)}
+        </Table.Cell>
         <Table.Cell>{name}</Table.Cell>
         <Table.Cell>
           <Label.Group>

@@ -21,7 +21,7 @@ export default class PokedexTable extends React.Component {
       onVariantClick
     } = this.props;
     return (
-      <Table celled>
+      <Table celled striped>
         <Table.Body>
           {pokedex.map(p => (
             <PokedexTableRow
