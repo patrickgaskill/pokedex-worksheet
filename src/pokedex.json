@@ -1794,9 +1794,9 @@
     "seen": false,
     "genders": {
       "male": false,
-      "maleShiny": true,
+      "maleShiny": false,
       "female": false,
-      "femaleShiny": true
+      "femaleShiny": false
     }
   },
   {
@@ -1927,9 +1927,9 @@
     "seen": false,
     "genders": {
       "male": false,
-      "maleShiny": true,
+      "maleShiny": false,
       "female": false,
-      "femaleShiny": true
+      "femaleShiny": false
     }
   },
   {
