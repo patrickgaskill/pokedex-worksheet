@@ -80,9 +80,6 @@ export default class PokedexTableRow extends React.Component {
         <Table.Cell>
           <Label.Group>
             <SeenLabel seen={seen} onClick={onSeenClick} />
-            {!evolvesInto && (
-              <AmazingLabel amazing={amazing} onClick={onAmazingClick} />
-            )}
             {Object.keys(genders).map(g => (
               <GenderLabel
                 key={g}
@@ -100,6 +97,9 @@ export default class PokedexTableRow extends React.Component {
                   onClick={onVariantClick(v)}
                 />
               ))}
+            {!evolvesInto && (
+              <AmazingLabel amazing={amazing} onClick={onAmazingClick} />
+            )}
           </Label.Group>
         </Table.Cell>
       </Table.Row>
