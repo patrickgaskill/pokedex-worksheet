@@ -5,6 +5,8 @@ import SeenLabel from "./SeenLabel";
 import AmazingLabel from "./AmazingLabel";
 import GenderLabel from "./GenderLabel";
 import VariantLabel from "./VariantLabel";
+import RegionalRibbon from "./RegionalRibbon";
+import LegendaryRibbon from "./LegendaryRibbon";
 import { pokemonPropTypes } from "./constants";
 import { formatPokemonNumber } from "./utils";
 
@@ -64,16 +66,8 @@ export default class PokedexTableRow extends React.Component {
     return (
       <Table.Row>
         <Table.Cell>
-          {regional && (
-            <Label color="green" ribbon>
-              Regional
-            </Label>
-          )}
-          {legendary && (
-            <Label color="orange" ribbon>
-              Legendary
-            </Label>
-          )}
+          {regional && <RegionalRibbon />}
+          {legendary && <LegendaryRibbon />}
           {formatPokemonNumber(id)}
         </Table.Cell>
         <Table.Cell>{name}</Table.Cell>
