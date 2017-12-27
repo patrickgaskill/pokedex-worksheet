@@ -89,7 +89,7 @@ class App extends React.Component {
       filtered = filtered.filter(
         p =>
           Object.values(p.genders).includes(false) ||
-          Object.values(p.variants).includes(false)
+          (p.variants && Object.values(p.variants).includes(false))
       );
     } else if (pokedexFilter === "amazing") {
       filtered = filtered.filter(p => !p.evolvesInto && !p.amazing);
