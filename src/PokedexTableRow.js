@@ -68,9 +68,8 @@ export default class PokedexTableRow extends React.Component {
         <Table.Cell>
           {regional && <RegionalRibbon />}
           {legendary && <LegendaryRibbon />}
-          {formatPokemonNumber(id)}
+          {formatPokemonNumber(id)} {name}
         </Table.Cell>
-        <Table.Cell>{name}</Table.Cell>
         <Table.Cell>
           <Label.Group>
             <SeenLabel seen={seen} onClick={onSeenClick} />
