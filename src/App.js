@@ -7,7 +7,7 @@ import ProgressBarList from "./ProgressBarList";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
 import { hasEvolutions } from "./utils";
-import defaultPokedex from "./new-pokedex.json";
+import defaultPokedex from "./pokedex.json";
 import defaultCollection from "./collection.json";
 
 class App extends React.Component {

@@ -1,2921 +1,2967 @@
-[
-  {
-    "id": 1,
+{
+  "1": {
     "name": "Bulbasaur",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "female": false
-    },
-    "evolvesInto": [
-      {
-        "id": 2,
-        "candy": 25
-      }
-    ],
-    "usesCandy": 1
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "2": { "candy": 25, "item": null } },
+    "candyType": 1,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 2,
+  "2": {
     "name": "Ivysaur",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "female": false
-    },
-    "evolvesInto": [
-      {
-        "id": 3,
-        "candy": 100
-      }
-    ],
-    "usesCandy": 1
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "3": { "candy": 100, "item": null } },
+    "candyType": 1,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 3,
+  "3": {
     "name": "Venusaur",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "female": false
-    },
-    "usesCandy": 1
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 1,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 4,
+  "4": {
     "name": "Charmander",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "evolvesInto": [{ "id": 5, "candy": 25 }],
-    "usesCandy": 4
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "5": { "candy": 25, "item": null } },
+    "candyType": 4,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 5,
+  "5": {
     "name": "Charmeleon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "evolvesInto": [{ "id": 6, "candy": 100 }],
-    "usesCandy": 4
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "6": { "candy": 100, "item": null } },
+    "candyType": 4,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 6,
+  "6": {
     "name": "Charizard",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 4
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 4,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 7,
+  "7": {
     "name": "Squirtle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "evolvesInto": [{ "id": 8, "candy": 25 }],
-    "usesCandy": 7
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "8": { "candy": 25, "item": null } },
+    "candyType": 7,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 8,
+  "8": {
     "name": "Wartortle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "evolvesInto": [{ "id": 9, "candy": 100 }],
-    "usesCandy": 7
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "9": { "candy": 100, "item": null } },
+    "candyType": 7,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 9,
+  "9": {
     "name": "Blastoise",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 7
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 7,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 10,
+  "10": {
     "name": "Caterpie",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "evolvesInto": [{ "id": 11, "candy": 12 }],
-    "usesCandy": 10
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "11": { "candy": 12, "item": null } },
+    "candyType": 10,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 11,
+  "11": {
     "name": "Metapod",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 10,
-    "evolvesInto": [{ "id": 12, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "12": { "candy": 50, "item": null } },
+    "candyType": 10,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 12,
+  "12": {
     "name": "Butterfree",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 10
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 10,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 13,
+  "13": {
     "name": "Weedle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 13,
-    "evolvesInto": [{ "id": 14, "candy": 12 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "14": { "candy": 12, "item": null } },
+    "candyType": 13,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 14,
+  "14": {
     "name": "Kakuna",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 13,
-    "evolvesInto": [{ "id": 15, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "15": { "candy": 50, "item": null } },
+    "candyType": 13,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 15,
+  "15": {
     "name": "Beedrill",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 13
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 13,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 16,
+  "16": {
     "name": "Pidgey",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 16,
-    "evolvesInto": [{ "id": 17, "candy": 12 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "17": { "candy": 12, "item": null } },
+    "candyType": 16,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 17,
+  "17": {
     "name": "Pidgeotto",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 16,
-    "evolvesInto": [{ "id": 18, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "18": { "candy": 50, "item": null } },
+    "candyType": 16,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 18,
+  "18": {
     "name": "Pidgeot",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 16
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 16,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 19,
+  "19": {
     "name": "Rattata",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 19,
-    "evolvesInto": [{ "id": 20, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "20": { "candy": 25, "item": null } },
+    "candyType": 19,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 20,
+  "20": {
     "name": "Raticate",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 19
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 19,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 21,
+  "21": {
     "name": "Spearow",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 21,
-    "evolvesInto": [{ "id": 22, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "22": { "candy": 50, "item": null } },
+    "candyType": 21,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 22,
+  "22": {
     "name": "Fearow",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 21
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 21,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 23,
+  "23": {
     "name": "Ekans",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 23,
-    "evolvesInto": [{ "id": 24, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "24": { "candy": 50, "item": null } },
+    "candyType": 23,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 24,
+  "24": {
     "name": "Arbok",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 23
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 23,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 25,
+  "25": {
     "name": "Pikachu",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "variants": {
-      "party": false,
-      "santa": false,
-      "ash": false,
-      "witch": false
-    },
-    "usesCandy": 25,
-    "evolvesInto": [{ "id": 26, "candy": 50 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": ["PARTY_HAT", "SANTA_HAT", "ASH_HAT", "WITCH_HAT"],
+    "evolutions": { "26": { "candy": 50, "item": null } },
+    "candyType": 25,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 26,
+  "26": {
     "name": "Raichu",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "variants": {
-      "party": false,
-      "santa": false,
-      "ash": false,
-      "witch": false
-    },
-    "usesCandy": 25
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": ["PARTY_HAT", "SANTA_HAT", "ASH_HAT", "WITCH_HAT"],
+    "evolutions": {},
+    "candyType": 25,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 27,
+  "27": {
     "name": "Sandshrew",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 27,
-    "evolvesInto": [{ "id": 27, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "27": { "candy": 50, "item": null } },
+    "candyType": 27,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 28,
+  "28": {
     "name": "Sandslash",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 27
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 27,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 29,
+  "29": {
     "name": "Nidoran♀",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "female": false
-    },
-    "usesCandy": 29,
-    "evolvesInto": [{ "id": 30, "candy": 25 }]
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": { "30": { "candy": 25, "item": null } },
+    "candyType": 29,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 30,
+  "30": {
     "name": "Nidorina",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 29,
-    "evolvesInto": [{ "id": 31, "candy": 100 }]
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": { "31": { "candy": 100, "item": null } },
+    "candyType": 29,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 31,
+  "31": {
     "name": "Nidoqueen",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 29
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 29,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 32,
+  "32": {
     "name": "Nidoran♂",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 32,
-    "evolvesInto": [{ "id": 33, "candy": 25 }]
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": { "33": { "candy": 25, "item": null } },
+    "candyType": 32,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 33,
+  "33": {
     "name": "Nidorino",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 32,
-    "evolvesInto": [{ "id": 34, "candy": 100 }]
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": { "34": { "candy": 100, "item": null } },
+    "candyType": 32,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 34,
+  "34": {
     "name": "Nidoking",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 32
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 32,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 35,
+  "35": {
     "name": "Clefairy",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 35,
-    "evolvesInto": [{ "id": 36, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "36": { "candy": 50, "item": null } },
+    "candyType": 35,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 36,
+  "36": {
     "name": "Clefable",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 35
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 35,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 37,
+  "37": {
     "name": "Vulpix",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 37,
-    "evolvesInto": [{ "id": 38, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "38": { "candy": 50, "item": null } },
+    "candyType": 37,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 38,
+  "38": {
     "name": "Ninetales",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 37
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 37,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 39,
+  "39": {
     "name": "Jigglypuff",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 39,
-    "evolvesInto": [{ "id": 40, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "40": { "candy": 50, "item": null } },
+    "candyType": 39,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 40,
+  "40": {
     "name": "Wigglytuff",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 39
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 39,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 41,
+  "41": {
     "name": "Zubat",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 41,
-    "evolvesInto": [{ "id": 42, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "42": { "candy": 25, "item": null } },
+    "candyType": 41,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 42,
+  "42": {
     "name": "Golbat",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 41,
-    "evolvesInto": [{ "id": 169, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "169": { "candy": 100, "item": null } },
+    "candyType": 41,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 43,
+  "43": {
     "name": "Oddish",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 43,
-    "evolvesInto": [{ "id": 44, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "44": { "candy": 25, "item": null } },
+    "candyType": 43,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 44,
+  "44": {
     "name": "Gloom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 43,
-    "evolvesInto": [
-      { "id": 45, "candy": 100 },
-      { "id": 182, "candy": 100, "item": "Sun Stone" }
-    ]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {
+      "45": { "candy": 100, "item": null },
+      "182": { "candy": 100, "item": "SUN_STONE" }
+    },
+    "candyType": 43,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 45,
+  "45": {
     "name": "Vileplume",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 43
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 43,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 46,
+  "46": {
     "name": "Paras",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 46,
-    "evolvesInto": [{ "id": 47, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "47": { "candy": 50, "item": null } },
+    "candyType": 46,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 47,
+  "47": {
     "name": "Parasect",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 46
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 46,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 48,
+  "48": {
     "name": "Venonat",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 48,
-    "evolvesInto": [{ "id": 49, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "49": { "candy": 50, "item": null } },
+    "candyType": 48,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 49,
+  "49": {
     "name": "Venomoth",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 48
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 48,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 50,
+  "50": {
     "name": "Diglett",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 50,
-    "evolvesInto": [{ "id": 51, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "51": { "candy": 50, "item": null } },
+    "candyType": 50,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 51,
+  "51": {
     "name": "Dugtrio",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 50
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 50,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 52,
+  "52": {
     "name": "Meowth",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 52,
-    "evolvesInto": [{ "id": 53, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "53": { "candy": 50, "item": null } },
+    "candyType": 52,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 53,
+  "53": {
     "name": "Persian",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 52
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 52,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 54,
+  "54": {
     "name": "Psyduck",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 54,
-    "evolvesInto": [{ "id": 55, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "55": { "candy": 50, "item": null } },
+    "candyType": 54,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 55,
+  "55": {
     "name": "Golduck",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 54
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 54,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 56,
+  "56": {
     "name": "Mankey",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 56,
-    "evolvesInto": [{ "id": 57, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "57": { "candy": 50, "item": null } },
+    "candyType": 56,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 57,
+  "57": {
     "name": "Primeape",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 56
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 56,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 58,
+  "58": {
     "name": "Growlithe",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 58,
-    "evolvesInto": [{ "id": 59, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "59": { "candy": 50, "item": null } },
+    "candyType": 58,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 59,
+  "59": {
     "name": "Arcanine",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 58
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 58,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 60,
+  "60": {
     "name": "Poliwag",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 60,
-    "evolvesInto": [{ "id": 61, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "61": { "candy": 25, "item": null } },
+    "candyType": 60,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 61,
+  "61": {
     "name": "Poliwhirl",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 60,
-    "evolvesInto": [
-      { "id": 62, "candy": 100 },
-      { "id": 186, "candy": 100, "item": "King's Rock" }
-    ]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {
+      "62": { "candy": 100, "item": null },
+      "186": { "candy": 100, "item": "KINGS_ROCK" }
+    },
+    "candyType": 60,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 62,
+  "62": {
     "name": "Poliwrath",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 60
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 60,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 63,
+  "63": {
     "name": "Abra",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 63,
-    "evolvesInto": [{ "id": 64, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "64": { "candy": 25, "item": null } },
+    "candyType": 63,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 64,
+  "64": {
     "name": "Kadabra",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 63,
-    "evolvesInto": [{ "id": 65, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "65": { "candy": 100, "item": null } },
+    "candyType": 63,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 65,
+  "65": {
     "name": "Alakazam",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 63
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 63,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 66,
+  "66": {
     "name": "Machop",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 66,
-    "evolvesInto": [{ "id": 67, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "67": { "candy": 25, "item": null } },
+    "candyType": 66,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 67,
+  "67": {
     "name": "Machoke",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 66,
-    "evolvesInto": [{ "id": 68, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "68": { "candy": 100, "item": null } },
+    "candyType": 66,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 68,
+  "68": {
     "name": "Machamp",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 66
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 66,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 69,
+  "69": {
     "name": "Bellsprout",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 69,
-    "evolvesInto": [{ "id": 70, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "70": { "candy": 25, "item": null } },
+    "candyType": 69,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 70,
+  "70": {
     "name": "Weepinbell",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 69,
-    "evolvesInto": [{ "id": 71, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "71": { "candy": 100, "item": null } },
+    "candyType": 69,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 71,
+  "71": {
     "name": "Victreebel",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 69
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 69,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 72,
+  "72": {
     "name": "Tentacool",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 72,
-    "evolvesInto": [{ "id": 73, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "73": { "candy": 50, "item": null } },
+    "candyType": 72,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 73,
+  "73": {
     "name": "Tentacruel",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 72
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 72,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 74,
+  "74": {
     "name": "Geodude",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 74,
-    "evolvesInto": [{ "id": 75, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "75": { "candy": 25, "item": null } },
+    "candyType": 74,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 75,
+  "75": {
     "name": "Graveler",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 74,
-    "evolvesInto": [{ "id": 76, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "76": { "candy": 100, "item": null } },
+    "candyType": 74,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 76,
+  "76": {
     "name": "Golem",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 74
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 74,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 77,
+  "77": {
     "name": "Ponyta",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 77,
-    "evolvesInto": [{ "id": 78, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "78": { "candy": 50, "item": null } },
+    "candyType": 77,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 78,
+  "78": {
     "name": "Rapidash",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 77
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 77,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 79,
+  "79": {
     "name": "Slowpoke",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 79,
-    "evolvesInto": [
-      { "id": 80, "candy": 50 },
-      { "id": 199, "candy": 50, "item": "King's Rock" }
-    ]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {
+      "80": { "candy": 50, "item": null },
+      "199": { "candy": 50, "item": "KINGS_ROCK" }
+    },
+    "candyType": 79,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 80,
+  "80": {
     "name": "Slowbro",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 79
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 79,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 81,
+  "81": {
     "name": "Magnemite",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "genderless": false
-    },
-    "usesCandy": 81,
-    "evolvesInto": [{ "id": 82, "candy": 50 }]
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": { "82": { "candy": 50, "item": null } },
+    "candyType": 81,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 82,
+  "82": {
     "name": "Magneton",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 81
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 81,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 83,
+  "83": {
     "name": "Farfetch'd",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 83
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 83,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 84,
+  "84": {
     "name": "Doduo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 84,
-    "evolvesInto": [{ "id": 85, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "85": { "candy": 50, "item": null } },
+    "candyType": 84,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 85,
+  "85": {
     "name": "Dodrio",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 84
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 84,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 86,
+  "86": {
     "name": "Seel",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 86,
-    "evolvesInto": [{ "id": 87, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "87": { "candy": 50, "item": null } },
+    "candyType": 86,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 87,
+  "87": {
     "name": "Dewgong",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 86
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 86,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 88,
+  "88": {
     "name": "Grimer",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 88,
-    "evolvesInto": [{ "id": 89, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "89": { "candy": 50, "item": null } },
+    "candyType": 88,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 89,
+  "89": {
     "name": "Muk",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 88
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 88,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 90,
+  "90": {
     "name": "Shellder",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 90,
-    "evolvesInto": [{ "id": 91, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "91": { "candy": 50, "item": null } },
+    "candyType": 90,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 91,
+  "91": {
     "name": "Cloyster",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 90
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 90,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 92,
+  "92": {
     "name": "Gastly",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 92,
-    "evolvesInto": [{ "id": 93, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "93": { "candy": 25, "item": null } },
+    "candyType": 92,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 93,
+  "93": {
     "name": "Haunter",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 92,
-    "evolvesInto": [{ "id": 94, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "94": { "candy": 100, "item": null } },
+    "candyType": 92,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 94,
+  "94": {
     "name": "Gengar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 92
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 92,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 95,
+  "95": {
     "name": "Onix",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 95,
-    "evolvesInto": [{ "id": 208, "candy": 50, "item": "Metal Coat" }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "208": { "candy": 50, "item": "METAL_COAT" } },
+    "candyType": 95,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 96,
+  "96": {
     "name": "Drowzee",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 96,
-    "evolvesInto": [{ "id": 97, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "97": { "candy": 50, "item": null } },
+    "candyType": 96,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 97,
+  "97": {
     "name": "Hypno",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 96
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 96,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 98,
+  "98": {
     "name": "Krabby",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 98,
-    "evolvesInto": [{ "id": 99, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "99": { "candy": 50, "item": null } },
+    "candyType": 98,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 99,
+  "99": {
     "name": "Kingler",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 98
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 98,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 100,
+  "100": {
     "name": "Voltorb",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 100,
-    "evolvesInto": [{ "id": 101, "candy": 50 }]
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": { "101": { "candy": 50, "item": null } },
+    "candyType": 100,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 101,
+  "101": {
     "name": "Electrode",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 100
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 100,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 102,
+  "102": {
     "name": "Exeggcute",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 102,
-    "evolvesInto": [{ "id": 103, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "103": { "candy": 50, "item": null } },
+    "candyType": 102,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 103,
+  "103": {
     "name": "Exeggutor",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 102
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 102,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 104,
+  "104": {
     "name": "Cubone",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 104,
-    "evolvesInto": [{ "id": 105, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "105": { "candy": 50, "item": null } },
+    "candyType": 104,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 105,
+  "105": {
     "name": "Marowak",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 104
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 104,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 106,
+  "106": {
     "name": "Hitmonlee",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 236
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 236,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 107,
+  "107": {
     "name": "Hitmonchan",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 236
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 236,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 108,
+  "108": {
     "name": "Lickitung",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 108
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 108,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 109,
+  "109": {
     "name": "Koffing",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 109,
-    "evolvesInto": [{ "id": 110, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "110": { "candy": 50, "item": null } },
+    "candyType": 109,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 110,
+  "110": {
     "name": "Weezing",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 109
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 109,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 111,
+  "111": {
     "name": "Rhyhorn",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 111,
-    "evolvesInto": [{ "id": 112, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "112": { "candy": 50, "item": null } },
+    "candyType": 111,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 112,
+  "112": {
     "name": "Rhydon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 111
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 111,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 113,
+  "113": {
     "name": "Chansey",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 113,
-    "evolvesInto": [{ "id": 242, "candy": 50 }]
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": { "242": { "candy": 50, "item": null } },
+    "candyType": 113,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 114,
+  "114": {
     "name": "Tangela",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 114
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 114,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 115,
+  "115": {
     "name": "Kangaskhan",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 115
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 115,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 116,
+  "116": {
     "name": "Horsea",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 116,
-    "evolvesInto": [{ "id": 117, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "117": { "candy": 25, "item": null } },
+    "candyType": 116,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 117,
+  "117": {
     "name": "Seadra",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 116,
-    "evolvesInto": [{ "id": 230, "candy": 100, "item": "Dragon Scale" }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "230": { "candy": 100, "item": "DRAGON_SCALE" } },
+    "candyType": 116,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 118,
+  "118": {
     "name": "Goldeen",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 118,
-    "evolvesInto": [{ "id": 119, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "119": { "candy": 50, "item": null } },
+    "candyType": 118,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 119,
+  "119": {
     "name": "Seaking",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 118
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 118,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 120,
+  "120": {
     "name": "Staryu",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 120,
-    "evolvesInto": [{ "id": 121, "candy": 50 }]
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": { "121": { "candy": 50, "item": null } },
+    "candyType": 120,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 121,
+  "121": {
     "name": "Starmie",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 120
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 120,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 122,
+  "122": {
     "name": "Mr. Mime",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 122
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 122,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 123,
+  "123": {
     "name": "Scyther",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 123,
-    "evolvesInto": [{ "id": 212, "candy": 50, "item": "Metal Coat" }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "212": { "candy": 50, "item": "METAL_COAT" } },
+    "candyType": 123,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 124,
+  "124": {
     "name": "Jynx",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 124
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 124,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 125,
+  "125": {
     "name": "Electabuzz",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 125
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 125,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 126,
+  "126": {
     "name": "Magmar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 126
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 126,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 127,
+  "127": {
     "name": "Pinsir",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 127
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 127,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 128,
+  "128": {
     "name": "Tauros",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": {
-      "male": false
-    },
-    "usesCandy": 128
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 128,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 129,
+  "129": {
     "name": "Magikarp",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 129,
-    "evolvesInto": [{ "id": 130, "candy": 400 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": { "130": { "candy": 400, "item": null } },
+    "candyType": 129,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 130,
+  "130": {
     "name": "Gyarados",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 129
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 129,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 131,
+  "131": {
     "name": "Lapras",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 131
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 131,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 132,
+  "132": {
     "name": "Ditto",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 132
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 132,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 133,
+  "133": {
     "name": "Eevee",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133,
-    "evolvesInto": [
-      { "id": 134, "candy": 25 },
-      { "id": 135, "candy": 25 },
-      { "id": 136, "candy": 25 },
-      { "id": 196, "candy": 25 },
-      { "id": 197, "candy": 25 }
-    ]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {
+      "134": { "candy": 25, "item": null },
+      "135": { "candy": 25, "item": null },
+      "136": { "candy": 25, "item": null },
+      "196": { "candy": 25, "item": null },
+      "197": { "candy": 25, "item": null }
+    },
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 134,
+  "134": {
     "name": "Vaporeon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 135,
+  "135": {
     "name": "Jolteon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 136,
+  "136": {
     "name": "Flareon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 137,
+  "137": {
     "name": "Porygon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 137,
-    "evolvesInto": [{ "id": 233, "candy": 50, "item": "Up-Grade" }]
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": { "233": { "candy": 50, "item": "UP-GRADE" } },
+    "candyType": 137,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 138,
+  "138": {
     "name": "Omanyte",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 138,
-    "evolvesInto": [{ "id": 139, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "139": { "candy": 50, "item": null } },
+    "candyType": 138,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 139,
+  "139": {
     "name": "Omastar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 138
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 138,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 140,
+  "140": {
     "name": "Kabuto",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 140,
-    "evolvesInto": [{ "id": 141, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "141": { "candy": 50, "item": null } },
+    "candyType": 140,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 141,
+  "141": {
     "name": "Kabutops",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 140
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 140,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 142,
+  "142": {
     "name": "Aerodactyl",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 142
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 142,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 143,
+  "143": {
     "name": "Snorlax",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 143
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 143,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 144,
+  "144": {
     "name": "Articuno",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 144
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 144,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 145,
+  "145": {
     "name": "Zapdos",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 145
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 145,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 146,
+  "146": {
     "name": "Moltres",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": {
-      "genderless": false
-    },
-    "usesCandy": 146
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 146,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 147,
+  "147": {
     "name": "Dratini",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 147,
-    "evolvesInto": [{ "id": 148, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "148": { "candy": 25, "item": null } },
+    "candyType": 147,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 148,
+  "148": {
     "name": "Dragonair",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 147,
-    "evolvesInto": [{ "id": 149, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "149": { "candy": 100, "item": null } },
+    "candyType": 147,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 149,
+  "149": {
     "name": "Dragonite",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 147
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 147,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 150,
+  "150": {
     "name": "Mewtwo",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 150
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 150,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 152,
+  "152": {
     "name": "Chikorita",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 152,
-    "evolvesInto": [{ "id": 153, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "153": { "candy": 25, "item": null } },
+    "candyType": 152,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 153,
+  "153": {
     "name": "Bayleef",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 152,
-    "evolvesInto": [{ "id": 154, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "154": { "candy": 100, "item": null } },
+    "candyType": 152,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 154,
+  "154": {
     "name": "Meganium",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 152
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 152,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 155,
+  "155": {
     "name": "Cyndaquil",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 155,
-    "evolvesInto": [{ "id": 156, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "156": { "candy": 25, "item": null } },
+    "candyType": 155,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 156,
+  "156": {
     "name": "Quilava",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 155,
-    "evolvesInto": [{ "id": 157, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "157": { "candy": 100, "item": null } },
+    "candyType": 155,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 157,
+  "157": {
     "name": "Typhlosion",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 155
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 155,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 158,
+  "158": {
     "name": "Totodile",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 158,
-    "evolvesInto": [{ "id": 159, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "159": { "candy": 25, "item": null } },
+    "candyType": 158,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 159,
+  "159": {
     "name": "Croconaw",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 158,
-    "evolvesInto": [{ "id": 160, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "160": { "candy": 100, "item": null } },
+    "candyType": 158,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 160,
+  "160": {
     "name": "Feraligatr",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 158
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 158,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 161,
+  "161": {
     "name": "Sentret",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 161,
-    "evolvesInto": [{ "id": 162, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "162": { "candy": 25, "item": null } },
+    "candyType": 161,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 162,
+  "162": {
     "name": "Furret",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 161
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 161,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 163,
+  "163": {
     "name": "Hoothoot",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 163,
-    "evolvesInto": [{ "id": 164, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "164": { "candy": 50, "item": null } },
+    "candyType": 163,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 164,
+  "164": {
     "name": "Noctowl",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 163
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 163,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 165,
+  "165": {
     "name": "Ledyba",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 165,
-    "evolvesInto": [{ "id": 166, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "166": { "candy": 25, "item": null } },
+    "candyType": 165,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 166,
+  "166": {
     "name": "Ledian",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 165
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 165,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 167,
+  "167": {
     "name": "Spinarak",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 167,
-    "evolvesInto": [{ "id": 168, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "168": { "candy": 50, "item": null } },
+    "candyType": 167,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 168,
+  "168": {
     "name": "Ariados",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 167
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 167,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 169,
+  "169": {
     "name": "Crobat",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 41
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 41,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 170,
+  "170": {
     "name": "Chinchou",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 170,
-    "evolvesInto": [{ "id": 171, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "171": { "candy": 50, "item": null } },
+    "candyType": 170,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 171,
+  "171": {
     "name": "Lanturn",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 170
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 170,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 172,
+  "172": {
     "name": "Pichu",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "variants": {
-      "santa": false,
-      "ash": false,
-      "witch": false
-    },
-    "usesCandy": 25,
-    "evolvesInto": [{ "id": 25, "candy": 25 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": ["SANTA_HAT", "ASH_HAT", "WITCH_HAT"],
+    "evolutions": { "25": { "candy": 25, "item": null } },
+    "candyType": 25,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 173,
+  "173": {
     "name": "Cleffa",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 35,
-    "evolvesInto": [{ "id": 35, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "35": { "candy": 25, "item": null } },
+    "candyType": 35,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 174,
+  "174": {
     "name": "Igglybuff",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 39,
-    "evolvesInto": [{ "id": 39, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "39": { "candy": 25, "item": null } },
+    "candyType": 39,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 175,
+  "175": {
     "name": "Togepi",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 175,
-    "evolvesInto": [{ "id": 176, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "176": { "candy": 50, "item": null } },
+    "candyType": 175,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 176,
+  "176": {
     "name": "Togetic",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 175
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 175,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 177,
+  "177": {
     "name": "Natu",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 177,
-    "evolvesInto": [{ "id": 178, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "178": { "candy": 50, "item": null } },
+    "candyType": 177,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 178,
+  "178": {
     "name": "Xatu",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 177
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 177,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 179,
+  "179": {
     "name": "Mareep",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 179,
-    "evolvesInto": [{ "id": 180, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "180": { "candy": 25, "item": null } },
+    "candyType": 179,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 180,
+  "180": {
     "name": "Flaaffy",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 179,
-    "evolvesInto": [{ "id": 181, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "181": { "candy": 100, "item": null } },
+    "candyType": 179,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 181,
+  "181": {
     "name": "Ampharos",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 179
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 179,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 182,
+  "182": {
     "name": "Bellossom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 43
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 43,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 183,
+  "183": {
     "name": "Marill",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 183,
-    "evolvesInto": [{ "id": 184, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "184": { "candy": 25, "item": null } },
+    "candyType": 183,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 184,
+  "184": {
     "name": "Azumarill",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 183
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 183,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 185,
+  "185": {
     "name": "Sudowoodo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 185
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 185,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 186,
+  "186": {
     "name": "Politoed",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 60
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 60,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 187,
+  "187": {
     "name": "Hoppip",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 187,
-    "evolvesInto": [{ "id": 188, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "188": { "candy": 25, "item": null } },
+    "candyType": 187,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 188,
+  "188": {
     "name": "Skiploom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 187,
-    "evolvesInto": [{ "id": 189, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "189": { "candy": 100, "item": null } },
+    "candyType": 187,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 189,
+  "189": {
     "name": "Jumpluff",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 187
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 187,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 190,
+  "190": {
     "name": "Aipom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 190
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 190,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 191,
+  "191": {
     "name": "Sunkern",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 191,
-    "evolvesInto": [{ "id": 192, "candy": 50, "item": "Sun Stone" }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "192": { "candy": 50, "item": "SUN_STONE" } },
+    "candyType": 191,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 192,
+  "192": {
     "name": "Sunflora",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 191
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 191,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 193,
+  "193": {
     "name": "Yanma",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 193
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 193,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 194,
+  "194": {
     "name": "Wooper",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 194,
-    "evolvesInto": [{ "id": 195, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "195": { "candy": 50, "item": null } },
+    "candyType": 194,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 195,
+  "195": {
     "name": "Quagsire",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 194
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 194,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 196,
+  "196": {
     "name": "Espeon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 197,
+  "197": {
     "name": "Umbreon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 133
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 133,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 198,
+  "198": {
     "name": "Murkrow",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 198
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 198,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 199,
+  "199": {
     "name": "Slowking",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 79
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 79,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 200,
+  "200": {
     "name": "Misdreavus",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 200
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 200,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 201,
+  "201": {
     "name": "Unown",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "a": false,
-      "b": false,
-      "c": false,
-      "d": false,
-      "e": false,
-      "f": false,
-      "g": false,
-      "h": false,
-      "i": false,
-      "j": false,
-      "k": false,
-      "l": false,
-      "m": false,
-      "n": false,
-      "o": false,
-      "p": false,
-      "q": false,
-      "r": false,
-      "s": false,
-      "t": false,
-      "u": false,
-      "v": false,
-      "w": false,
-      "x": false,
-      "y": false,
-      "z": false
-    },
-    "usesCandy": 201
+    "genders": [
+      "UNOWN_A",
+      "UNOWN_B",
+      "UNOWN_C",
+      "UNOWN_D",
+      "UNOWN_E",
+      "UNOWN_F",
+      "UNOWN_G",
+      "UNOWN_H",
+      "UNOWN_I",
+      "UNOWN_J",
+      "UNOWN_K",
+      "UNOWN_L",
+      "UNOWN_M",
+      "UNOWN_N",
+      "UNOWN_O",
+      "UNOWN_P",
+      "UNOWN_Q",
+      "UNOWN_R",
+      "UNOWN_S",
+      "UNOWN_T",
+      "UNOWN_U",
+      "UNOWN_V",
+      "UNOWN_W",
+      "UNOWN_X",
+      "UNOWN_Y",
+      "UNOWN_Z"
+    ],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 201,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 202,
+  "202": {
     "name": "Wobbuffet",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 202
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 202,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 203,
+  "203": {
     "name": "Girafarig",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 203
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 203,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 204,
+  "204": {
     "name": "Pineco",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 204,
-    "evolvesInto": [{ "id": 205, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "205": { "candy": 50, "item": null } },
+    "candyType": 204,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 205,
+  "205": {
     "name": "Forretress",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 204
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 204,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 206,
+  "206": {
     "name": "Dunsparce",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 206
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 206,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 207,
+  "207": {
     "name": "Gligar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 207
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 207,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 208,
+  "208": {
     "name": "Steelix",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 95
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 95,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 209,
+  "209": {
     "name": "Snubbull",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 209,
-    "evolvesInto": [{ "id": 210, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "210": { "candy": 50, "item": null } },
+    "candyType": 209,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 210,
+  "210": {
     "name": "Granbull",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 209
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 209,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 211,
+  "211": {
     "name": "Qwilfish",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 211
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 211,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 212,
+  "212": {
     "name": "Scizor",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 123
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 123,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 213,
+  "213": {
     "name": "Shuckle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 213
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 213,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 214,
+  "214": {
     "name": "Heracross",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 214
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 214,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 215,
+  "215": {
     "name": "Sneasel",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 215
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 215,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 216,
+  "216": {
     "name": "Teddiursa",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 216,
-    "evolvesInto": [{ "id": 217, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "217": { "candy": 50, "item": null } },
+    "candyType": 216,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 217,
+  "217": {
     "name": "Ursaring",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 216
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 216,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 218,
+  "218": {
     "name": "Slugma",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 218,
-    "evolvesInto": [{ "id": 219, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "219": { "candy": 50, "item": null } },
+    "candyType": 218,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 219,
+  "219": {
     "name": "Magcargo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 218
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 218,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 220,
+  "220": {
     "name": "Swinub",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 220,
-    "evolvesInto": [{ "id": 221, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "221": { "candy": 50, "item": null } },
+    "candyType": 220,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 221,
+  "221": {
     "name": "Piloswine",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 220
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 220,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 222,
+  "222": {
     "name": "Corsola",
-    "seen": false,
-    "regional": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 222
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 222,
+    "isLegendary": false,
+    "isRegional": true
   },
-  {
-    "id": 223,
+  "223": {
     "name": "Remoraid",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 223,
-    "evolvesInto": [{ "id": 224, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "224": { "candy": 50, "item": null } },
+    "candyType": 223,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 224,
+  "224": {
     "name": "Octillery",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 223
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 223,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 225,
+  "225": {
     "name": "Delibird",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 225
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 225,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 226,
+  "226": {
     "name": "Mantine",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 226
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 226,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 227,
+  "227": {
     "name": "Skarmory",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 227
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 227,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 228,
+  "228": {
     "name": "Houndour",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 228,
-    "evolvesInto": [{ "id": 229, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "229": { "candy": 50, "item": null } },
+    "candyType": 228,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 229,
+  "229": {
     "name": "Houndoom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 228
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 228,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 230,
+  "230": {
     "name": "Kingdra",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 116
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 116,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 231,
+  "231": {
     "name": "Phanpy",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 231,
-    "evolvesInto": [{ "id": 232, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "232": { "candy": 50, "item": null } },
+    "candyType": 231,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 232,
+  "232": {
     "name": "Donphan",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 231
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 231,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 233,
+  "233": {
     "name": "Porygon2",
-    "seen": false,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 137
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 137,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 234,
+  "234": {
     "name": "Stantler",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 234
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 234,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 236,
+  "236": {
     "name": "Tyrogue",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 236,
-    "evolvesInto": [
-      { "id": 106, "candy": 25 },
-      { "id": 107, "candy": 25 },
-      { "id": 237, "candy": 25 }
-    ]
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {
+      "106": { "candy": 25, "item": null },
+      "107": { "candy": 25, "item": null },
+      "237": { "candy": 25, "item": null }
+    },
+    "candyType": 236,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 237,
+  "237": {
     "name": "Hitmontop",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false },
-    "usesCandy": 236
+    "genders": ["MALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 236,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 238,
+  "238": {
     "name": "Smoochum",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 124,
-    "evolvesInto": [{ "id": 124, "candy": 25 }]
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": { "124": { "candy": 25, "item": null } },
+    "candyType": 124,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 239,
+  "239": {
     "name": "Elekid",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 125,
-    "evolvesInto": [{ "id": 125, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "125": { "candy": 25, "item": null } },
+    "candyType": 125,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 240,
+  "240": {
     "name": "Magby",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 126,
-    "evolvesInto": [{ "id": 126, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "126": { "candy": 25, "item": null } },
+    "candyType": 126,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 241,
+  "241": {
     "name": "Miltank",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 241
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 241,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 242,
+  "242": {
     "name": "Blissey",
-    "seen": false,
-    "amazing": false,
-    "genders": { "female": false },
-    "usesCandy": 113
+    "genders": ["FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 113,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 243,
+  "243": {
     "name": "Raikou",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 243
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 243,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 244,
+  "244": {
     "name": "Entei",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 244
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 244,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 245,
+  "245": {
     "name": "Suicune",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 245
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 245,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 246,
+  "246": {
     "name": "Larvitar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 246,
-    "evolvesInto": [{ "id": 247, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "247": { "candy": 25, "item": null } },
+    "candyType": 246,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 247,
+  "247": {
     "name": "Pupitar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 246,
-    "evolvesInto": [{ "id": 248, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "248": { "candy": 100, "item": null } },
+    "candyType": 246,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 248,
+  "248": {
     "name": "Tyranitar",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 246
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 246,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 249,
+  "249": {
     "name": "Lugia",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 249
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 249,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 250,
+  "250": {
     "name": "Ho-Oh",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 250
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 250,
+    "isLegendary": true,
+    "isRegional": false
   },
-  {
-    "id": 252,
+  "252": {
     "name": "Treecko",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 252,
-    "evolvesInto": [{ "id": 253, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "253": { "candy": 25, "item": null } },
+    "candyType": 252,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 253,
+  "253": {
     "name": "Grovyle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 252,
-    "evolvesInto": [{ "id": 254, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "254": { "candy": 100, "item": null } },
+    "candyType": 252,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 254,
+  "254": {
     "name": "Sceptile",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 252
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 252,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 255,
+  "255": {
     "name": "Torchic",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 255,
-    "evolvesInto": [{ "id": 256, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "256": { "candy": 25, "item": null } },
+    "candyType": 255,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 256,
+  "256": {
     "name": "Combusken",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 255,
-    "evolvesInto": [{ "id": 257, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "257": { "candy": 100, "item": null } },
+    "candyType": 255,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 257,
+  "257": {
     "name": "Blaziken",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 255
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 255,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 258,
+  "258": {
     "name": "Mudkip",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 258,
-    "evolvesInto": [{ "id": 259, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "259": { "candy": 25, "item": null } },
+    "candyType": 258,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 259,
+  "259": {
     "name": "Marshtomp",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 258,
-    "evolvesInto": [{ "id": 260, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "260": { "candy": 100, "item": null } },
+    "candyType": 258,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 260,
+  "260": {
     "name": "Swampert",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 258
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 258,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 261,
+  "261": {
     "name": "Poochyena",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 261,
-    "evolvesInto": [{ "id": 262, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "262": { "candy": 50, "item": null } },
+    "candyType": 261,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 262,
+  "262": {
     "name": "Mightyena",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 261
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 261,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 263,
+  "263": {
     "name": "Zigzagoon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 263,
-    "evolvesInto": [{ "id": 264, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "264": { "candy": 50, "item": null } },
+    "candyType": 263,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 264,
+  "264": {
     "name": "Linoone",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 263
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 263,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 265,
+  "265": {
     "name": "Wurmple",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 265,
-    "evolvesInto": [{ "id": 266, "candy": 12 }, { "id": 268, "candy": 12 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {
+      "266": { "candy": 12, "item": null },
+      "268": { "candy": 12, "item": null }
+    },
+    "candyType": 265,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 266,
+  "266": {
     "name": "Silcoon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 265,
-    "evolvesInto": [{ "id": 267, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "267": { "candy": 100, "item": null } },
+    "candyType": 265,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 267,
+  "267": {
     "name": "Beautifly",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 265
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 265,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 268,
+  "268": {
     "name": "Cascoon",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 265,
-    "evolvesInto": [{ "id": 269, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "269": { "candy": 100, "item": null } },
+    "candyType": 265,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 269,
+  "269": {
     "name": "Dustox",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 265
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 265,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 270,
+  "270": {
     "name": "Lotad",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 270,
-    "evolvesInto": [{ "id": 271, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "271": { "candy": 25, "item": null } },
+    "candyType": 270,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 271,
+  "271": {
     "name": "Lombre",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 270,
-    "evolvesInto": [{ "id": 272, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "272": { "candy": 100, "item": null } },
+    "candyType": 270,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 272,
+  "272": {
     "name": "Ludicolo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 270
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 270,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 273,
+  "273": {
     "name": "Seedot",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 273,
-    "evolvesInto": [{ "id": 274, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "274": { "candy": 25, "item": null } },
+    "candyType": 273,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 274,
+  "274": {
     "name": "Nuzleaf",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 273,
-    "evolvesInto": [{ "id": 275, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "275": { "candy": 100, "item": null } },
+    "candyType": 273,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 275,
+  "275": {
     "name": "Shiftry",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 273
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 273,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 280,
+  "280": {
     "name": "Ralts",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 280,
-    "evolvesInto": [{ "id": 281, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "281": { "candy": 25, "item": null } },
+    "candyType": 280,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 281,
+  "281": {
     "name": "Kirlia",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 280,
-    "evolvesInto": [{ "id": 282, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "282": { "candy": 100, "item": null } },
+    "candyType": 280,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 282,
+  "282": {
     "name": "Gardevoir",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 280
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 280,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 285,
+  "285": {
     "name": "Shroomish",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 285,
-    "evolvesInto": [{ "id": 286, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "286": { "candy": 50, "item": null } },
+    "candyType": 285,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 286,
+  "286": {
     "name": "Breloom",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 285
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 285,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 287,
+  "287": {
     "name": "Slakoth",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 287,
-    "evolvesInto": [{ "id": 288, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "288": { "candy": 25, "item": null } },
+    "candyType": 287,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 288,
+  "288": {
     "name": "Vigoroth",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 287,
-    "evolvesInto": [{ "id": 289, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "289": { "candy": 100, "item": null } },
+    "candyType": 287,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 289,
+  "289": {
     "name": "Slaking",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 287
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 287,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 296,
+  "296": {
     "name": "Makuhita",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 296,
-    "evolvesInto": [{ "id": 297, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "297": { "candy": 50, "item": null } },
+    "candyType": 296,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 297,
+  "297": {
     "name": "Hariyama",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 296
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 296,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 298,
+  "298": {
     "name": "Azurill",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 183,
-    "evolvesInto": [{ "id": 183, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "183": { "candy": 25, "item": null } },
+    "candyType": 183,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 300,
+  "300": {
     "name": "Skitty",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 300,
-    "evolvesInto": [{ "id": 301, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "301": { "candy": 50, "item": null } },
+    "candyType": 300,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 301,
+  "301": {
     "name": "Delcatty",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 300
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 300,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 302,
+  "302": {
     "name": "Sableye",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 302
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 302,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 303,
+  "303": {
     "name": "Mawile",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 303
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 303,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 307,
+  "307": {
     "name": "Meditite",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 307,
-    "evolvesInto": [{ "id": 308, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "308": { "candy": 50, "item": null } },
+    "candyType": 307,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 308,
+  "308": {
     "name": "Medicham",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 307
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 307,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 309,
+  "309": {
     "name": "Electrike",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 309,
-    "evolvesInto": [{ "id": 310, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "310": { "candy": 50, "item": null } },
+    "candyType": 309,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 310,
+  "310": {
     "name": "Manectric",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 309
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 309,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 311,
+  "311": {
     "name": "Plusle",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 311
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 311,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 312,
+  "312": {
     "name": "Minun",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 312
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 312,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 315,
+  "315": {
     "name": "Roselia",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 315
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 315,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 316,
+  "316": {
     "name": "Gulpin",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 316,
-    "evolvesInto": [{ "id": 317, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "317": { "candy": 50, "item": null } },
+    "candyType": 316,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 317,
+  "317": {
     "name": "Swalot",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 316
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 316,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 318,
+  "318": {
     "name": "Carvanha",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 318,
-    "evolvesInto": [{ "id": 319, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "319": { "candy": 50, "item": null } },
+    "candyType": 318,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 319,
+  "319": {
     "name": "Sharpedo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 318
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 318,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 320,
+  "320": {
     "name": "Wailmer",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 320,
-    "evolvesInto": [{ "id": 321, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "321": { "candy": 50, "item": null } },
+    "candyType": 320,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 321,
+  "321": {
     "name": "Wailord",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 320
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 320,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 325,
+  "325": {
     "name": "Spoink",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 325,
-    "evolvesInto": [{ "id": 326, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "326": { "candy": 50, "item": null } },
+    "candyType": 325,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 326,
+  "326": {
     "name": "Grumpig",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 325
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 325,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 335,
+  "335": {
     "name": "Zangoose",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 335
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 335,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 336,
+  "336": {
     "name": "Seviper",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 336
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 336,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 339,
+  "339": {
     "name": "Barboach",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 339,
-    "evolvesInto": [{ "id": 340, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "340": { "candy": 50, "item": null } },
+    "candyType": 339,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 340,
+  "340": {
     "name": "Whiscash",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 339
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 339,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 341,
+  "341": {
     "name": "Corphish",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 341,
-    "evolvesInto": [{ "id": 342, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "342": { "candy": 50, "item": null } },
+    "candyType": 341,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 342,
+  "342": {
     "name": "Crawdaunt",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 341
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 341,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 349,
+  "349": {
     "name": "Feebas",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 349,
-    "evolvesInto": [{ "id": 350, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "350": { "candy": 100, "item": null } },
+    "candyType": 349,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 350,
+  "350": {
     "name": "Milotic",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 349
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 349,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 353,
+  "353": {
     "name": "Shuppet",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 353,
-    "evolvesInto": [{ "id": 354, "candy": 50 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": { "354": { "candy": 50, "item": null } },
+    "candyType": 353,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 354,
+  "354": {
     "name": "Banette",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 353
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 353,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 355,
+  "355": {
     "name": "Duskull",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 355,
-    "evolvesInto": [{ "id": 356, "candy": 50 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": { "356": { "candy": 50, "item": null } },
+    "candyType": 355,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 356,
+  "356": {
     "name": "Dusclops",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 355
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 355,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 359,
+  "359": {
     "name": "Absol",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 359
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 359,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 360,
+  "360": {
     "name": "Wynaut",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 202,
-    "evolvesInto": [{ "id": 202, "candy": 50 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "202": { "candy": 50, "item": null } },
+    "candyType": 202,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 361,
+  "361": {
     "name": "Snorunt",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 361,
-    "evolvesInto": [{ "id": 362, "candy": 50 }]
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": { "362": { "candy": 50, "item": null } },
+    "candyType": 361,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 362,
+  "362": {
     "name": "Glalie",
-    "seen": false,
-    "amazing": false,
-    "genders": {
-      "male": false,
-      "maleShiny": false,
-      "female": false,
-      "femaleShiny": false
-    },
-    "usesCandy": 361
+    "genders": ["MALE", "MALE_SHINY", "FEMALE", "FEMALE_SHINY"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 361,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 363,
+  "363": {
     "name": "Spheal",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 363,
-    "evolvesInto": [{ "id": 364, "candy": 25 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "364": { "candy": 25, "item": null } },
+    "candyType": 363,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 364,
+  "364": {
     "name": "Sealeo",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 363,
-    "evolvesInto": [{ "id": 365, "candy": 100 }]
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": { "365": { "candy": 100, "item": null } },
+    "candyType": 363,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 365,
+  "365": {
     "name": "Walrein",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 363
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 363,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 369,
+  "369": {
     "name": "Relicanth",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 369
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 369,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 370,
+  "370": {
     "name": "Luvdisc",
-    "seen": false,
-    "amazing": false,
-    "genders": { "male": false, "female": false },
-    "usesCandy": 370
+    "genders": ["MALE", "FEMALE"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 370,
+    "isLegendary": false,
+    "isRegional": false
   },
-  {
-    "id": 383,
+  "383": {
     "name": "Groudon",
-    "seen": false,
-    "legendary": true,
-    "amazing": false,
-    "genders": { "genderless": false },
-    "usesCandy": 383
+    "genders": ["GENDERLESS"],
+    "variants": [],
+    "evolutions": {},
+    "candyType": 383,
+    "isLegendary": true,
+    "isRegional": false
   }
-]
+}
