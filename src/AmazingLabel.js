@@ -2,19 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Label } from "semantic-ui-react";
 
-export default class AmazingLabel extends React.Component {
+export default class AmazingLabel extends React.PureComponent {
   static propTypes = {
     amazing: PropTypes.bool.isRequired,
     onClick: PropTypes.func.isRequired
   };
-
-  shouldComponentUpdate(nextProps) {
-    if (nextProps.amazing !== this.props.amazing) {
-      return true;
-    }
-
-    return false;
-  }
 
   render() {
     const { amazing, onClick } = this.props;

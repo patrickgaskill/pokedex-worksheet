@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Form } from "semantic-ui-react";
 
-export default class PokedexFilterForm extends React.Component {
+export default class PokedexFilterForm extends React.PureComponent {
   static propTypes = {
     pokedexFilter: PropTypes.oneOf(["all", "uncaught", "genders", "amazing"])
       .isRequired,
@@ -10,18 +10,6 @@ export default class PokedexFilterForm extends React.Component {
     onPokedexFilterChange: PropTypes.func.isRequired,
     onIncludeSpecialsChange: PropTypes.func.isRequired
   };
-
-  shouldComponentUpdate(nextProps) {
-    if (nextProps.pokedexFilter !== this.props.pokedexFilter) {
-      return true;
-    }
-
-    if (nextProps.includeSpecials !== this.props.includeSpecials) {
-      return true;
-    }
-
-    return false;
-  }
 
   render() {
     const {

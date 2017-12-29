@@ -4,7 +4,7 @@ import { Table } from "semantic-ui-react";
 import PokedexTableRow from "./PokedexTableRow";
 import { pokedexPropType, collectionPropType } from "./constants";
 
-export default class PokedexTable extends React.Component {
+export default class PokedexTable extends React.PureComponent {
   static propTypes = {
     visibleIds: PropTypes.arrayOf(PropTypes.string),
     pokedex: pokedexPropType.isRequired,

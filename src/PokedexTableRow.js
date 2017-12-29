@@ -10,7 +10,7 @@ import LegendaryRibbon from "./LegendaryRibbon";
 import { pokedexEntryPropType, collectionEntryPropType } from "./constants";
 import { formatPokemonNumber } from "./utils";
 
-export default class PokedexTableRow extends React.Component {
+export default class PokedexTableRow extends React.PureComponent {
   static propTypes = {
     id: PropTypes.string.isRequired,
     pokedexEntry: pokedexEntryPropType.isRequired,
