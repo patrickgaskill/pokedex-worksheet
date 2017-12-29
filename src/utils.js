@@ -79,3 +79,5 @@ export const mapVariantToContent = variant => {
   };
   return variantMap[variant];
 };
+
+export const hasEvolutions = evolutions => Object.keys(evolutions).length > 0;

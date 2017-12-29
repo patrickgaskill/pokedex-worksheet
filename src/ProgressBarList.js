@@ -2,6 +2,7 @@ import React from "react";
 import { List } from "semantic-ui-react";
 import ProgressBarListItem from "./ProgressBarListItem";
 import { pokedexPropType, collectionPropType } from "./constants";
+import { hasEvolutions } from "./utils";
 
 export default class ProgressBarList extends React.PureComponent {
   static propTypes = {
@@ -11,43 +12,33 @@ export default class ProgressBarList extends React.PureComponent {
 
   render() {
     const { collection, pokedex } = this.props;
-    const collectionValues = Object.values(collection);
     const pokedexKeys = Object.keys(pokedex);
     const pokedexTotal = pokedexKeys.length;
 
-    const seenCount = collectionValues.filter(c => c.isSeen).length;
+    let seenCount = 0;
+    let caughtCount = 0;
+    let gendersAndVariantsCount = 0;
+    let gendersAndVariantsTotal = 0;
+    let amazingCount = 0;
+    let amazingTotal = 0;
 
-    const caughtCount = collectionValues.filter(
-      c => c.gendersCaught && Object.values(c.gendersCaught).includes(true)
-    ).length;
+    pokedexKeys.forEach(id => {
+      const p = pokedex[id];
+      const c = collection[id];
+      const trueGenders = Object.values(c.gendersCaught).filter(g => g);
+      const trueVariants = Object.values(c.variantsCaught).filter(v => v);
 
-    const gendersAndVariantsCount = collectionValues.reduce(
-      (total, c) =>
-        total +
-        (c.gendersCaught
-          ? Object.values(c.gendersCaught).filter(g => g).length
-          : 0) +
-        (c.variantsCaught
-          ? Object.values(c.variantsCaught).filter(v => v).length
-          : 0),
-      0
-    );
+      if (c.isSeen) seenCount++;
+      if (trueGenders.length > 0) caughtCount++;
 
-    const gendersAndVariantsTotal = pokedexKeys.reduce(
-      (total, id) =>
-        total + pokedex[id].genders.length + pokedex[id].variants.length,
-      0
-    );
+      gendersAndVariantsCount += trueGenders.length + trueVariants.length;
+      gendersAndVariantsTotal += p.genders.length + p.variants.length;
 
-    const finalEvolutionIds = pokedexKeys.filter(
-      id => Object.keys(pokedex[id].evolutions).length === 0
-    );
-
-    const amazingFinalEvolutionCount = finalEvolutionIds.filter(
-      id => collection[id] && collection[id].hasAmazing
-    ).length;
-
-    const amazingFinalEvolutionTotal = finalEvolutionIds.length;
+      if (!hasEvolutions(p.evolutions)) {
+        amazingTotal++;
+        if (c.hasAmazing) amazingCount++;
+      }
+    });
 
     return (
       <List>
@@ -68,8 +59,8 @@ export default class ProgressBarList extends React.PureComponent {
         />
         <ProgressBarListItem
           label="Amazing final evolutions"
-          value={amazingFinalEvolutionCount}
-          total={amazingFinalEvolutionTotal}
+          value={amazingCount}
+          total={amazingTotal}
         />
       </List>
     );

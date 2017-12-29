@@ -6,15 +6,16 @@ import FilterForm from "./FilterForm";
 import ProgressBarList from "./ProgressBarList";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
+import { hasEvolutions } from "./utils";
 import defaultPokedex from "./new-pokedex.json";
-// import defaultCollection from "./collection.json";
+import defaultCollection from "./collection.json";
 
 class App extends React.Component {
   state = {
     filter: "SHOW_ALL",
     includeSpecials: true,
     pokedex: defaultPokedex,
-    collection: {}
+    collection: defaultCollection
   };
 
   handleIncludeSpecialsChange = (e, { checked }) => {
@@ -26,64 +27,27 @@ class App extends React.Component {
   };
 
   handleSeenClick = id => {
-    this.setState(prevState => {
-      const entry = prevState.collection[id];
-      let command;
-      if (entry) {
-        if (entry.hasOwnProperty("isSeen")) {
-          command = { [id]: { $toggle: ["isSeen"] } };
-        } else {
-          command = { [id]: { $merge: { isSeen: true } } };
-        }
-      } else {
-        command = { $merge: { [id]: { isSeen: true } } };
-      }
-
-      return {
-        collection: update(prevState.collection, command)
-      };
-    });
+    this.setState(prevState => ({
+      collection: update(prevState.collection, {
+        [id]: { $toggle: ["isSeen"] }
+      })
+    }));
   };
 
   handleAmazingClick = id => {
-    this.setState(prevState => {
-      const entry = prevState.collection[id];
-      let command;
-      if (entry) {
-        if (entry.hasOwnProperty("hasAmazing")) {
-          command = { [id]: { $toggle: ["hasAmazing"] } };
-        } else {
-          command = { [id]: { $merge: { hasAmazing: true } } };
-        }
-      } else {
-        command = { $merge: { [id]: { hasAmazing: true } } };
-      }
-
-      return {
-        collection: update(prevState.collection, command)
-      };
-    });
+    this.setState(prevState => ({
+      collection: update(prevState.collection, {
+        [id]: { $toggle: ["hasAmazing"] }
+      })
+    }));
   };
 
   handleGenderClick = (id, gender) => {
     this.setState(prevState => {
-      const entry = prevState.collection[id];
-      let command;
-      if (entry) {
-        if (entry.gendersCaught) {
-          if (entry.gendersCaught.hasOwnProperty(gender)) {
-            command = { [id]: { gendersCaught: { $toggle: [gender] } } };
-          } else {
-            command = {
-              [id]: { gendersCaught: { $merge: { [gender]: true } } }
-            };
-          }
-        } else {
-          command = { [id]: { $merge: { gendersCaught: { [gender]: true } } } };
-        }
-      } else {
-        command = { $merge: { [id]: { gendersCaught: { [gender]: true } } } };
-      }
+      const command =
+        gender in prevState.collection[id].gendersCaught
+          ? { [id]: { gendersCaught: { $toggle: [gender] } } }
+          : { [id]: { gendersCaught: { $merge: { [gender]: true } } } };
 
       return {
         collection: update(prevState.collection, command)
@@ -93,25 +57,10 @@ class App extends React.Component {
 
   handleVariantClick = (id, variant) => {
     this.setState(prevState => {
-      const entry = prevState.collection[id];
-      let command;
-      if (entry) {
-        if (entry.variantsCaught) {
-          if (entry.variantsCaught.hasOwnProperty(variant)) {
-            command = { [id]: { variantsCaught: { $toggle: [variant] } } };
-          } else {
-            command = {
-              [id]: { variantsCaught: { $merge: { [variant]: true } } }
-            };
-          }
-        } else {
-          command = {
-            [id]: { $merge: { variantsCaught: { [variant]: true } } }
-          };
-        }
-      } else {
-        command = { $merge: { [id]: { variantsCaught: { [variant]: true } } } };
-      }
+      const command =
+        variant in prevState.collection[id].variantsCaught
+          ? { [id]: { variantsCaught: { $toggle: [variant] } } }
+          : { [id]: { variantsCaught: { $merge: { [variant]: true } } } };
 
       return {
         collection: update(prevState.collection, command)
@@ -130,23 +79,19 @@ class App extends React.Component {
       }
 
       if (filter === "SHOW_UNCAUGHT") {
-        const caughtSomething =
-          c && c.gendersCaught && Object.values(c.gendersCaught).includes(true);
+        const caughtSomething = Object.values(c.gendersCaught).includes(true);
         return !caughtSomething;
       }
 
       if (filter === "SHOW_GENDERS_VARIANTS") {
-        const caughtAllGenders =
-          c && c.gendersCaught && p.genders.every(g => c.gendersCaught[g]);
+        const caughtAllGenders = p.genders.every(g => c.gendersCaught[g]);
         const caughtAllVariants =
-          p.variants.length === 0 ||
-          (c && c.variantsCaught && p.variants.every(v => c.variantsCaught[v]));
-        return !(caughtAllGenders && caughtAllVariants);
+          p.variants.length === 0 || p.variants.every(v => c.variantsCaught[v]);
+        return !caughtAllGenders || !caughtAllVariants;
       }
 
       if (filter === "SHOW_AMAZING_FINAL_EVOLUTIONS") {
-        const hasEvolutions = Object.keys(p.evolutions).length > 0;
-        return !hasEvolutions && !(c && c.hasAmazing);
+        return !hasEvolutions(p.evolutions) && !c.hasAmazing;
       }
 
       return true;

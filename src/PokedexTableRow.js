@@ -8,13 +8,13 @@ import VariantLabel from "./VariantLabel";
 import RegionalRibbon from "./RegionalRibbon";
 import LegendaryRibbon from "./LegendaryRibbon";
 import { pokedexEntryPropType, collectionEntryPropType } from "./constants";
-import { formatPokemonNumber } from "./utils";
+import { formatPokemonNumber, hasEvolutions } from "./utils";
 
 export default class PokedexTableRow extends React.PureComponent {
   static propTypes = {
     id: PropTypes.string.isRequired,
     pokedexEntry: pokedexEntryPropType.isRequired,
-    collectionEntry: collectionEntryPropType,
+    collectionEntry: collectionEntryPropType.isRequired,
     onSeenClick: PropTypes.func.isRequired,
     onAmazingClick: PropTypes.func.isRequired,
     onGenderClick: PropTypes.func.isRequired,
@@ -52,18 +52,8 @@ export default class PokedexTableRow extends React.PureComponent {
         isLegendary,
         evolutions
       },
-      collectionEntry
+      collectionEntry: { isSeen, hasAmazing, gendersCaught, variantsCaught }
     } = this.props;
-
-    const mergedEntry = {
-      isSeen: false,
-      hasAmazing: false,
-      gendersCaught: {},
-      variantsCaught: {},
-      ...collectionEntry
-    };
-
-    const hasEvolutions = Object.keys(evolutions).length > 0;
 
     return (
       <Table.Row>
@@ -74,15 +64,12 @@ export default class PokedexTableRow extends React.PureComponent {
         </Table.Cell>
         <Table.Cell>
           <Label.Group>
-            <SeenLabel
-              isSeen={mergedEntry.isSeen}
-              onClick={this.handleSeenClick}
-            />
+            <SeenLabel isSeen={isSeen} onClick={this.handleSeenClick} />
             {genders.map(g => (
               <GenderLabel
                 key={g}
                 gender={g}
-                isCaught={mergedEntry.gendersCaught[g]}
+                isCaught={gendersCaught[g] || false}
                 onClick={this.handleGenderClick(g)}
               />
             ))}
@@ -90,13 +77,13 @@ export default class PokedexTableRow extends React.PureComponent {
               <VariantLabel
                 key={v}
                 variant={v}
-                isCaught={mergedEntry.variantsCaught[v]}
+                isCaught={variantsCaught[v] || false}
                 onClick={this.handleVariantClick(v)}
               />
             ))}
-            {!hasEvolutions && (
+            {!hasEvolutions(evolutions) && (
               <AmazingLabel
-                hasAmazing={mergedEntry.hasAmazing}
+                hasAmazing={hasAmazing}
                 onClick={this.handleAmazingClick}
               />
             )}

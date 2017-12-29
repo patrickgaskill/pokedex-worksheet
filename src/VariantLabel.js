@@ -7,7 +7,7 @@ import { mapVariantToContent } from "./utils";
 export default class VariantLabel extends React.PureComponent {
   static propTypes = {
     variant: PropTypes.oneOf(possibleVariants).isRequired,
-    isCaught: PropTypes.bool,
+    isCaught: PropTypes.bool.isRequired,
     onClick: PropTypes.func.isRequired
   };
 
