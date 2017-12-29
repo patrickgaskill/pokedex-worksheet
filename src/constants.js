@@ -64,7 +64,7 @@ const pokedexEntryPropType = PropTypes.shape({
   name: PropTypes.string.isRequired,
   genders: PropTypes.arrayOf(PropTypes.oneOf(possibleGenders)).isRequired,
   variants: PropTypes.arrayOf(PropTypes.oneOf(possibleVariants)).isRequired,
-  evolutions: PropTypes.arrayOf(evolutionPropType).isRequired,
+  evolutions: PropTypes.objectOf(evolutionPropType).isRequired,
   candyType: PropTypes.number.isRequired,
   isLegendary: PropTypes.bool.isRequired,
   isRegional: PropTypes.bool.isRequired

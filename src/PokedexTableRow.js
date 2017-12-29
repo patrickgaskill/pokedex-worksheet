@@ -12,7 +12,7 @@ import { formatPokemonNumber } from "./utils";
 
 export default class PokedexTableRow extends React.Component {
   static propTypes = {
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     pokedexEntry: pokedexEntryPropType.isRequired,
     collectionEntry: collectionEntryPropType,
     onSeenClick: PropTypes.func.isRequired,

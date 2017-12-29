@@ -6,7 +6,7 @@ import { pokedexPropType, collectionPropType } from "./constants";
 
 export default class PokedexTable extends React.Component {
   static propTypes = {
-    visibleIds: PropTypes.arrayOf(PropTypes.number),
+    visibleIds: PropTypes.arrayOf(PropTypes.string),
     pokedex: pokedexPropType.isRequired,
     collection: collectionPropType.isRequired,
     onSeenClick: PropTypes.func.isRequired,
