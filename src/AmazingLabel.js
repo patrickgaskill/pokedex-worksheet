@@ -1,13 +1,14 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Label } from "semantic-ui-react";
+import type { PokemonId } from "./constants";
 
-export default class AmazingLabel extends React.PureComponent {
-  static propTypes = {
-    hasAmazing: PropTypes.bool.isRequired,
-    onClick: PropTypes.func.isRequired
-  };
+type Props = {
+  hasAmazing: boolean,
+  onClick: PokemonId => void
+};
 
+export default class AmazingLabel extends React.PureComponent<Props> {
   render() {
     const { hasAmazing, onClick } = this.props;
     return (

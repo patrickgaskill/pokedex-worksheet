@@ -1,5 +1,5 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Table, Label } from "semantic-ui-react";
 import SeenLabel from "./SeenLabel";
 import AmazingLabel from "./AmazingLabel";
@@ -7,20 +7,26 @@ import GenderLabel from "./GenderLabel";
 import VariantLabel from "./VariantLabel";
 import RegionalRibbon from "./RegionalRibbon";
 import LegendaryRibbon from "./LegendaryRibbon";
-import { pokedexEntryPropType, collectionEntryPropType } from "./constants";
 import { formatPokemonNumber, hasEvolutions } from "./utils";
+import type {
+  PokemonId,
+  PokedexEntry,
+  CollectionEntry,
+  Gender,
+  Variant
+} from "./constants";
 
-export default class PokedexTableRow extends React.PureComponent {
-  static propTypes = {
-    id: PropTypes.string.isRequired,
-    pokedexEntry: pokedexEntryPropType.isRequired,
-    collectionEntry: collectionEntryPropType.isRequired,
-    onSeenClick: PropTypes.func.isRequired,
-    onAmazingClick: PropTypes.func.isRequired,
-    onGenderClick: PropTypes.func.isRequired,
-    onVariantClick: PropTypes.func.isRequired
-  };
+type Props = {
+  id: PokemonId,
+  pokedexEntry: PokedexEntry,
+  collectionEntry: CollectionEntry,
+  onSeenClick: PokemonId => void,
+  onAmazingClick: PokemonId => void,
+  onGenderClick: (PokemonId, Gender) => void,
+  onVariantClick: (PokemonId, Variant) => void
+};
 
+export default class PokedexTableRow extends React.PureComponent<Props> {
   handleSeenClick = () => {
     const { id, onSeenClick } = this.props;
     onSeenClick(id);
@@ -31,12 +37,12 @@ export default class PokedexTableRow extends React.PureComponent {
     onAmazingClick(id);
   };
 
-  handleGenderClick = gender => () => {
+  handleGenderClick = (gender: Gender) => () => {
     const { id, onGenderClick } = this.props;
     onGenderClick(id, gender);
   };
 
-  handleVariantClick = variant => () => {
+  handleVariantClick = (variant: Variant) => () => {
     const { id, onVariantClick } = this.props;
     onVariantClick(id, variant);
   };

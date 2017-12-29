@@ -1,13 +1,14 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Label } from "semantic-ui-react";
+import type { PokemonId } from "./constants";
 
-export default class SeenLabel extends React.PureComponent {
-  static propTypes = {
-    isSeen: PropTypes.bool.isRequired,
-    onClick: PropTypes.func.isRequired
-  };
+type Props = {
+  isSeen: boolean,
+  onClick: PokemonId => void
+};
 
+export default class SeenLabel extends React.PureComponent<Props> {
   render() {
     const { isSeen, onClick } = this.props;
     return (

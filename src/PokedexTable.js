@@ -1,20 +1,26 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Table } from "semantic-ui-react";
 import PokedexTableRow from "./PokedexTableRow";
-import { pokedexPropType, collectionPropType } from "./constants";
+import type {
+  PokemonId,
+  Pokedex,
+  Collection,
+  Gender,
+  Variant
+} from "./constants";
 
-export default class PokedexTable extends React.PureComponent {
-  static propTypes = {
-    visibleIds: PropTypes.arrayOf(PropTypes.string).isRequired,
-    pokedex: pokedexPropType.isRequired,
-    collection: collectionPropType.isRequired,
-    onSeenClick: PropTypes.func.isRequired,
-    onAmazingClick: PropTypes.func.isRequired,
-    onGenderClick: PropTypes.func.isRequired,
-    onVariantClick: PropTypes.func.isRequired
-  };
+type Props = {
+  visibleIds: Array<PokemonId>,
+  pokedex: Pokedex,
+  collection: Collection,
+  onSeenClick: PokemonId => void,
+  onAmazingClick: PokemonId => void,
+  onGenderClick: (PokemonId, Gender) => void,
+  onVariantClick: (PokemonId, Variant) => void
+};
 
+export default class PokedexTable extends React.PureComponent<Props> {
   render() {
     const {
       visibleIds,

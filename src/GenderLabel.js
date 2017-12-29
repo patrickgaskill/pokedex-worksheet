@@ -1,16 +1,16 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Label } from "semantic-ui-react";
-import { possibleGenders } from "./constants";
 import { mapGenderToIcon, mapGenderToContent, mapGenderToColor } from "./utils";
+import type { PokemonId, Gender } from "./constants";
 
-export default class GenderLabel extends React.PureComponent {
-  static propTypes = {
-    gender: PropTypes.oneOf(possibleGenders).isRequired,
-    isCaught: PropTypes.bool.isRequired,
-    onClick: PropTypes.func.isRequired
-  };
+type Props = {
+  gender: Gender,
+  isCaught: boolean,
+  onClick: (PokemonId, Gender) => void
+};
 
+export default class GenderLabel extends React.PureComponent<Props> {
   render() {
     const { gender, isCaught, onClick } = this.props;
     return (

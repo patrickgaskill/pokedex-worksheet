@@ -1242,7 +1242,7 @@
     "name": "Porygon",
     "genders": ["GENDERLESS"],
     "variants": [],
-    "evolutions": { "233": { "candy": 50, "item": "UP-GRADE" } },
+    "evolutions": { "233": { "candy": 50, "item": "UP_GRADE" } },
     "candyType": 137,
     "isLegendary": false,
     "isRegional": false

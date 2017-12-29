@@ -1,14 +1,14 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { List, Progress } from "semantic-ui-react";
 
-export default class ProgressBarListItem extends React.PureComponent {
-  static propTypes = {
-    label: PropTypes.string.isRequired,
-    value: PropTypes.number.isRequired,
-    total: PropTypes.number.isRequired
-  };
+type Props = {
+  label: string,
+  value: number,
+  total: number
+};
 
+export default class ProgressBarListItem extends React.PureComponent<Props> {
   render() {
     const { label, value, total } = this.props;
     return (

@@ -1,16 +1,16 @@
+// @flow
 import React from "react";
-import PropTypes from "prop-types";
 import { Label } from "semantic-ui-react";
-import { possibleVariants } from "./constants";
 import { mapVariantToContent } from "./utils";
+import type { PokemonId, Variant } from "./constants";
 
-export default class VariantLabel extends React.PureComponent {
-  static propTypes = {
-    variant: PropTypes.oneOf(possibleVariants).isRequired,
-    isCaught: PropTypes.bool.isRequired,
-    onClick: PropTypes.func.isRequired
-  };
+type Props = {
+  variant: Variant,
+  isCaught: boolean,
+  onClick: (PokemonId, Variant) => void
+};
 
+export default class VariantLabel extends React.PureComponent<Props> {
   render() {
     const { variant, isCaught, onClick } = this.props;
     return (

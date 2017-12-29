@@ -1,15 +1,16 @@
+// @flow
 import React from "react";
 import { List } from "semantic-ui-react";
 import ProgressBarListItem from "./ProgressBarListItem";
-import { pokedexPropType, collectionPropType } from "./constants";
 import { hasEvolutions } from "./utils";
+import type { Pokedex, Collection } from "./constants";
 
-export default class ProgressBarList extends React.PureComponent {
-  static propTypes = {
-    pokedex: pokedexPropType.isRequired,
-    collection: collectionPropType.isRequired
-  };
+type Props = {
+  pokedex: Pokedex,
+  collection: Collection
+};
 
+export default class ProgressBarList extends React.PureComponent<Props> {
   render() {
     const { collection, pokedex } = this.props;
     const pokedexKeys = Object.keys(pokedex);

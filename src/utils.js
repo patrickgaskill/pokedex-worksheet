@@ -1,6 +1,10 @@
-export const formatPokemonNumber = id => `#${id.toString().padStart(3, "0")}`;
+// @flow
+import type { PokemonId, Gender, Variant, Evolutions } from "./constants";
 
-export const mapGenderToContent = gender => {
+export const formatPokemonNumber = (id: PokemonId) =>
+  `#${id.toString().padStart(3, "0")}`;
+
+export const mapGenderToContent = (gender: Gender) => {
   const genderMap = {
     MALE: "Male",
     MALE_SHINY: "Shiny Male",
@@ -38,7 +42,7 @@ export const mapGenderToContent = gender => {
   return genderMap[gender];
 };
 
-export const mapGenderToIcon = gender => {
+export const mapGenderToIcon = (gender: Gender) => {
   switch (gender) {
     case "MALE":
     case "MALE_SHINY":
@@ -54,7 +58,7 @@ export const mapGenderToIcon = gender => {
   }
 };
 
-export const mapGenderToColor = gender => {
+export const mapGenderToColor = (gender: Gender) => {
   switch (gender) {
     case "MALE":
     case "MALE_SHINY":
@@ -70,7 +74,7 @@ export const mapGenderToColor = gender => {
   }
 };
 
-export const mapVariantToContent = variant => {
+export const mapVariantToContent = (variant: Variant) => {
   const variantMap = {
     PARTY_HAT: "Party Hat",
     SANTA_HAT: "Santa Hat",
@@ -80,4 +84,5 @@ export const mapVariantToContent = variant => {
   return variantMap[variant];
 };
 
-export const hasEvolutions = evolutions => Object.keys(evolutions).length > 0;
+export const hasEvolutions = (evolutions: Evolutions) =>
+  Object.keys(evolutions).length > 0;
