@@ -1,7 +1,7 @@
 // @flow
 import type { PokemonId, Gender, Variant, Evolutions } from "./constants";
 
-export const formatPokemonNumber = (id: PokemonId) =>
+export const formatPokemonId = (id: PokemonId) =>
   `#${id.toString().padStart(3, "0")}`;
 
 export const mapGenderToContent = (gender: Gender) => {

@@ -7,7 +7,7 @@ import GenderLabel from "./GenderLabel";
 import VariantLabel from "./VariantLabel";
 import RegionalRibbon from "./RegionalRibbon";
 import LegendaryRibbon from "./LegendaryRibbon";
-import { formatPokemonNumber, hasEvolutions } from "./utils";
+import { formatPokemonId, hasEvolutions } from "./utils";
 import type {
   PokemonId,
   PokedexEntry,
@@ -67,7 +67,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
           {isRegional && <RegionalRibbon />}
           {isLegendary && <LegendaryRibbon />}
           <div style={{ whiteSpace: "nowrap" }}>
-            {formatPokemonNumber(id)} {name}
+            {formatPokemonId(id)} {name}
           </div>
         </Table.Cell>
         <Table.Cell>
