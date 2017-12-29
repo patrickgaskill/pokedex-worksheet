@@ -60,7 +60,9 @@ export default class PokedexTableRow extends React.PureComponent {
         <Table.Cell>
           {isRegional && <RegionalRibbon />}
           {isLegendary && <LegendaryRibbon />}
-          {formatPokemonNumber(id)} {name}
+          <div style={{ whiteSpace: "nowrap" }}>
+            {formatPokemonNumber(id)} {name}
+          </div>
         </Table.Cell>
         <Table.Cell>
           <Label.Group>
