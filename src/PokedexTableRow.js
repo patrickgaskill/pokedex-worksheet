@@ -7,91 +7,76 @@ import GenderLabel from "./GenderLabel";
 import VariantLabel from "./VariantLabel";
 import RegionalRibbon from "./RegionalRibbon";
 import LegendaryRibbon from "./LegendaryRibbon";
-import { pokemonPropTypes } from "./constants";
+import { pokedexEntryPropType, collectionEntryPropType } from "./constants";
 import { formatPokemonNumber } from "./utils";
 
 export default class PokedexTableRow extends React.Component {
   static propTypes = {
-    pokemon: pokemonPropTypes.isRequired,
+    id: PropTypes.number.isRequired,
+    pokedexEntry: pokedexEntryPropType.isRequired,
+    collectionEntry: collectionEntryPropType,
     onSeenClick: PropTypes.func.isRequired,
     onAmazingClick: PropTypes.func.isRequired,
     onGenderClick: PropTypes.func.isRequired,
     onVariantClick: PropTypes.func.isRequired
   };
 
-  shouldComponentUpdate(nextProps) {
-    if (nextProps.pokemon.seen !== this.props.pokemon.seen) {
-      return true;
-    }
-
-    if (nextProps.pokemon.amazing !== this.props.pokemon.amazing) {
-      return true;
-    }
-
-    for (const g of Object.keys(nextProps.pokemon.genders)) {
-      if (nextProps.pokemon.genders[g] !== this.props.pokemon.genders[g]) {
-        return true;
-      }
-    }
-
-    if (nextProps.pokemon.variants) {
-      for (const v of Object.keys(nextProps.pokemon.variants)) {
-        if (nextProps.pokemon.variants[v] !== this.props.pokemon.variants[v]) {
-          return true;
-        }
-      }
-    }
-
-    return false;
-  }
-
   render() {
     const {
-      pokemon: {
-        id,
+      id,
+      pokedexEntry: {
         name,
-        seen,
-        amazing,
-        regional,
-        legendary,
         genders,
         variants,
-        evolvesInto
+        isRegional,
+        isLegendary,
+        evolutions
       },
       onSeenClick,
       onAmazingClick,
       onGenderClick,
       onVariantClick
     } = this.props;
+
+    const collectionEntry = {
+      isSeen: false,
+      hasAmazing: false,
+      gendersCaught: {},
+      variantsCaught: {},
+      ...this.props.collectionEntry
+    };
+
     return (
       <Table.Row>
         <Table.Cell>
-          {regional && <RegionalRibbon />}
-          {legendary && <LegendaryRibbon />}
+          {isRegional && <RegionalRibbon />}
+          {isLegendary && <LegendaryRibbon />}
           {formatPokemonNumber(id)} {name}
         </Table.Cell>
         <Table.Cell>
           <Label.Group>
-            <SeenLabel seen={seen} onClick={onSeenClick} />
-            {Object.keys(genders).map(g => (
+            <SeenLabel seen={collectionEntry.isSeen} onClick={onSeenClick} />
+            {genders.map(g => (
               <GenderLabel
                 key={g}
                 gender={g}
-                caught={genders[g]}
+                caught={collectionEntry.gendersCaught[g]}
                 onClick={onGenderClick(g)}
               />
             ))}
-            {variants &&
-              Object.keys(variants).map(v => (
-                <VariantLabel
-                  key={v}
-                  variant={v}
-                  caught={variants[v]}
-                  onClick={onVariantClick(v)}
-                />
-              ))}
-            {!evolvesInto && (
-              <AmazingLabel amazing={amazing} onClick={onAmazingClick} />
+            {variants.map(v => (
+              <VariantLabel
+                key={v}
+                variant={v}
+                caught={collectionEntry.variantsCaught[v]}
+                onClick={onVariantClick(v)}
+              />
+            ))}
+            {Object.keys(evolutions).length === 0 && (
+              <AmazingLabel
+                amazing={collectionEntry.hasAmazing}
+                onClick={onAmazingClick}
+              />
             )}
           </Label.Group>
         </Table.Cell>

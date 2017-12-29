@@ -2,11 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Table } from "semantic-ui-react";
 import PokedexTableRow from "./PokedexTableRow";
-import { pokemonPropTypes } from "./constants";
+import { pokedexPropType, collectionPropType } from "./constants";
 
 export default class PokedexTable extends React.Component {
   static propTypes = {
-    pokedex: PropTypes.arrayOf(pokemonPropTypes).isRequired,
+    visibleIds: PropTypes.arrayOf(PropTypes.number),
+    pokedex: pokedexPropType.isRequired,
+    collection: collectionPropType.isRequired,
     onSeenClick: PropTypes.func.isRequired,
     onAmazingClick: PropTypes.func.isRequired,
     onGenderClick: PropTypes.func.isRequired,
@@ -15,7 +17,9 @@ export default class PokedexTable extends React.Component {
 
   render() {
     const {
+      visibleIds,
       pokedex,
+      collection,
       onSeenClick,
       onAmazingClick,
       onGenderClick,
@@ -24,14 +28,16 @@ export default class PokedexTable extends React.Component {
     return (
       <Table celled striped>
         <Table.Body>
-          {pokedex.map(p => (
+          {visibleIds.map(id => (
             <PokedexTableRow
-              key={p.id}
-              pokemon={p}
-              onSeenClick={onSeenClick(p.id)}
-              onAmazingClick={onAmazingClick(p.id)}
-              onGenderClick={onGenderClick(p.id)}
-              onVariantClick={onVariantClick(p.id)}
+              key={id}
+              id={id}
+              pokedexEntry={pokedex[id]}
+              collectionEntry={collection[id]}
+              onSeenClick={onSeenClick(id)}
+              onAmazingClick={onAmazingClick(id)}
+              onGenderClick={onGenderClick(id)}
+              onVariantClick={onVariantClick(id)}
             />
           ))}
         </Table.Body>

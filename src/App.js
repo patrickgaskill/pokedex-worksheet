@@ -6,28 +6,16 @@ import PokedexFilterForm from "./PokedexFilterForm";
 import ProgressBarList from "./ProgressBarList";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
-import defaultPokedex from "./pokedex.json";
+import defaultPokedex from "./new-pokedex.json";
+// import defaultCollection from "./collection.json";
 
 class App extends React.Component {
   state = {
     pokedexFilter: "all",
     includeSpecials: true,
-    pokedex: defaultPokedex
+    pokedex: defaultPokedex,
+    collection: {}
   };
-
-  componentDidMount() {
-    if (localStorage.state) {
-      const nextState = JSON.parse(localStorage.state);
-      this.setState(prevState => ({
-        ...prevState,
-        ...nextState
-      }));
-    }
-  }
-
-  componentDidUpdate() {
-    localStorage.state = JSON.stringify(this.state);
-  }
 
   handleIncludeSpecialsChange = (e, { checked }) => {
     this.setState({ includeSpecials: checked });
@@ -39,71 +27,133 @@ class App extends React.Component {
 
   handleSeenClick = id => e => {
     this.setState(prevState => {
-      const index = prevState.pokedex.findIndex(p => p.id === id);
+      const entry = prevState.collection[id];
+      let command;
+      if (entry) {
+        if (entry.hasOwnProperty("isSeen")) {
+          command = { [id]: { $toggle: ["isSeen"] } };
+        } else {
+          command = { [id]: { $merge: { isSeen: true } } };
+        }
+      } else {
+        command = { $merge: { [id]: { isSeen: true } } };
+      }
+
       return {
-        pokedex: update(prevState.pokedex, { [index]: { $toggle: ["seen"] } })
+        collection: update(prevState.collection, command)
       };
     });
   };
 
   handleAmazingClick = id => e => {
     this.setState(prevState => {
-      const index = prevState.pokedex.findIndex(p => p.id === id);
+      const entry = prevState.collection[id];
+      let command;
+      if (entry) {
+        if (entry.hasOwnProperty("hasAmazing")) {
+          command = { [id]: { $toggle: ["hasAmazing"] } };
+        } else {
+          command = { [id]: { $merge: { hasAmazing: true } } };
+        }
+      } else {
+        command = { $merge: { [id]: { hasAmazing: true } } };
+      }
+
       return {
-        pokedex: update(prevState.pokedex, {
-          [index]: { $toggle: ["amazing"] }
-        })
+        collection: update(prevState.collection, command)
       };
     });
   };
 
   handleGenderClick = id => gender => e => {
     this.setState(prevState => {
-      const index = prevState.pokedex.findIndex(p => p.id === id);
+      const entry = prevState.collection[id];
+      let command;
+      if (entry) {
+        if (entry.gendersCaught) {
+          if (entry.gendersCaught.hasOwnProperty(gender)) {
+            command = { [id]: { gendersCaught: { $toggle: [gender] } } };
+          } else {
+            command = {
+              [id]: { gendersCaught: { $merge: { [gender]: true } } }
+            };
+          }
+        } else {
+          command = { [id]: { $merge: { gendersCaught: { [gender]: true } } } };
+        }
+      } else {
+        command = { $merge: { [id]: { gendersCaught: { [gender]: true } } } };
+      }
+
       return {
-        pokedex: update(prevState.pokedex, {
-          [index]: { genders: { $toggle: [gender] } }
-        })
+        collection: update(prevState.collection, command)
       };
     });
   };
 
   handleVariantClick = id => variant => e => {
     this.setState(prevState => {
-      const index = prevState.pokedex.findIndex(p => p.id === id);
+      const entry = prevState.collection[id];
+      let command;
+      if (entry) {
+        if (entry.variantsCaught) {
+          if (entry.variantsCaught.hasOwnProperty(variant)) {
+            command = { [id]: { variantsCaught: { $toggle: [variant] } } };
+          } else {
+            command = {
+              [id]: { variantsCaught: { $merge: { [variant]: true } } }
+            };
+          }
+        } else {
+          command = {
+            [id]: { $merge: { variantsCaught: { [variant]: true } } }
+          };
+        }
+      } else {
+        command = { $merge: { [id]: { variantsCaught: { [variant]: true } } } };
+      }
+
       return {
-        pokedex: update(prevState.pokedex, {
-          [index]: { variants: { $toggle: [variant] } }
-        })
+        collection: update(prevState.collection, command)
       };
     });
   };
 
-  getFilteredPokedex = () => {
-    const { pokedexFilter, includeSpecials, pokedex } = this.state;
-    let filtered = pokedex;
+  getVisibleIds = () => {
+    const { pokedex, collection, pokedexFilter, includeSpecials } = this.state;
+    return Object.keys(pokedex).filter(id => {
+      const p = pokedex[id];
+      const c = collection[id];
 
-    if (pokedexFilter === "uncaught") {
-      filtered = filtered.filter(p => !Object.values(p.genders).includes(true));
-    } else if (pokedexFilter === "genders") {
-      filtered = filtered.filter(
-        p =>
-          Object.values(p.genders).includes(false) ||
-          (p.variants && Object.values(p.variants).includes(false))
-      );
-    } else if (pokedexFilter === "amazing") {
-      filtered = filtered.filter(p => !p.evolvesInto && !p.amazing);
-    }
+      if (!includeSpecials) {
+        return !p.isRegional && !p.isLegendary;
+      }
 
-    if (!includeSpecials) {
-      filtered = filtered.filter(p => !p.regional && !p.legendary);
-    }
+      if (pokedexFilter === "uncaught") {
+        const caughtSomething =
+          c && c.gendersCaught && Object.values(c.gendersCaught).includes(true);
+        return !caughtSomething;
+      }
 
-    return filtered;
+      if (pokedexFilter === "genders") {
+        const caughtAllGenders =
+          c && c.gendersCaught && p.genders.every(g => c.gendersCaught[g]);
+        const caughtAllVariants =
+          p.variants.length === 0 ||
+          (c && c.variantsCaught && p.variants.every(v => c.variantsCaught[v]));
+        return !(caughtAllGenders && caughtAllVariants);
+      }
+
+      if (pokedexFilter === "amazing") {
+        return Object.keys(p.evolutions).length === 0 && !(c && c.hasAmazing);
+      }
+
+      return true;
+    });
   };
 
   render() {
-    const { pokedex, pokedexFilter, includeSpecials } = this.state;
+    const { pokedex, collection, pokedexFilter, includeSpecials } = this.state;
     return (
       <div>
         <Menu as={Grid} fixed="top">
@@ -117,13 +167,15 @@ class App extends React.Component {
               />
             </Grid.Column>
             <Grid.Column width={6}>
-              <ProgressBarList pokedex={pokedex} />
+              <ProgressBarList pokedex={pokedex} collection={collection} />
             </Grid.Column>
           </Grid.Row>
         </Menu>
         <Container style={{ marginTop: "10em" }}>
           <PokedexTable
-            pokedex={this.getFilteredPokedex()}
+            visibleIds={this.getVisibleIds()}
+            pokedex={pokedex}
+            collection={collection}
             onSeenClick={this.handleSeenClick}
             onAmazingClick={this.handleAmazingClick}
             onGenderClick={this.handleGenderClick}

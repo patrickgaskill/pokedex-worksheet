@@ -1,46 +1,57 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { List } from "semantic-ui-react";
 import ProgressBarListItem from "./ProgressBarListItem";
-import { pokemonPropTypes } from "./constants";
+import { pokedexPropType, collectionPropType } from "./constants";
 
 export default class ProgressBarList extends React.PureComponent {
   static propTypes = {
-    pokedex: PropTypes.arrayOf(pokemonPropTypes).isRequired
+    pokedex: pokedexPropType.isRequired,
+    collection: collectionPropType.isRequired
   };
 
-  getSeenValue = () => this.props.pokedex.filter(p => p.seen).length;
+  getSeenValue = () =>
+    Object.values(this.props.collection).filter(c => c.isSeen).length;
 
   getCaughtValue = () =>
-    this.props.pokedex.filter(p => Object.values(p.genders).includes(true))
-      .length;
+    Object.values(this.props.collection).filter(
+      c => c.gendersCaught && Object.values(c.gendersCaught).includes(true)
+    ).length;
 
   getGendersAndVariantsValue = () =>
-    this.props.pokedex.reduce(
-      (acc, p) =>
-        acc +
-        Object.values(p.genders).filter(p => p).length +
-        (p.variants ? Object.values(p.variants).filter(p => p).length : 0),
+    Object.values(this.props.collection).reduce(
+      (total, c) =>
+        total +
+        (c.gendersCaught
+          ? Object.values(c.gendersCaught).filter(g => g).length
+          : 0) +
+        (c.variantsCaught
+          ? Object.values(c.variantsCaught).filter(v => v).length
+          : 0),
       0
     );
 
   getGendersAndVariantsTotal = () =>
-    this.props.pokedex.reduce(
-      (acc, p) =>
-        acc +
-        Object.values(p.genders).length +
-        (p.variants ? Object.values(p.variants).length : 0),
+    Object.values(this.props.pokedex).reduce(
+      (total, p) => total + p.genders.length + p.variants.length,
       0
     );
 
-  getAmazingFinalEvolutionsValue = () =>
-    this.props.pokedex.filter(p => !p.evolvesInto && p.amazing).length;
+  getAmazingFinalEvolutionsValue = () => {
+    const { pokedex, collection } = this.props;
+    return Object.keys(collection).filter(
+      id =>
+        collection[id].hasAmazing &&
+        Object.keys(pokedex[id].evolutions).length === 0
+    ).length;
+  };
 
   getAmazingFinalEvolutionsTotal = () =>
-    this.props.pokedex.filter(p => !p.evolvesInto).length;
+    Object.values(this.props.pokedex).filter(
+      p => Object.keys(p.evolutions).length === 0
+    ).length;
 
   render() {
-    const pokedexLength = this.props.pokedex.length;
+    const pokedexLength = Object.keys(this.props.pokedex).length;
     return (
       <List>
         <ProgressBarListItem
