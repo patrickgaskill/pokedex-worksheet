@@ -1,21 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Form } from "semantic-ui-react";
+import { possibleFilters } from "./constants";
 
-export default class PokedexFilterForm extends React.PureComponent {
+export default class FilterForm extends React.PureComponent {
   static propTypes = {
-    pokedexFilter: PropTypes.oneOf(["all", "uncaught", "genders", "amazing"])
-      .isRequired,
+    filter: PropTypes.oneOf(possibleFilters).isRequired,
     includeSpecials: PropTypes.bool.isRequired,
-    onPokedexFilterChange: PropTypes.func.isRequired,
+    onFilterChange: PropTypes.func.isRequired,
     onIncludeSpecialsChange: PropTypes.func.isRequired
   };
 
   render() {
     const {
-      pokedexFilter,
+      filter,
       includeSpecials,
-      onPokedexFilterChange,
+      onFilterChange,
       onIncludeSpecialsChange
     } = this.props;
     return (
@@ -23,33 +23,33 @@ export default class PokedexFilterForm extends React.PureComponent {
         <Form.Group inline>
           <Form.Radio
             label="Show all"
-            name="pokedexFilterGroup"
-            value="all"
-            checked={pokedexFilter === "all"}
-            onChange={onPokedexFilterChange}
+            name="filterGroup"
+            value="SHOW_ALL"
+            checked={filter === "SHOW_ALL"}
+            onChange={onFilterChange}
           />
           <Form.Radio
             label="Show uncaught"
-            name="pokedexFilterGroup"
-            value="uncaught"
-            checked={pokedexFilter === "uncaught"}
-            onChange={onPokedexFilterChange}
+            name="filterGroup"
+            value="SHOW_UNCAUGHT"
+            checked={filter === "SHOW_UNCAUGHT"}
+            onChange={onFilterChange}
           />
           <Form.Radio
             radio
             label="Show missing genders & variants"
-            name="pokedexFilterGroup"
-            value="genders"
-            checked={pokedexFilter === "genders"}
-            onChange={onPokedexFilterChange}
+            name="filterGroup"
+            value="SHOW_GENDERS_VARIANTS"
+            checked={filter === "SHOW_GENDERS_VARIANTS"}
+            onChange={onFilterChange}
           />
           <Form.Radio
             radio
             label="Show missing amazing final evolutions"
-            name="pokedexFilterGroup"
-            value="amazing"
-            checked={pokedexFilter === "amazing"}
-            onChange={onPokedexFilterChange}
+            name="filterGroup"
+            value="SHOW_AMAZING_FINAL_EVOLUTIONS"
+            checked={filter === "SHOW_AMAZING_FINAL_EVOLUTIONS"}
+            onChange={onFilterChange}
           />
         </Form.Group>
         <Form.Group>

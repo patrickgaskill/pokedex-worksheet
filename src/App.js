@@ -2,7 +2,7 @@ import React from "react";
 import update from "immutability-helper";
 import { Container, Menu, Grid } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
-import PokedexFilterForm from "./PokedexFilterForm";
+import FilterForm from "./FilterForm";
 import ProgressBarList from "./ProgressBarList";
 import PokedexTable from "./PokedexTable";
 import "./App.css";
@@ -11,7 +11,7 @@ import defaultPokedex from "./new-pokedex.json";
 
 class App extends React.Component {
   state = {
-    pokedexFilter: "all",
+    filter: "SHOW_ALL",
     includeSpecials: true,
     pokedex: defaultPokedex,
     collection: {}
@@ -21,8 +21,8 @@ class App extends React.Component {
     this.setState({ includeSpecials: checked });
   };
 
-  handlePokedexFilterChange = (e, { value }) => {
-    this.setState({ pokedexFilter: value });
+  handleFilterChange = (e, { value }) => {
+    this.setState({ filter: value });
   };
 
   handleSeenClick = id => {
@@ -120,7 +120,7 @@ class App extends React.Component {
   };
 
   getVisibleIds = () => {
-    const { pokedex, collection, pokedexFilter, includeSpecials } = this.state;
+    const { pokedex, collection, filter, includeSpecials } = this.state;
     return Object.keys(pokedex).filter(id => {
       const p = pokedex[id];
       const c = collection[id];
@@ -129,13 +129,13 @@ class App extends React.Component {
         return !p.isRegional && !p.isLegendary;
       }
 
-      if (pokedexFilter === "uncaught") {
+      if (filter === "SHOW_UNCAUGHT") {
         const caughtSomething =
           c && c.gendersCaught && Object.values(c.gendersCaught).includes(true);
         return !caughtSomething;
       }
 
-      if (pokedexFilter === "genders") {
+      if (filter === "SHOW_GENDERS_VARIANTS") {
         const caughtAllGenders =
           c && c.gendersCaught && p.genders.every(g => c.gendersCaught[g]);
         const caughtAllVariants =
@@ -144,7 +144,7 @@ class App extends React.Component {
         return !(caughtAllGenders && caughtAllVariants);
       }
 
-      if (pokedexFilter === "amazing") {
+      if (filter === "SHOW_AMAZING_FINAL_EVOLUTIONS") {
         return Object.keys(p.evolutions).length === 0 && !(c && c.hasAmazing);
       }
 
@@ -153,16 +153,16 @@ class App extends React.Component {
   };
 
   render() {
-    const { pokedex, collection, pokedexFilter, includeSpecials } = this.state;
+    const { pokedex, collection, filter, includeSpecials } = this.state;
     return (
       <div>
         <Menu as={Grid} fixed="top">
           <Grid.Row>
             <Grid.Column width={10}>
-              <PokedexFilterForm
-                pokedexFilter={pokedexFilter}
+              <FilterForm
+                filter={filter}
                 includeSpecials={includeSpecials}
-                onPokedexFilterChange={this.handlePokedexFilterChange}
+                onFilterChange={this.handleFilterChange}
                 onIncludeSpecialsChange={this.handleIncludeSpecialsChange}
               />
             </Grid.Column>

@@ -1,5 +1,12 @@
 import PropTypes from "prop-types";
 
+const possibleFilters = [
+  "SHOW_ALL",
+  "SHOW_UNCAUGHT",
+  "SHOW_GENDERS_VARIANTS",
+  "SHOW_AMAZING_FINAL_EVOLUTIONS"
+];
+
 const possibleGenders = [
   "MALE",
   "FEMALE",
@@ -82,6 +89,7 @@ const collectionEntryPropType = PropTypes.shape({
 const collectionPropType = PropTypes.objectOf(collectionEntryPropType);
 
 export {
+  possibleFilters,
   possibleGenders,
   genderPropTypes,
   possibleVariants,
