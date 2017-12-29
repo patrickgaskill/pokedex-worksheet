@@ -25,7 +25,7 @@ class App extends React.Component {
     this.setState({ pokedexFilter: value });
   };
 
-  handleSeenClick = id => e => {
+  handleSeenClick = id => {
     this.setState(prevState => {
       const entry = prevState.collection[id];
       let command;
@@ -45,7 +45,7 @@ class App extends React.Component {
     });
   };
 
-  handleAmazingClick = id => e => {
+  handleAmazingClick = id => {
     this.setState(prevState => {
       const entry = prevState.collection[id];
       let command;
@@ -65,7 +65,7 @@ class App extends React.Component {
     });
   };
 
-  handleGenderClick = id => gender => e => {
+  handleGenderClick = (id, gender) => {
     this.setState(prevState => {
       const entry = prevState.collection[id];
       let command;
@@ -91,7 +91,7 @@ class App extends React.Component {
     });
   };
 
-  handleVariantClick = id => variant => e => {
+  handleVariantClick = (id, variant) => {
     this.setState(prevState => {
       const entry = prevState.collection[id];
       let command;

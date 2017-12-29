@@ -21,6 +21,26 @@ export default class PokedexTableRow extends React.PureComponent {
     onVariantClick: PropTypes.func.isRequired
   };
 
+  handleSeenClick = () => {
+    const { id, onSeenClick } = this.props;
+    onSeenClick(id);
+  };
+
+  handleAmazingClick = () => {
+    const { id, onAmazingClick } = this.props;
+    onAmazingClick(id);
+  };
+
+  handleGenderClick = gender => () => {
+    const { id, onGenderClick } = this.props;
+    onGenderClick(id, gender);
+  };
+
+  handleVariantClick = variant => () => {
+    const { id, onVariantClick } = this.props;
+    onVariantClick(id, variant);
+  };
+
   render() {
     const {
       id,
@@ -32,18 +52,15 @@ export default class PokedexTableRow extends React.PureComponent {
         isLegendary,
         evolutions
       },
-      onSeenClick,
-      onAmazingClick,
-      onGenderClick,
-      onVariantClick
+      collectionEntry
     } = this.props;
 
-    const collectionEntry = {
+    const mergedEntry = {
       isSeen: false,
       hasAmazing: false,
       gendersCaught: {},
       variantsCaught: {},
-      ...this.props.collectionEntry
+      ...collectionEntry
     };
 
     return (
@@ -55,27 +72,30 @@ export default class PokedexTableRow extends React.PureComponent {
         </Table.Cell>
         <Table.Cell>
           <Label.Group>
-            <SeenLabel seen={collectionEntry.isSeen} onClick={onSeenClick} />
+            <SeenLabel
+              seen={mergedEntry.isSeen}
+              onClick={this.handleSeenClick}
+            />
             {genders.map(g => (
               <GenderLabel
                 key={g}
                 gender={g}
-                caught={collectionEntry.gendersCaught[g]}
-                onClick={onGenderClick(g)}
+                caught={mergedEntry.gendersCaught[g]}
+                onClick={this.handleGenderClick(g)}
               />
             ))}
             {variants.map(v => (
               <VariantLabel
                 key={v}
                 variant={v}
-                caught={collectionEntry.variantsCaught[v]}
-                onClick={onVariantClick(v)}
+                caught={mergedEntry.variantsCaught[v]}
+                onClick={this.handleVariantClick(v)}
               />
             ))}
             {Object.keys(evolutions).length === 0 && (
               <AmazingLabel
-                amazing={collectionEntry.hasAmazing}
-                onClick={onAmazingClick}
+                amazing={mergedEntry.hasAmazing}
+                onClick={this.handleAmazingClick}
               />
             )}
           </Label.Group>

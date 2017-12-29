@@ -34,10 +34,10 @@ export default class PokedexTable extends React.PureComponent {
               id={id}
               pokedexEntry={pokedex[id]}
               collectionEntry={collection[id]}
-              onSeenClick={onSeenClick(id)}
-              onAmazingClick={onAmazingClick(id)}
-              onGenderClick={onGenderClick(id)}
-              onVariantClick={onVariantClick(id)}
+              onSeenClick={onSeenClick}
+              onAmazingClick={onAmazingClick}
+              onGenderClick={onGenderClick}
+              onVariantClick={onVariantClick}
             />
           ))}
         </Table.Body>
