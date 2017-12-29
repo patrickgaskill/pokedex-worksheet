@@ -73,14 +73,14 @@ export default class PokedexTableRow extends React.PureComponent {
         <Table.Cell>
           <Label.Group>
             <SeenLabel
-              seen={mergedEntry.isSeen}
+              isSeen={mergedEntry.isSeen}
               onClick={this.handleSeenClick}
             />
             {genders.map(g => (
               <GenderLabel
                 key={g}
                 gender={g}
-                caught={mergedEntry.gendersCaught[g]}
+                isCaught={mergedEntry.gendersCaught[g]}
                 onClick={this.handleGenderClick(g)}
               />
             ))}
@@ -88,13 +88,13 @@ export default class PokedexTableRow extends React.PureComponent {
               <VariantLabel
                 key={v}
                 variant={v}
-                caught={mergedEntry.variantsCaught[v]}
+                isCaught={mergedEntry.variantsCaught[v]}
                 onClick={this.handleVariantClick(v)}
               />
             ))}
             {Object.keys(evolutions).length === 0 && (
               <AmazingLabel
-                amazing={mergedEntry.hasAmazing}
+                hasAmazing={mergedEntry.hasAmazing}
                 onClick={this.handleAmazingClick}
               />
             )}

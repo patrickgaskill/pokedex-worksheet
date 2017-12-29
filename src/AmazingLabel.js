@@ -4,18 +4,18 @@ import { Label } from "semantic-ui-react";
 
 export default class AmazingLabel extends React.PureComponent {
   static propTypes = {
-    amazing: PropTypes.bool.isRequired,
+    hasAmazing: PropTypes.bool.isRequired,
     onClick: PropTypes.func.isRequired
   };
 
   render() {
-    const { amazing, onClick } = this.props;
+    const { hasAmazing, onClick } = this.props;
     return (
       <Label
         as="a"
         icon="trophy"
         content="Amazing"
-        color={amazing ? "red" : null}
+        color={hasAmazing ? "red" : null}
         onClick={onClick}
       />
     );

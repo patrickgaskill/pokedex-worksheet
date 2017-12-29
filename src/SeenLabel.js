@@ -4,18 +4,18 @@ import { Label } from "semantic-ui-react";
 
 export default class SeenLabel extends React.PureComponent {
   static propTypes = {
-    seen: PropTypes.bool.isRequired,
+    isSeen: PropTypes.bool.isRequired,
     onClick: PropTypes.func.isRequired
   };
 
   render() {
-    const { seen, onClick } = this.props;
+    const { isSeen, onClick } = this.props;
     return (
       <Label
         as="a"
         icon="eye"
         content="Seen"
-        color={seen ? "purple" : null}
+        color={isSeen ? "purple" : null}
         onClick={onClick}
       />
     );

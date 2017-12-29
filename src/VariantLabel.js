@@ -7,18 +7,18 @@ import { mapVariantToContent } from "./utils";
 export default class VariantLabel extends React.PureComponent {
   static propTypes = {
     variant: PropTypes.oneOf(possibleVariants).isRequired,
-    caught: PropTypes.bool,
+    isCaught: PropTypes.bool,
     onClick: PropTypes.func.isRequired
   };
 
   render() {
-    const { variant, caught, onClick } = this.props;
+    const { variant, isCaught, onClick } = this.props;
     return (
       <Label
         as="a"
         icon="check"
         content={mapVariantToContent(variant)}
-        color={caught ? "green" : null}
+        color={isCaught ? "green" : null}
         onClick={onClick}
       />
     );

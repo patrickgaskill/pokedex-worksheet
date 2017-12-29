@@ -7,18 +7,18 @@ import { mapGenderToIcon, mapGenderToContent, mapGenderToColor } from "./utils";
 export default class GenderLabel extends React.PureComponent {
   static propTypes = {
     gender: PropTypes.oneOf(possibleGenders).isRequired,
-    caught: PropTypes.bool,
+    isCaught: PropTypes.bool,
     onClick: PropTypes.func.isRequired
   };
 
   render() {
-    const { gender, caught, onClick } = this.props;
+    const { gender, isCaught, onClick } = this.props;
     return (
       <Label
         as="a"
         icon={mapGenderToIcon(gender)}
         content={mapGenderToContent(gender)}
-        color={caught ? mapGenderToColor(gender) : null}
+        color={isCaught ? mapGenderToColor(gender) : null}
         onClick={onClick}
       />
     );
