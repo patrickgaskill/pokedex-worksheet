@@ -66,7 +66,7 @@ export const mapGenderToColor = gender => {
     case "GENDERLESS_SHINY":
       return "grey";
     default:
-      return undefined;
+      return "grey";
   }
 };
 
