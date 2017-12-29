@@ -63,6 +63,8 @@ export default class PokedexTableRow extends React.PureComponent {
       ...collectionEntry
     };
 
+    const hasEvolutions = Object.keys(evolutions).length > 0;
+
     return (
       <Table.Row>
         <Table.Cell>
@@ -92,7 +94,7 @@ export default class PokedexTableRow extends React.PureComponent {
                 onClick={this.handleVariantClick(v)}
               />
             ))}
-            {Object.keys(evolutions).length === 0 && (
+            {!hasEvolutions && (
               <AmazingLabel
                 hasAmazing={mergedEntry.hasAmazing}
                 onClick={this.handleAmazingClick}
