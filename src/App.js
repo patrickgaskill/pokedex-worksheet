@@ -145,7 +145,8 @@ class App extends React.Component {
       }
 
       if (filter === "SHOW_AMAZING_FINAL_EVOLUTIONS") {
-        return Object.keys(p.evolutions).length === 0 && !(c && c.hasAmazing);
+        const hasEvolutions = Object.keys(p.evolutions).length > 0;
+        return !hasEvolutions && !(c && c.hasAmazing);
       }
 
       return true;
