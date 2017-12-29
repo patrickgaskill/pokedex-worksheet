@@ -9,16 +9,19 @@ export default class ProgressBarList extends React.PureComponent {
     collection: collectionPropType.isRequired
   };
 
-  getSeenValue = () =>
-    Object.values(this.props.collection).filter(c => c.isSeen).length;
+  render() {
+    const { collection, pokedex } = this.props;
+    const collectionValues = Object.values(collection);
+    const pokedexKeys = Object.keys(pokedex);
+    const pokedexTotal = pokedexKeys.length;
 
-  getCaughtValue = () =>
-    Object.values(this.props.collection).filter(
+    const seenCount = collectionValues.filter(c => c.isSeen).length;
+
+    const caughtCount = collectionValues.filter(
       c => c.gendersCaught && Object.values(c.gendersCaught).includes(true)
     ).length;
 
-  getGendersAndVariantsValue = () =>
-    Object.values(this.props.collection).reduce(
+    const gendersAndVariantsCount = collectionValues.reduce(
       (total, c) =>
         total +
         (c.gendersCaught
@@ -30,49 +33,43 @@ export default class ProgressBarList extends React.PureComponent {
       0
     );
 
-  getGendersAndVariantsTotal = () =>
-    Object.values(this.props.pokedex).reduce(
-      (total, p) => total + p.genders.length + p.variants.length,
+    const gendersAndVariantsTotal = pokedexKeys.reduce(
+      (total, id) =>
+        total + pokedex[id].genders.length + pokedex[id].variants.length,
       0
     );
 
-  getAmazingFinalEvolutionsValue = () => {
-    const { pokedex, collection } = this.props;
-    return Object.keys(collection).filter(
-      id =>
-        collection[id].hasAmazing &&
-        Object.keys(pokedex[id].evolutions).length === 0
-    ).length;
-  };
+    const finalEvolutionIds = pokedexKeys.filter(
+      id => Object.keys(pokedex[id].evolutions).length === 0
+    );
 
-  getAmazingFinalEvolutionsTotal = () =>
-    Object.values(this.props.pokedex).filter(
-      p => Object.keys(p.evolutions).length === 0
+    const amazingFinalEvolutionCount = finalEvolutionIds.filter(
+      id => collection[id] && collection[id].hasAmazing
     ).length;
 
-  render() {
-    const pokedexLength = Object.keys(this.props.pokedex).length;
+    const amazingFinalEvolutionTotal = finalEvolutionIds.length;
+
     return (
       <List>
         <ProgressBarListItem
           label="Seen"
-          value={this.getSeenValue()}
-          total={pokedexLength}
+          value={seenCount}
+          total={pokedexTotal}
         />
         <ProgressBarListItem
           label="Caught"
-          value={this.getCaughtValue()}
-          total={pokedexLength}
+          value={caughtCount}
+          total={pokedexTotal}
         />
         <ProgressBarListItem
           label="Genders & variants"
-          value={this.getGendersAndVariantsValue()}
-          total={this.getGendersAndVariantsTotal()}
+          value={gendersAndVariantsCount}
+          total={gendersAndVariantsTotal}
         />
         <ProgressBarListItem
           label="Amazing final evolutions"
-          value={this.getAmazingFinalEvolutionsValue()}
-          total={this.getAmazingFinalEvolutionsTotal()}
+          value={amazingFinalEvolutionCount}
+          total={amazingFinalEvolutionTotal}
         />
       </List>
     );
