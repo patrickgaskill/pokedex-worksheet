@@ -66,14 +66,14 @@ const items = {
 
 type Item = $Keys<typeof items>;
 
+export type PokemonId = number | string;
+
 export type Evolutions = {
   [PokemonId]: {
     candy: number,
     item?: Item
   }
 };
-
-export type PokemonId = number | string;
 
 export type PokedexEntry = {
   name: string,
