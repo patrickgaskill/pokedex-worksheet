@@ -1,0 +1,19 @@
+{
+  "TAUROS": { "isRegional": true },
+  "FARFETCHD": { "isRegional": true },
+  "MR_MIME": { "isRegional": true },
+  "KANGASKHAN": { "isRegional": true },
+  "HERACROSS": { "isRegional": true },
+  "CORSOLA": { "isRegional": true },
+  "UNOWN": {
+    "forms": {
+      "UNOWN_EXCLAMATION_POINT": false,
+      "UNOWN_QUESTION_MARK": false
+    }
+  },
+  "PLUSLE": { "isRegional": true },
+  "MINUN": { "isRegional": true },
+  "ZANGOOSE": { "isRegional": true },
+  "SEVIPER": { "isRegional": true },
+  "RELICANTH": { "isRegional": true }
+}
