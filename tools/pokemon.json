@@ -3,3930 +3,3945 @@
     "number": 1,
     "name": "Bulbasaur",
     "familyId": "FAMILY_BULBASAUR",
-    "evolutionBranch": [{ "evolution": "IVYSAUR", "candyCost": 25 }],
+    "evolutions": { "IVYSAUR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "IVYSAUR": {
     "number": 2,
     "name": "Ivysaur",
     "familyId": "FAMILY_BULBASAUR",
-    "evolutionBranch": [{ "evolution": "VENUSAUR", "candyCost": 100 }],
+    "evolutions": { "VENUSAUR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VENUSAUR": {
     "number": 3,
     "name": "Venusaur",
     "familyId": "FAMILY_BULBASAUR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHARMANDER": {
     "number": 4,
     "name": "Charmander",
     "familyId": "FAMILY_CHARMANDER",
-    "evolutionBranch": [{ "evolution": "CHARMELEON", "candyCost": 25 }],
+    "evolutions": { "CHARMELEON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHARMELEON": {
     "number": 5,
     "name": "Charmeleon",
     "familyId": "FAMILY_CHARMANDER",
-    "evolutionBranch": [{ "evolution": "CHARIZARD", "candyCost": 100 }],
+    "evolutions": { "CHARIZARD": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHARIZARD": {
     "number": 6,
     "name": "Charizard",
     "familyId": "FAMILY_CHARMANDER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SQUIRTLE": {
     "number": 7,
     "name": "Squirtle",
     "familyId": "FAMILY_SQUIRTLE",
-    "evolutionBranch": [{ "evolution": "WARTORTLE", "candyCost": 25 }],
+    "evolutions": { "WARTORTLE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WARTORTLE": {
     "number": 8,
     "name": "Wartortle",
     "familyId": "FAMILY_SQUIRTLE",
-    "evolutionBranch": [{ "evolution": "BLASTOISE", "candyCost": 100 }],
+    "evolutions": { "BLASTOISE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BLASTOISE": {
     "number": 9,
     "name": "Blastoise",
     "familyId": "FAMILY_SQUIRTLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CATERPIE": {
     "number": 10,
     "name": "Caterpie",
     "familyId": "FAMILY_CATERPIE",
-    "evolutionBranch": [{ "evolution": "METAPOD", "candyCost": 12 }],
+    "evolutions": { "METAPOD": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "METAPOD": {
     "number": 11,
     "name": "Metapod",
     "familyId": "FAMILY_CATERPIE",
-    "evolutionBranch": [{ "evolution": "BUTTERFREE", "candyCost": 50 }],
+    "evolutions": { "BUTTERFREE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BUTTERFREE": {
     "number": 12,
     "name": "Butterfree",
     "familyId": "FAMILY_CATERPIE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WEEDLE": {
     "number": 13,
     "name": "Weedle",
     "familyId": "FAMILY_WEEDLE",
-    "evolutionBranch": [{ "evolution": "KAKUNA", "candyCost": 12 }],
+    "evolutions": { "KAKUNA": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KAKUNA": {
     "number": 14,
     "name": "Kakuna",
     "familyId": "FAMILY_WEEDLE",
-    "evolutionBranch": [{ "evolution": "BEEDRILL", "candyCost": 50 }],
+    "evolutions": { "BEEDRILL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BEEDRILL": {
     "number": 15,
     "name": "Beedrill",
     "familyId": "FAMILY_WEEDLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PIDGEY": {
     "number": 16,
     "name": "Pidgey",
     "familyId": "FAMILY_PIDGEY",
-    "evolutionBranch": [{ "evolution": "PIDGEOTTO", "candyCost": 12 }],
+    "evolutions": { "PIDGEOTTO": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PIDGEOTTO": {
     "number": 17,
     "name": "Pidgeotto",
     "familyId": "FAMILY_PIDGEY",
-    "evolutionBranch": [{ "evolution": "PIDGEOT", "candyCost": 50 }],
+    "evolutions": { "PIDGEOT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PIDGEOT": {
     "number": 18,
     "name": "Pidgeot",
     "familyId": "FAMILY_PIDGEY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RATTATA": {
     "number": 19,
     "name": "Rattata",
     "familyId": "FAMILY_RATTATA",
-    "evolutionBranch": [{ "evolution": "RATICATE", "candyCost": 25 }],
+    "evolutions": { "RATICATE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RATICATE": {
     "number": 20,
     "name": "Raticate",
     "familyId": "FAMILY_RATTATA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SPEAROW": {
     "number": 21,
     "name": "Spearow",
     "familyId": "FAMILY_SPEAROW",
-    "evolutionBranch": [{ "evolution": "FEAROW", "candyCost": 50 }],
+    "evolutions": { "FEAROW": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FEAROW": {
     "number": 22,
     "name": "Fearow",
     "familyId": "FAMILY_SPEAROW",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "EKANS": {
     "number": 23,
     "name": "Ekans",
     "familyId": "FAMILY_EKANS",
-    "evolutionBranch": [{ "evolution": "ARBOK", "candyCost": 50 }],
+    "evolutions": { "ARBOK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARBOK": {
     "number": 24,
     "name": "Arbok",
     "familyId": "FAMILY_EKANS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PIKACHU": {
     "number": 25,
     "name": "Pikachu",
     "familyId": "FAMILY_PIKACHU",
-    "evolutionBranch": [{ "evolution": "RAICHU", "candyCost": 50 }],
+    "evolutions": { "RAICHU": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RAICHU": {
     "number": 26,
     "name": "Raichu",
     "familyId": "FAMILY_PIKACHU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SANDSHREW": {
     "number": 27,
     "name": "Sandshrew",
     "familyId": "FAMILY_SANDSHREW",
-    "evolutionBranch": [{ "evolution": "SANDSLASH", "candyCost": 50 }],
+    "evolutions": { "SANDSLASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SANDSLASH": {
     "number": 28,
     "name": "Sandslash",
     "familyId": "FAMILY_SANDSHREW",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NIDORAN_FEMALE": {
     "number": 29,
     "name": "Nidoran♀",
     "familyId": "FAMILY_NIDORAN_FEMALE",
-    "evolutionBranch": [{ "evolution": "NIDORINA", "candyCost": 25 }],
+    "evolutions": { "NIDORINA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "NIDORINA": {
     "number": 30,
     "name": "Nidorina",
     "familyId": "FAMILY_NIDORAN_FEMALE",
-    "evolutionBranch": [{ "evolution": "NIDOQUEEN", "candyCost": 100 }],
+    "evolutions": { "NIDOQUEEN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "NIDOQUEEN": {
     "number": 31,
     "name": "Nidoqueen",
     "familyId": "FAMILY_NIDORAN_FEMALE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "NIDORAN_MALE": {
     "number": 32,
     "name": "Nidoran♂",
     "familyId": "FAMILY_NIDORAN_MALE",
-    "evolutionBranch": [{ "evolution": "NIDORINO", "candyCost": 25 }],
+    "evolutions": { "NIDORINO": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "NIDORINO": {
     "number": 33,
     "name": "Nidorino",
     "familyId": "FAMILY_NIDORAN_MALE",
-    "evolutionBranch": [{ "evolution": "NIDOKING", "candyCost": 100 }],
+    "evolutions": { "NIDOKING": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "NIDOKING": {
     "number": 34,
     "name": "Nidoking",
     "familyId": "FAMILY_NIDORAN_MALE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "CLEFAIRY": {
     "number": 35,
     "name": "Clefairy",
     "familyId": "FAMILY_CLEFAIRY",
-    "evolutionBranch": [{ "evolution": "CLEFABLE", "candyCost": 50 }],
+    "evolutions": { "CLEFABLE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CLEFABLE": {
     "number": 36,
     "name": "Clefable",
     "familyId": "FAMILY_CLEFAIRY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VULPIX": {
     "number": 37,
     "name": "Vulpix",
     "familyId": "FAMILY_VULPIX",
-    "evolutionBranch": [{ "evolution": "NINETALES", "candyCost": 50 }],
+    "evolutions": { "NINETALES": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NINETALES": {
     "number": 38,
     "name": "Ninetales",
     "familyId": "FAMILY_VULPIX",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "JIGGLYPUFF": {
     "number": 39,
     "name": "Jigglypuff",
     "familyId": "FAMILY_JIGGLYPUFF",
-    "evolutionBranch": [{ "evolution": "WIGGLYTUFF", "candyCost": 50 }],
+    "evolutions": { "WIGGLYTUFF": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WIGGLYTUFF": {
     "number": 40,
     "name": "Wigglytuff",
     "familyId": "FAMILY_JIGGLYPUFF",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ZUBAT": {
     "number": 41,
     "name": "Zubat",
     "familyId": "FAMILY_ZUBAT",
-    "evolutionBranch": [{ "evolution": "GOLBAT", "candyCost": 25 }],
+    "evolutions": { "GOLBAT": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GOLBAT": {
     "number": 42,
     "name": "Golbat",
     "familyId": "FAMILY_ZUBAT",
-    "evolutionBranch": [{ "evolution": "CROBAT", "candyCost": 100 }],
+    "evolutions": { "CROBAT": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ODDISH": {
     "number": 43,
     "name": "Oddish",
     "familyId": "FAMILY_ODDISH",
-    "evolutionBranch": [{ "evolution": "GLOOM", "candyCost": 25 }],
+    "evolutions": { "GLOOM": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GLOOM": {
     "number": 44,
     "name": "Gloom",
     "familyId": "FAMILY_ODDISH",
-    "evolutionBranch": [
-      { "evolution": "VILEPLUME", "candyCost": 100 },
-      {
-        "evolution": "BELLOSSOM",
-        "evolutionItemRequirement": "ITEM_SUN_STONE",
-        "candyCost": 100
+    "evolutions": {
+      "VILEPLUME": { "candyCost": 100 },
+      "BELLOSSOM": {
+        "candyCost": 100,
+        "evolutionItemRequirement": "ITEM_SUN_STONE"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VILEPLUME": {
     "number": 45,
     "name": "Vileplume",
     "familyId": "FAMILY_ODDISH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PARAS": {
     "number": 46,
     "name": "Paras",
     "familyId": "FAMILY_PARAS",
-    "evolutionBranch": [{ "evolution": "PARASECT", "candyCost": 50 }],
+    "evolutions": { "PARASECT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PARASECT": {
     "number": 47,
     "name": "Parasect",
     "familyId": "FAMILY_PARAS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VENONAT": {
     "number": 48,
     "name": "Venonat",
     "familyId": "FAMILY_VENONAT",
-    "evolutionBranch": [{ "evolution": "VENOMOTH", "candyCost": 50 }],
+    "evolutions": { "VENOMOTH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VENOMOTH": {
     "number": 49,
     "name": "Venomoth",
     "familyId": "FAMILY_VENONAT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DIGLETT": {
     "number": 50,
     "name": "Diglett",
     "familyId": "FAMILY_DIGLETT",
-    "evolutionBranch": [{ "evolution": "DUGTRIO", "candyCost": 50 }],
+    "evolutions": { "DUGTRIO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DUGTRIO": {
     "number": 51,
     "name": "Dugtrio",
     "familyId": "FAMILY_DIGLETT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MEOWTH": {
     "number": 52,
     "name": "Meowth",
     "familyId": "FAMILY_MEOWTH",
-    "evolutionBranch": [{ "evolution": "PERSIAN", "candyCost": 50 }],
+    "evolutions": { "PERSIAN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PERSIAN": {
     "number": 53,
     "name": "Persian",
     "familyId": "FAMILY_MEOWTH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PSYDUCK": {
     "number": 54,
     "name": "Psyduck",
     "familyId": "FAMILY_PSYDUCK",
-    "evolutionBranch": [{ "evolution": "GOLDUCK", "candyCost": 50 }],
+    "evolutions": { "GOLDUCK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GOLDUCK": {
     "number": 55,
     "name": "Golduck",
     "familyId": "FAMILY_PSYDUCK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MANKEY": {
     "number": 56,
     "name": "Mankey",
     "familyId": "FAMILY_MANKEY",
-    "evolutionBranch": [{ "evolution": "PRIMEAPE", "candyCost": 50 }],
+    "evolutions": { "PRIMEAPE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PRIMEAPE": {
     "number": 57,
     "name": "Primeape",
     "familyId": "FAMILY_MANKEY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GROWLITHE": {
     "number": 58,
     "name": "Growlithe",
     "familyId": "FAMILY_GROWLITHE",
-    "evolutionBranch": [{ "evolution": "ARCANINE", "candyCost": 50 }],
+    "evolutions": { "ARCANINE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARCANINE": {
     "number": 59,
     "name": "Arcanine",
     "familyId": "FAMILY_GROWLITHE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "POLIWAG": {
     "number": 60,
     "name": "Poliwag",
     "familyId": "FAMILY_POLIWAG",
-    "evolutionBranch": [{ "evolution": "POLIWHIRL", "candyCost": 25 }],
+    "evolutions": { "POLIWHIRL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "POLIWHIRL": {
     "number": 61,
     "name": "Poliwhirl",
     "familyId": "FAMILY_POLIWAG",
-    "evolutionBranch": [
-      { "evolution": "POLIWRATH", "candyCost": 100 },
-      {
-        "evolution": "POLITOED",
-        "evolutionItemRequirement": "ITEM_KINGS_ROCK",
-        "candyCost": 100
+    "evolutions": {
+      "POLIWRATH": { "candyCost": 100 },
+      "POLITOED": {
+        "candyCost": 100,
+        "evolutionItemRequirement": "ITEM_KINGS_ROCK"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "POLIWRATH": {
     "number": 62,
     "name": "Poliwrath",
     "familyId": "FAMILY_POLIWAG",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ABRA": {
     "number": 63,
     "name": "Abra",
     "familyId": "FAMILY_ABRA",
-    "evolutionBranch": [{ "evolution": "KADABRA", "candyCost": 25 }],
+    "evolutions": { "KADABRA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KADABRA": {
     "number": 64,
     "name": "Kadabra",
     "familyId": "FAMILY_ABRA",
-    "evolutionBranch": [{ "evolution": "ALAKAZAM", "candyCost": 100 }],
+    "evolutions": { "ALAKAZAM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ALAKAZAM": {
     "number": 65,
     "name": "Alakazam",
     "familyId": "FAMILY_ABRA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MACHOP": {
     "number": 66,
     "name": "Machop",
     "familyId": "FAMILY_MACHOP",
-    "evolutionBranch": [{ "evolution": "MACHOKE", "candyCost": 25 }],
+    "evolutions": { "MACHOKE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MACHOKE": {
     "number": 67,
     "name": "Machoke",
     "familyId": "FAMILY_MACHOP",
-    "evolutionBranch": [{ "evolution": "MACHAMP", "candyCost": 100 }],
+    "evolutions": { "MACHAMP": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MACHAMP": {
     "number": 68,
     "name": "Machamp",
     "familyId": "FAMILY_MACHOP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BELLSPROUT": {
     "number": 69,
     "name": "Bellsprout",
     "familyId": "FAMILY_BELLSPROUT",
-    "evolutionBranch": [{ "evolution": "WEEPINBELL", "candyCost": 25 }],
+    "evolutions": { "WEEPINBELL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WEEPINBELL": {
     "number": 70,
     "name": "Weepinbell",
     "familyId": "FAMILY_BELLSPROUT",
-    "evolutionBranch": [{ "evolution": "VICTREEBEL", "candyCost": 100 }],
+    "evolutions": { "VICTREEBEL": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VICTREEBEL": {
     "number": 71,
     "name": "Victreebel",
     "familyId": "FAMILY_BELLSPROUT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TENTACOOL": {
     "number": 72,
     "name": "Tentacool",
     "familyId": "FAMILY_TENTACOOL",
-    "evolutionBranch": [{ "evolution": "TENTACRUEL", "candyCost": 50 }],
+    "evolutions": { "TENTACRUEL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TENTACRUEL": {
     "number": 73,
     "name": "Tentacruel",
     "familyId": "FAMILY_TENTACOOL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GEODUDE": {
     "number": 74,
     "name": "Geodude",
     "familyId": "FAMILY_GEODUDE",
-    "evolutionBranch": [{ "evolution": "GRAVELER", "candyCost": 25 }],
+    "evolutions": { "GRAVELER": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GRAVELER": {
     "number": 75,
     "name": "Graveler",
     "familyId": "FAMILY_GEODUDE",
-    "evolutionBranch": [{ "evolution": "GOLEM", "candyCost": 100 }],
+    "evolutions": { "GOLEM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GOLEM": {
     "number": 76,
     "name": "Golem",
     "familyId": "FAMILY_GEODUDE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PONYTA": {
     "number": 77,
     "name": "Ponyta",
     "familyId": "FAMILY_PONYTA",
-    "evolutionBranch": [{ "evolution": "RAPIDASH", "candyCost": 50 }],
+    "evolutions": { "RAPIDASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RAPIDASH": {
     "number": 78,
     "name": "Rapidash",
     "familyId": "FAMILY_PONYTA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLOWPOKE": {
     "number": 79,
     "name": "Slowpoke",
     "familyId": "FAMILY_SLOWPOKE",
-    "evolutionBranch": [
-      { "evolution": "SLOWBRO", "candyCost": 50 },
-      {
-        "evolution": "SLOWKING",
-        "evolutionItemRequirement": "ITEM_KINGS_ROCK",
-        "candyCost": 50
+    "evolutions": {
+      "SLOWBRO": { "candyCost": 50 },
+      "SLOWKING": {
+        "candyCost": 50,
+        "evolutionItemRequirement": "ITEM_KINGS_ROCK"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLOWBRO": {
     "number": 80,
     "name": "Slowbro",
     "familyId": "FAMILY_SLOWPOKE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAGNEMITE": {
     "number": 81,
     "name": "Magnemite",
     "familyId": "FAMILY_MAGNEMITE",
-    "evolutionBranch": [{ "evolution": "MAGNETON", "candyCost": 50 }],
+    "evolutions": { "MAGNETON": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "MAGNETON": {
     "number": 82,
     "name": "Magneton",
     "familyId": "FAMILY_MAGNEMITE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "FARFETCHD": {
     "number": 83,
     "name": "Farfetch'd",
     "familyId": "FAMILY_FARFETCHD",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DODUO": {
     "number": 84,
     "name": "Doduo",
     "familyId": "FAMILY_DODUO",
-    "evolutionBranch": [{ "evolution": "DODRIO", "candyCost": 50 }],
+    "evolutions": { "DODRIO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DODRIO": {
     "number": 85,
     "name": "Dodrio",
     "familyId": "FAMILY_DODUO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEEL": {
     "number": 86,
     "name": "Seel",
     "familyId": "FAMILY_SEEL",
-    "evolutionBranch": [{ "evolution": "DEWGONG", "candyCost": 50 }],
+    "evolutions": { "DEWGONG": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DEWGONG": {
     "number": 87,
     "name": "Dewgong",
     "familyId": "FAMILY_SEEL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GRIMER": {
     "number": 88,
     "name": "Grimer",
     "familyId": "FAMILY_GRIMER",
-    "evolutionBranch": [{ "evolution": "MUK", "candyCost": 50 }],
+    "evolutions": { "MUK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MUK": {
     "number": 89,
     "name": "Muk",
     "familyId": "FAMILY_GRIMER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHELLDER": {
     "number": 90,
     "name": "Shellder",
     "familyId": "FAMILY_SHELLDER",
-    "evolutionBranch": [{ "evolution": "CLOYSTER", "candyCost": 50 }],
+    "evolutions": { "CLOYSTER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CLOYSTER": {
     "number": 91,
     "name": "Cloyster",
     "familyId": "FAMILY_SHELLDER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GASTLY": {
     "number": 92,
     "name": "Gastly",
     "familyId": "FAMILY_GASTLY",
-    "evolutionBranch": [{ "evolution": "HAUNTER", "candyCost": 25 }],
+    "evolutions": { "HAUNTER": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HAUNTER": {
     "number": 93,
     "name": "Haunter",
     "familyId": "FAMILY_GASTLY",
-    "evolutionBranch": [{ "evolution": "GENGAR", "candyCost": 100 }],
+    "evolutions": { "GENGAR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GENGAR": {
     "number": 94,
     "name": "Gengar",
     "familyId": "FAMILY_GASTLY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ONIX": {
     "number": 95,
     "name": "Onix",
     "familyId": "FAMILY_ONIX",
-    "evolutionBranch": [
-      {
-        "evolution": "STEELIX",
-        "evolutionItemRequirement": "ITEM_METAL_COAT",
-        "candyCost": 50
+    "evolutions": {
+      "STEELIX": {
+        "candyCost": 50,
+        "evolutionItemRequirement": "ITEM_METAL_COAT"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DROWZEE": {
     "number": 96,
     "name": "Drowzee",
     "familyId": "FAMILY_DROWZEE",
-    "evolutionBranch": [{ "evolution": "HYPNO", "candyCost": 50 }],
+    "evolutions": { "HYPNO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HYPNO": {
     "number": 97,
     "name": "Hypno",
     "familyId": "FAMILY_DROWZEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KRABBY": {
     "number": 98,
     "name": "Krabby",
     "familyId": "FAMILY_KRABBY",
-    "evolutionBranch": [{ "evolution": "KINGLER", "candyCost": 50 }],
+    "evolutions": { "KINGLER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KINGLER": {
     "number": 99,
     "name": "Kingler",
     "familyId": "FAMILY_KRABBY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VOLTORB": {
     "number": 100,
     "name": "Voltorb",
     "familyId": "FAMILY_VOLTORB",
-    "evolutionBranch": [{ "evolution": "ELECTRODE", "candyCost": 50 }],
+    "evolutions": { "ELECTRODE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "ELECTRODE": {
     "number": 101,
     "name": "Electrode",
     "familyId": "FAMILY_VOLTORB",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "EXEGGCUTE": {
     "number": 102,
     "name": "Exeggcute",
     "familyId": "FAMILY_EXEGGCUTE",
-    "evolutionBranch": [{ "evolution": "EXEGGUTOR", "candyCost": 50 }],
+    "evolutions": { "EXEGGUTOR": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "EXEGGUTOR": {
     "number": 103,
     "name": "Exeggutor",
     "familyId": "FAMILY_EXEGGCUTE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CUBONE": {
     "number": 104,
     "name": "Cubone",
     "familyId": "FAMILY_CUBONE",
-    "evolutionBranch": [{ "evolution": "MAROWAK", "candyCost": 50 }],
+    "evolutions": { "MAROWAK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAROWAK": {
     "number": 105,
     "name": "Marowak",
     "familyId": "FAMILY_CUBONE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HITMONLEE": {
     "number": 106,
     "name": "Hitmonlee",
     "familyId": "FAMILY_TYROGUE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "HITMONCHAN": {
     "number": 107,
     "name": "Hitmonchan",
     "familyId": "FAMILY_TYROGUE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "LICKITUNG": {
     "number": 108,
     "name": "Lickitung",
     "familyId": "FAMILY_LICKITUNG",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KOFFING": {
     "number": 109,
     "name": "Koffing",
     "familyId": "FAMILY_KOFFING",
-    "evolutionBranch": [{ "evolution": "WEEZING", "candyCost": 50 }],
+    "evolutions": { "WEEZING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WEEZING": {
     "number": 110,
     "name": "Weezing",
     "familyId": "FAMILY_KOFFING",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RHYHORN": {
     "number": 111,
     "name": "Rhyhorn",
     "familyId": "FAMILY_RHYHORN",
-    "evolutionBranch": [{ "evolution": "RHYDON", "candyCost": 50 }],
+    "evolutions": { "RHYDON": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RHYDON": {
     "number": 112,
     "name": "Rhydon",
     "familyId": "FAMILY_RHYHORN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHANSEY": {
     "number": 113,
     "name": "Chansey",
     "familyId": "FAMILY_CHANSEY",
-    "evolutionBranch": [{ "evolution": "BLISSEY", "candyCost": 50 }],
+    "evolutions": { "BLISSEY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "TANGELA": {
     "number": 114,
     "name": "Tangela",
     "familyId": "FAMILY_TANGELA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KANGASKHAN": {
     "number": 115,
     "name": "Kangaskhan",
     "familyId": "FAMILY_KANGASKHAN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "HORSEA": {
     "number": 116,
     "name": "Horsea",
     "familyId": "FAMILY_HORSEA",
-    "evolutionBranch": [{ "evolution": "SEADRA", "candyCost": 25 }],
+    "evolutions": { "SEADRA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEADRA": {
     "number": 117,
     "name": "Seadra",
     "familyId": "FAMILY_HORSEA",
-    "evolutionBranch": [
-      {
-        "evolution": "KINGDRA",
-        "evolutionItemRequirement": "ITEM_DRAGON_SCALE",
-        "candyCost": 100
+    "evolutions": {
+      "KINGDRA": {
+        "candyCost": 100,
+        "evolutionItemRequirement": "ITEM_DRAGON_SCALE"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GOLDEEN": {
     "number": 118,
     "name": "Goldeen",
     "familyId": "FAMILY_GOLDEEN",
-    "evolutionBranch": [{ "evolution": "SEAKING", "candyCost": 50 }],
+    "evolutions": { "SEAKING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEAKING": {
     "number": 119,
     "name": "Seaking",
     "familyId": "FAMILY_GOLDEEN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "STARYU": {
     "number": 120,
     "name": "Staryu",
     "familyId": "FAMILY_STARYU",
-    "evolutionBranch": [{ "evolution": "STARMIE", "candyCost": 50 }],
+    "evolutions": { "STARMIE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "STARMIE": {
     "number": 121,
     "name": "Starmie",
     "familyId": "FAMILY_STARYU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "MR_MIME": {
     "number": 122,
     "name": "Mr. Mime",
     "familyId": "FAMILY_MR_MIME",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SCYTHER": {
     "number": 123,
     "name": "Scyther",
     "familyId": "FAMILY_SCYTHER",
-    "evolutionBranch": [
-      {
-        "evolution": "SCIZOR",
-        "evolutionItemRequirement": "ITEM_METAL_COAT",
-        "candyCost": 50
+    "evolutions": {
+      "SCIZOR": {
+        "candyCost": 50,
+        "evolutionItemRequirement": "ITEM_METAL_COAT"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "JYNX": {
     "number": 124,
     "name": "Jynx",
     "familyId": "FAMILY_JYNX",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "ELECTABUZZ": {
     "number": 125,
     "name": "Electabuzz",
     "familyId": "FAMILY_ELECTABUZZ",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAGMAR": {
     "number": 126,
     "name": "Magmar",
     "familyId": "FAMILY_MAGMAR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PINSIR": {
     "number": 127,
     "name": "Pinsir",
     "familyId": "FAMILY_PINSIR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TAUROS": {
     "number": 128,
     "name": "Tauros",
     "familyId": "FAMILY_TAUROS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "MAGIKARP": {
     "number": 129,
     "name": "Magikarp",
     "familyId": "FAMILY_MAGIKARP",
-    "evolutionBranch": [{ "evolution": "GYARADOS", "candyCost": 400 }],
+    "evolutions": { "GYARADOS": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GYARADOS": {
     "number": 130,
     "name": "Gyarados",
     "familyId": "FAMILY_MAGIKARP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LAPRAS": {
     "number": 131,
     "name": "Lapras",
     "familyId": "FAMILY_LAPRAS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DITTO": {
     "number": 132,
     "name": "Ditto",
     "familyId": "FAMILY_DITTO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "EEVEE": {
     "number": 133,
     "name": "Eevee",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": [
-      { "evolution": "VAPOREON", "candyCost": 25 },
-      { "evolution": "JOLTEON", "candyCost": 25 },
-      { "evolution": "FLAREON", "candyCost": 25 },
-      { "evolution": "ESPEON", "candyCost": 25 },
-      { "evolution": "UMBREON", "candyCost": 25 }
-    ],
+    "evolutions": {
+      "VAPOREON": { "candyCost": 25 },
+      "JOLTEON": { "candyCost": 25 },
+      "FLAREON": { "candyCost": 25 },
+      "ESPEON": { "candyCost": 25 },
+      "UMBREON": { "candyCost": 25 }
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VAPOREON": {
     "number": 134,
     "name": "Vaporeon",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "JOLTEON": {
     "number": 135,
     "name": "Jolteon",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FLAREON": {
     "number": 136,
     "name": "Flareon",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PORYGON": {
     "number": 137,
     "name": "Porygon",
     "familyId": "FAMILY_PORYGON",
-    "evolutionBranch": [
-      {
-        "evolution": "PORYGON2",
-        "evolutionItemRequirement": "ITEM_UP_GRADE",
-        "candyCost": 50
+    "evolutions": {
+      "PORYGON2": {
+        "candyCost": 50,
+        "evolutionItemRequirement": "ITEM_UP_GRADE"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "OMANYTE": {
     "number": 138,
     "name": "Omanyte",
     "familyId": "FAMILY_OMANYTE",
-    "evolutionBranch": [{ "evolution": "OMASTAR", "candyCost": 50 }],
+    "evolutions": { "OMASTAR": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "OMASTAR": {
     "number": 139,
     "name": "Omastar",
     "familyId": "FAMILY_OMANYTE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KABUTO": {
     "number": 140,
     "name": "Kabuto",
     "familyId": "FAMILY_KABUTO",
-    "evolutionBranch": [{ "evolution": "KABUTOPS", "candyCost": 50 }],
+    "evolutions": { "KABUTOPS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KABUTOPS": {
     "number": 141,
     "name": "Kabutops",
     "familyId": "FAMILY_KABUTO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AERODACTYL": {
     "number": 142,
     "name": "Aerodactyl",
     "familyId": "FAMILY_AERODACTYL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SNORLAX": {
     "number": 143,
     "name": "Snorlax",
     "familyId": "FAMILY_SNORLAX",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARTICUNO": {
     "number": 144,
     "name": "Articuno",
     "familyId": "FAMILY_ARTICUNO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "ZAPDOS": {
     "number": 145,
     "name": "Zapdos",
     "familyId": "FAMILY_ZAPDOS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "MOLTRES": {
     "number": 146,
     "name": "Moltres",
     "familyId": "FAMILY_MOLTRES",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "DRATINI": {
     "number": 147,
     "name": "Dratini",
     "familyId": "FAMILY_DRATINI",
-    "evolutionBranch": [{ "evolution": "DRAGONAIR", "candyCost": 25 }],
+    "evolutions": { "DRAGONAIR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DRAGONAIR": {
     "number": 148,
     "name": "Dragonair",
     "familyId": "FAMILY_DRATINI",
-    "evolutionBranch": [{ "evolution": "DRAGONITE", "candyCost": 100 }],
+    "evolutions": { "DRAGONITE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DRAGONITE": {
     "number": 149,
     "name": "Dragonite",
     "familyId": "FAMILY_DRATINI",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MEWTWO": {
     "number": 150,
     "name": "Mewtwo",
     "familyId": "FAMILY_MEWTWO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "MEW": {
     "number": 151,
     "name": "Mew",
     "familyId": "FAMILY_MEW",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "CHIKORITA": {
     "number": 152,
     "name": "Chikorita",
     "familyId": "FAMILY_CHIKORITA",
-    "evolutionBranch": [{ "evolution": "BAYLEEF", "candyCost": 25 }],
+    "evolutions": { "BAYLEEF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BAYLEEF": {
     "number": 153,
     "name": "Bayleef",
     "familyId": "FAMILY_CHIKORITA",
-    "evolutionBranch": [{ "evolution": "MEGANIUM", "candyCost": 100 }],
+    "evolutions": { "MEGANIUM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MEGANIUM": {
     "number": 154,
     "name": "Meganium",
     "familyId": "FAMILY_CHIKORITA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CYNDAQUIL": {
     "number": 155,
     "name": "Cyndaquil",
     "familyId": "FAMILY_CYNDAQUIL",
-    "evolutionBranch": [{ "evolution": "QUILAVA", "candyCost": 25 }],
+    "evolutions": { "QUILAVA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "QUILAVA": {
     "number": 156,
     "name": "Quilava",
     "familyId": "FAMILY_CYNDAQUIL",
-    "evolutionBranch": [{ "evolution": "TYPHLOSION", "candyCost": 100 }],
+    "evolutions": { "TYPHLOSION": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TYPHLOSION": {
     "number": 157,
     "name": "Typhlosion",
     "familyId": "FAMILY_CYNDAQUIL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TOTODILE": {
     "number": 158,
     "name": "Totodile",
     "familyId": "FAMILY_TOTODILE",
-    "evolutionBranch": [{ "evolution": "CROCONAW", "candyCost": 25 }],
+    "evolutions": { "CROCONAW": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CROCONAW": {
     "number": 159,
     "name": "Croconaw",
     "familyId": "FAMILY_TOTODILE",
-    "evolutionBranch": [{ "evolution": "FERALIGATR", "candyCost": 100 }],
+    "evolutions": { "FERALIGATR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FERALIGATR": {
     "number": 160,
     "name": "Feraligatr",
     "familyId": "FAMILY_TOTODILE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SENTRET": {
     "number": 161,
     "name": "Sentret",
     "familyId": "FAMILY_SENTRET",
-    "evolutionBranch": [{ "evolution": "FURRET", "candyCost": 25 }],
+    "evolutions": { "FURRET": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FURRET": {
     "number": 162,
     "name": "Furret",
     "familyId": "FAMILY_SENTRET",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HOOTHOOT": {
     "number": 163,
     "name": "Hoothoot",
     "familyId": "FAMILY_HOOTHOOT",
-    "evolutionBranch": [{ "evolution": "NOCTOWL", "candyCost": 50 }],
+    "evolutions": { "NOCTOWL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NOCTOWL": {
     "number": 164,
     "name": "Noctowl",
     "familyId": "FAMILY_HOOTHOOT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LEDYBA": {
     "number": 165,
     "name": "Ledyba",
     "familyId": "FAMILY_LEDYBA",
-    "evolutionBranch": [{ "evolution": "LEDIAN", "candyCost": 25 }],
+    "evolutions": { "LEDIAN": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LEDIAN": {
     "number": 166,
     "name": "Ledian",
     "familyId": "FAMILY_LEDYBA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SPINARAK": {
     "number": 167,
     "name": "Spinarak",
     "familyId": "FAMILY_SPINARAK",
-    "evolutionBranch": [{ "evolution": "ARIADOS", "candyCost": 50 }],
+    "evolutions": { "ARIADOS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARIADOS": {
     "number": 168,
     "name": "Ariados",
     "familyId": "FAMILY_SPINARAK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CROBAT": {
     "number": 169,
     "name": "Crobat",
     "familyId": "FAMILY_ZUBAT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHINCHOU": {
     "number": 170,
     "name": "Chinchou",
     "familyId": "FAMILY_CHINCHOU",
-    "evolutionBranch": [{ "evolution": "LANTURN", "candyCost": 50 }],
+    "evolutions": { "LANTURN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LANTURN": {
     "number": 171,
     "name": "Lanturn",
     "familyId": "FAMILY_CHINCHOU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PICHU": {
     "number": 172,
     "name": "Pichu",
     "familyId": "FAMILY_PIKACHU",
-    "evolutionBranch": [{ "evolution": "PIKACHU", "candyCost": 25 }],
+    "evolutions": { "PIKACHU": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CLEFFA": {
     "number": 173,
     "name": "Cleffa",
     "familyId": "FAMILY_CLEFAIRY",
-    "evolutionBranch": [{ "evolution": "CLEFAIRY", "candyCost": 25 }],
+    "evolutions": { "CLEFAIRY": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "IGGLYBUFF": {
     "number": 174,
     "name": "Igglybuff",
     "familyId": "FAMILY_JIGGLYPUFF",
-    "evolutionBranch": [{ "evolution": "JIGGLYPUFF", "candyCost": 25 }],
+    "evolutions": { "JIGGLYPUFF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TOGEPI": {
     "number": 175,
     "name": "Togepi",
     "familyId": "FAMILY_TOGEPI",
-    "evolutionBranch": [{ "evolution": "TOGETIC", "candyCost": 50 }],
+    "evolutions": { "TOGETIC": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TOGETIC": {
     "number": 176,
     "name": "Togetic",
     "familyId": "FAMILY_TOGEPI",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NATU": {
     "number": 177,
     "name": "Natu",
     "familyId": "FAMILY_NATU",
-    "evolutionBranch": [{ "evolution": "XATU", "candyCost": 50 }],
+    "evolutions": { "XATU": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "XATU": {
     "number": 178,
     "name": "Xatu",
     "familyId": "FAMILY_NATU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAREEP": {
     "number": 179,
     "name": "Mareep",
     "familyId": "FAMILY_MAREEP",
-    "evolutionBranch": [{ "evolution": "FLAAFFY", "candyCost": 25 }],
+    "evolutions": { "FLAAFFY": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FLAAFFY": {
     "number": 180,
     "name": "Flaaffy",
     "familyId": "FAMILY_MAREEP",
-    "evolutionBranch": [{ "evolution": "AMPHAROS", "candyCost": 100 }],
+    "evolutions": { "AMPHAROS": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AMPHAROS": {
     "number": 181,
     "name": "Ampharos",
     "familyId": "FAMILY_MAREEP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BELLOSSOM": {
     "number": 182,
     "name": "Bellossom",
     "familyId": "FAMILY_ODDISH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MARILL": {
     "number": 183,
     "name": "Marill",
     "familyId": "FAMILY_MARILL",
-    "evolutionBranch": [{ "evolution": "AZUMARILL", "candyCost": 25 }],
+    "evolutions": { "AZUMARILL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AZUMARILL": {
     "number": 184,
     "name": "Azumarill",
     "familyId": "FAMILY_MARILL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SUDOWOODO": {
     "number": 185,
     "name": "Sudowoodo",
     "familyId": "FAMILY_SUDOWOODO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "POLITOED": {
     "number": 186,
     "name": "Politoed",
     "familyId": "FAMILY_POLIWAG",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HOPPIP": {
     "number": 187,
     "name": "Hoppip",
     "familyId": "FAMILY_HOPPIP",
-    "evolutionBranch": [{ "evolution": "SKIPLOOM", "candyCost": 25 }],
+    "evolutions": { "SKIPLOOM": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SKIPLOOM": {
     "number": 188,
     "name": "Skiploom",
     "familyId": "FAMILY_HOPPIP",
-    "evolutionBranch": [{ "evolution": "JUMPLUFF", "candyCost": 100 }],
+    "evolutions": { "JUMPLUFF": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "JUMPLUFF": {
     "number": 189,
     "name": "Jumpluff",
     "familyId": "FAMILY_HOPPIP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AIPOM": {
     "number": 190,
     "name": "Aipom",
     "familyId": "FAMILY_AIPOM",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SUNKERN": {
     "number": 191,
     "name": "Sunkern",
     "familyId": "FAMILY_SUNKERN",
-    "evolutionBranch": [
-      {
-        "evolution": "SUNFLORA",
-        "evolutionItemRequirement": "ITEM_SUN_STONE",
-        "candyCost": 50
+    "evolutions": {
+      "SUNFLORA": {
+        "candyCost": 50,
+        "evolutionItemRequirement": "ITEM_SUN_STONE"
       }
-    ],
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SUNFLORA": {
     "number": 192,
     "name": "Sunflora",
     "familyId": "FAMILY_SUNKERN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "YANMA": {
     "number": 193,
     "name": "Yanma",
     "familyId": "FAMILY_YANMA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WOOPER": {
     "number": 194,
     "name": "Wooper",
     "familyId": "FAMILY_WOOPER",
-    "evolutionBranch": [{ "evolution": "QUAGSIRE", "candyCost": 50 }],
+    "evolutions": { "QUAGSIRE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "QUAGSIRE": {
     "number": 195,
     "name": "Quagsire",
     "familyId": "FAMILY_WOOPER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ESPEON": {
     "number": 196,
     "name": "Espeon",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "UMBREON": {
     "number": 197,
     "name": "Umbreon",
     "familyId": "FAMILY_EEVEE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MURKROW": {
     "number": 198,
     "name": "Murkrow",
     "familyId": "FAMILY_MURKROW",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLOWKING": {
     "number": 199,
     "name": "Slowking",
     "familyId": "FAMILY_SLOWPOKE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MISDREAVUS": {
     "number": 200,
     "name": "Misdreavus",
     "familyId": "FAMILY_MISDREAVUS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "UNOWN": {
     "number": 201,
     "name": "Unown",
     "familyId": "FAMILY_UNOWN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": { "UNOWN_EXCLAMATION_POINT": false, "UNOWN_QUESTION_MARK": false }
+    "forms": {
+      "UNOWN_F": true,
+      "UNOWN_A": true,
+      "UNOWN_B": true,
+      "UNOWN_C": true,
+      "UNOWN_D": true,
+      "UNOWN_E": true,
+      "UNOWN_G": true,
+      "UNOWN_H": true,
+      "UNOWN_I": true,
+      "UNOWN_J": true,
+      "UNOWN_K": true,
+      "UNOWN_L": true,
+      "UNOWN_M": true,
+      "UNOWN_N": true,
+      "UNOWN_O": true,
+      "UNOWN_P": true,
+      "UNOWN_Q": true,
+      "UNOWN_R": true,
+      "UNOWN_S": true,
+      "UNOWN_T": true,
+      "UNOWN_U": true,
+      "UNOWN_V": true,
+      "UNOWN_W": true,
+      "UNOWN_X": true,
+      "UNOWN_Y": true,
+      "UNOWN_Z": true,
+      "UNOWN_EXCLAMATION_POINT": false,
+      "UNOWN_QUESTION_MARK": false
+    }
   },
   "WOBBUFFET": {
     "number": 202,
     "name": "Wobbuffet",
     "familyId": "FAMILY_WOBBUFFET",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GIRAFARIG": {
     "number": 203,
     "name": "Girafarig",
     "familyId": "FAMILY_GIRAFARIG",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PINECO": {
     "number": 204,
     "name": "Pineco",
     "familyId": "FAMILY_PINECO",
-    "evolutionBranch": [{ "evolution": "FORRETRESS", "candyCost": 50 }],
+    "evolutions": { "FORRETRESS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FORRETRESS": {
     "number": 205,
     "name": "Forretress",
     "familyId": "FAMILY_PINECO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DUNSPARCE": {
     "number": 206,
     "name": "Dunsparce",
     "familyId": "FAMILY_DUNSPARCE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GLIGAR": {
     "number": 207,
     "name": "Gligar",
     "familyId": "FAMILY_GLIGAR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "STEELIX": {
     "number": 208,
     "name": "Steelix",
     "familyId": "FAMILY_ONIX",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SNUBBULL": {
     "number": 209,
     "name": "Snubbull",
     "familyId": "FAMILY_SNUBBULL",
-    "evolutionBranch": [{ "evolution": "GRANBULL", "candyCost": 50 }],
+    "evolutions": { "GRANBULL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GRANBULL": {
     "number": 210,
     "name": "Granbull",
     "familyId": "FAMILY_SNUBBULL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "QWILFISH": {
     "number": 211,
     "name": "Qwilfish",
     "familyId": "FAMILY_QWILFISH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SCIZOR": {
     "number": 212,
     "name": "Scizor",
     "familyId": "FAMILY_SCYTHER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHUCKLE": {
     "number": 213,
     "name": "Shuckle",
     "familyId": "FAMILY_SHUCKLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HERACROSS": {
     "number": 214,
     "name": "Heracross",
     "familyId": "FAMILY_HERACROSS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SNEASEL": {
     "number": 215,
     "name": "Sneasel",
     "familyId": "FAMILY_SNEASEL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TEDDIURSA": {
     "number": 216,
     "name": "Teddiursa",
     "familyId": "FAMILY_TEDDIURSA",
-    "evolutionBranch": [{ "evolution": "URSARING", "candyCost": 50 }],
+    "evolutions": { "URSARING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "URSARING": {
     "number": 217,
     "name": "Ursaring",
     "familyId": "FAMILY_TEDDIURSA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLUGMA": {
     "number": 218,
     "name": "Slugma",
     "familyId": "FAMILY_SLUGMA",
-    "evolutionBranch": [{ "evolution": "MAGCARGO", "candyCost": 50 }],
+    "evolutions": { "MAGCARGO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAGCARGO": {
     "number": 219,
     "name": "Magcargo",
     "familyId": "FAMILY_SLUGMA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SWINUB": {
     "number": 220,
     "name": "Swinub",
     "familyId": "FAMILY_SWINUB",
-    "evolutionBranch": [{ "evolution": "PILOSWINE", "candyCost": 50 }],
+    "evolutions": { "PILOSWINE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PILOSWINE": {
     "number": 221,
     "name": "Piloswine",
     "familyId": "FAMILY_SWINUB",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CORSOLA": {
     "number": 222,
     "name": "Corsola",
     "familyId": "FAMILY_CORSOLA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "REMORAID": {
     "number": 223,
     "name": "Remoraid",
     "familyId": "FAMILY_REMORAID",
-    "evolutionBranch": [{ "evolution": "OCTILLERY", "candyCost": 50 }],
+    "evolutions": { "OCTILLERY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "OCTILLERY": {
     "number": 224,
     "name": "Octillery",
     "familyId": "FAMILY_REMORAID",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DELIBIRD": {
     "number": 225,
     "name": "Delibird",
     "familyId": "FAMILY_DELIBIRD",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MANTINE": {
     "number": 226,
     "name": "Mantine",
     "familyId": "FAMILY_MANTINE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SKARMORY": {
     "number": 227,
     "name": "Skarmory",
     "familyId": "FAMILY_SKARMORY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HOUNDOUR": {
     "number": 228,
     "name": "Houndour",
     "familyId": "FAMILY_HOUNDOUR",
-    "evolutionBranch": [{ "evolution": "HOUNDOOM", "candyCost": 50 }],
+    "evolutions": { "HOUNDOOM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HOUNDOOM": {
     "number": 229,
     "name": "Houndoom",
     "familyId": "FAMILY_HOUNDOUR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KINGDRA": {
     "number": 230,
     "name": "Kingdra",
     "familyId": "FAMILY_HORSEA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PHANPY": {
     "number": 231,
     "name": "Phanpy",
     "familyId": "FAMILY_PHANPY",
-    "evolutionBranch": [{ "evolution": "DONPHAN", "candyCost": 50 }],
+    "evolutions": { "DONPHAN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DONPHAN": {
     "number": 232,
     "name": "Donphan",
     "familyId": "FAMILY_PHANPY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PORYGON2": {
     "number": 233,
     "name": "Porygon2",
     "familyId": "FAMILY_PORYGON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "STANTLER": {
     "number": 234,
     "name": "Stantler",
     "familyId": "FAMILY_STANTLER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SMEARGLE": {
     "number": 235,
     "name": "Smeargle",
     "familyId": "FAMILY_SMEARGLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TYROGUE": {
     "number": 236,
     "name": "Tyrogue",
     "familyId": "FAMILY_TYROGUE",
-    "evolutionBranch": [
-      { "evolution": "HITMONLEE", "candyCost": 25 },
-      { "evolution": "HITMONCHAN", "candyCost": 25 },
-      { "evolution": "HITMONTOP", "candyCost": 25 }
-    ],
+    "evolutions": {
+      "HITMONLEE": { "candyCost": 25 },
+      "HITMONCHAN": { "candyCost": 25 },
+      "HITMONTOP": { "candyCost": 25 }
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "HITMONTOP": {
     "number": 237,
     "name": "Hitmontop",
     "familyId": "FAMILY_TYROGUE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "SMOOCHUM": {
     "number": 238,
     "name": "Smoochum",
     "familyId": "FAMILY_JYNX",
-    "evolutionBranch": [{ "evolution": "JYNX", "candyCost": 25 }],
+    "evolutions": { "JYNX": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "ELEKID": {
     "number": 239,
     "name": "Elekid",
     "familyId": "FAMILY_ELECTABUZZ",
-    "evolutionBranch": [{ "evolution": "ELECTABUZZ", "candyCost": 25 }],
+    "evolutions": { "ELECTABUZZ": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAGBY": {
     "number": 240,
     "name": "Magby",
     "familyId": "FAMILY_MAGMAR",
-    "evolutionBranch": [{ "evolution": "MAGMAR", "candyCost": 25 }],
+    "evolutions": { "MAGMAR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MILTANK": {
     "number": 241,
     "name": "Miltank",
     "familyId": "FAMILY_MILTANK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "BLISSEY": {
     "number": 242,
     "name": "Blissey",
     "familyId": "FAMILY_CHANSEY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "RAIKOU": {
     "number": 243,
     "name": "Raikou",
     "familyId": "FAMILY_RAIKOU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "ENTEI": {
     "number": 244,
     "name": "Entei",
     "familyId": "FAMILY_ENTEI",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "SUICUNE": {
     "number": 245,
     "name": "Suicune",
     "familyId": "FAMILY_SUICUNE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "LARVITAR": {
     "number": 246,
     "name": "Larvitar",
     "familyId": "FAMILY_LARVITAR",
-    "evolutionBranch": [{ "evolution": "PUPITAR", "candyCost": 25 }],
+    "evolutions": { "PUPITAR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PUPITAR": {
     "number": 247,
     "name": "Pupitar",
     "familyId": "FAMILY_LARVITAR",
-    "evolutionBranch": [{ "evolution": "TYRANITAR", "candyCost": 100 }],
+    "evolutions": { "TYRANITAR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TYRANITAR": {
     "number": 248,
     "name": "Tyranitar",
     "familyId": "FAMILY_LARVITAR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LUGIA": {
     "number": 249,
     "name": "Lugia",
     "familyId": "FAMILY_LUGIA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "HO_OH": {
     "number": 250,
     "name": "Ho-Oh",
     "familyId": "FAMILY_HO_OH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "CELEBI": {
     "number": 251,
     "name": "Celebi",
     "familyId": "FAMILY_CELEBI",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "TREECKO": {
     "number": 252,
     "name": "Treecko",
     "familyId": "FAMILY_TREECKO",
-    "evolutionBranch": [{ "evolution": "GROVYLE", "candyCost": 25 }],
+    "evolutions": { "GROVYLE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GROVYLE": {
     "number": 253,
     "name": "Grovyle",
     "familyId": "FAMILY_TREECKO",
-    "evolutionBranch": [{ "evolution": "SCEPTILE", "candyCost": 100 }],
+    "evolutions": { "SCEPTILE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SCEPTILE": {
     "number": 254,
     "name": "Sceptile",
     "familyId": "FAMILY_TREECKO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TORCHIC": {
     "number": 255,
     "name": "Torchic",
     "familyId": "FAMILY_TORCHIC",
-    "evolutionBranch": [{ "evolution": "COMBUSKEN", "candyCost": 25 }],
+    "evolutions": { "COMBUSKEN": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "COMBUSKEN": {
     "number": 256,
     "name": "Combusken",
     "familyId": "FAMILY_TORCHIC",
-    "evolutionBranch": [{ "evolution": "BLAZIKEN", "candyCost": 100 }],
+    "evolutions": { "BLAZIKEN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BLAZIKEN": {
     "number": 257,
     "name": "Blaziken",
     "familyId": "FAMILY_TORCHIC",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MUDKIP": {
     "number": 258,
     "name": "Mudkip",
     "familyId": "FAMILY_MUDKIP",
-    "evolutionBranch": [{ "evolution": "MARSHTOMP", "candyCost": 25 }],
+    "evolutions": { "MARSHTOMP": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MARSHTOMP": {
     "number": 259,
     "name": "Marshtomp",
     "familyId": "FAMILY_MUDKIP",
-    "evolutionBranch": [{ "evolution": "SWAMPERT", "candyCost": 100 }],
+    "evolutions": { "SWAMPERT": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SWAMPERT": {
     "number": 260,
     "name": "Swampert",
     "familyId": "FAMILY_MUDKIP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "POOCHYENA": {
     "number": 261,
     "name": "Poochyena",
     "familyId": "FAMILY_POOCHYENA",
-    "evolutionBranch": [{ "evolution": "MIGHTYENA", "candyCost": 50 }],
+    "evolutions": { "MIGHTYENA": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MIGHTYENA": {
     "number": 262,
     "name": "Mightyena",
     "familyId": "FAMILY_POOCHYENA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ZIGZAGOON": {
     "number": 263,
     "name": "Zigzagoon",
     "familyId": "FAMILY_ZIGZAGOON",
-    "evolutionBranch": [{ "evolution": "LINOONE", "candyCost": 50 }],
+    "evolutions": { "LINOONE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LINOONE": {
     "number": 264,
     "name": "Linoone",
     "familyId": "FAMILY_ZIGZAGOON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WURMPLE": {
     "number": 265,
     "name": "Wurmple",
     "familyId": "FAMILY_WURMPLE",
-    "evolutionBranch": [
-      { "evolution": "SILCOON", "candyCost": 12 },
-      { "evolution": "CASCOON", "candyCost": 12 }
-    ],
+    "evolutions": {
+      "SILCOON": { "candyCost": 12 },
+      "CASCOON": { "candyCost": 12 }
+    },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SILCOON": {
     "number": 266,
     "name": "Silcoon",
     "familyId": "FAMILY_WURMPLE",
-    "evolutionBranch": [{ "evolution": "BEAUTIFLY", "candyCost": 50 }],
+    "evolutions": { "BEAUTIFLY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BEAUTIFLY": {
     "number": 267,
     "name": "Beautifly",
     "familyId": "FAMILY_WURMPLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CASCOON": {
     "number": 268,
     "name": "Cascoon",
     "familyId": "FAMILY_WURMPLE",
-    "evolutionBranch": [{ "evolution": "DUSTOX", "candyCost": 50 }],
+    "evolutions": { "DUSTOX": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DUSTOX": {
     "number": 269,
     "name": "Dustox",
     "familyId": "FAMILY_WURMPLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LOTAD": {
     "number": 270,
     "name": "Lotad",
     "familyId": "FAMILY_LOTAD",
-    "evolutionBranch": [{ "evolution": "LOMBRE", "candyCost": 25 }],
+    "evolutions": { "LOMBRE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LOMBRE": {
     "number": 271,
     "name": "Lombre",
     "familyId": "FAMILY_LOTAD",
-    "evolutionBranch": [{ "evolution": "LUDICOLO", "candyCost": 100 }],
+    "evolutions": { "LUDICOLO": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LUDICOLO": {
     "number": 272,
     "name": "Ludicolo",
     "familyId": "FAMILY_LOTAD",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEEDOT": {
     "number": 273,
     "name": "Seedot",
     "familyId": "FAMILY_SEEDOT",
-    "evolutionBranch": [{ "evolution": "NUZLEAF", "candyCost": 25 }],
+    "evolutions": { "NUZLEAF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NUZLEAF": {
     "number": 274,
     "name": "Nuzleaf",
     "familyId": "FAMILY_SEEDOT",
-    "evolutionBranch": [{ "evolution": "SHIFTRY", "candyCost": 100 }],
+    "evolutions": { "SHIFTRY": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHIFTRY": {
     "number": 275,
     "name": "Shiftry",
     "familyId": "FAMILY_SEEDOT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TAILLOW": {
     "number": 276,
     "name": "Taillow",
     "familyId": "FAMILY_TAILLOW",
-    "evolutionBranch": [{ "evolution": "SWELLOW", "candyCost": 50 }],
+    "evolutions": { "SWELLOW": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SWELLOW": {
     "number": 277,
     "name": "Swellow",
     "familyId": "FAMILY_TAILLOW",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WINGULL": {
     "number": 278,
     "name": "Wingull",
     "familyId": "FAMILY_WINGULL",
-    "evolutionBranch": [{ "evolution": "PELIPPER", "candyCost": 50 }],
+    "evolutions": { "PELIPPER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PELIPPER": {
     "number": 279,
     "name": "Pelipper",
     "familyId": "FAMILY_WINGULL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RALTS": {
     "number": 280,
     "name": "Ralts",
     "familyId": "FAMILY_RALTS",
-    "evolutionBranch": [{ "evolution": "KIRLIA", "candyCost": 25 }],
+    "evolutions": { "KIRLIA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "KIRLIA": {
     "number": 281,
     "name": "Kirlia",
     "familyId": "FAMILY_RALTS",
-    "evolutionBranch": [{ "evolution": "GARDEVOIR", "candyCost": 100 }],
+    "evolutions": { "GARDEVOIR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GARDEVOIR": {
     "number": 282,
     "name": "Gardevoir",
     "familyId": "FAMILY_RALTS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SURSKIT": {
     "number": 283,
     "name": "Surskit",
     "familyId": "FAMILY_SURSKIT",
-    "evolutionBranch": [{ "evolution": "MASQUERAIN", "candyCost": 50 }],
+    "evolutions": { "MASQUERAIN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MASQUERAIN": {
     "number": 284,
     "name": "Masquerain",
     "familyId": "FAMILY_SURSKIT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHROOMISH": {
     "number": 285,
     "name": "Shroomish",
     "familyId": "FAMILY_SHROOMISH",
-    "evolutionBranch": [{ "evolution": "BRELOOM", "candyCost": 50 }],
+    "evolutions": { "BRELOOM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BRELOOM": {
     "number": 286,
     "name": "Breloom",
     "familyId": "FAMILY_SHROOMISH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLAKOTH": {
     "number": 287,
     "name": "Slakoth",
     "familyId": "FAMILY_SLAKOTH",
-    "evolutionBranch": [{ "evolution": "VIGOROTH", "candyCost": 25 }],
+    "evolutions": { "VIGOROTH": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VIGOROTH": {
     "number": 288,
     "name": "Vigoroth",
     "familyId": "FAMILY_SLAKOTH",
-    "evolutionBranch": [{ "evolution": "SLAKING", "candyCost": 100 }],
+    "evolutions": { "SLAKING": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SLAKING": {
     "number": 289,
     "name": "Slaking",
     "familyId": "FAMILY_SLAKOTH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NINCADA": {
     "number": 290,
     "name": "Nincada",
     "familyId": "FAMILY_NINCADA",
-    "evolutionBranch": [
-      { "evolution": "NINJASK", "candyCost": 50 },
-      { "evolution": "SHEDINJA", "candyCost": 50 }
-    ],
+    "evolutions": {
+      "NINJASK": { "candyCost": 50 },
+      "SHEDINJA": { "candyCost": 50 }
+    },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NINJASK": {
     "number": 291,
     "name": "Ninjask",
     "familyId": "FAMILY_NINCADA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHEDINJA": {
     "number": 292,
     "name": "Shedinja",
     "familyId": "FAMILY_NINCADA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "WHISMUR": {
     "number": 293,
     "name": "Whismur",
     "familyId": "FAMILY_WHISMUR",
-    "evolutionBranch": [{ "evolution": "LOUDRED", "candyCost": 12 }],
+    "evolutions": { "LOUDRED": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LOUDRED": {
     "number": 294,
     "name": "Loudred",
     "familyId": "FAMILY_WHISMUR",
-    "evolutionBranch": [{ "evolution": "EXPLOUD", "candyCost": 50 }],
+    "evolutions": { "EXPLOUD": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "EXPLOUD": {
     "number": 295,
     "name": "Exploud",
     "familyId": "FAMILY_WHISMUR",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAKUHITA": {
     "number": 296,
     "name": "Makuhita",
     "familyId": "FAMILY_MAKUHITA",
-    "evolutionBranch": [{ "evolution": "HARIYAMA", "candyCost": 50 }],
+    "evolutions": { "HARIYAMA": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HARIYAMA": {
     "number": 297,
     "name": "Hariyama",
     "familyId": "FAMILY_MAKUHITA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AZURILL": {
     "number": 298,
     "name": "Azurill",
     "familyId": "FAMILY_MARILL",
-    "evolutionBranch": [{ "evolution": "MARILL", "candyCost": 25 }],
+    "evolutions": { "MARILL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NOSEPASS": {
     "number": 299,
     "name": "Nosepass",
     "familyId": "FAMILY_NOSEPASS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SKITTY": {
     "number": 300,
     "name": "Skitty",
     "familyId": "FAMILY_SKITTY",
-    "evolutionBranch": [{ "evolution": "DELCATTY", "candyCost": 50 }],
+    "evolutions": { "DELCATTY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DELCATTY": {
     "number": 301,
     "name": "Delcatty",
     "familyId": "FAMILY_SKITTY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SABLEYE": {
     "number": 302,
     "name": "Sableye",
     "familyId": "FAMILY_SABLEYE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MAWILE": {
     "number": 303,
     "name": "Mawile",
     "familyId": "FAMILY_MAWILE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARON": {
     "number": 304,
     "name": "Aron",
     "familyId": "FAMILY_ARON",
-    "evolutionBranch": [{ "evolution": "LAIRON", "candyCost": 25 }],
+    "evolutions": { "LAIRON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LAIRON": {
     "number": 305,
     "name": "Lairon",
     "familyId": "FAMILY_ARON",
-    "evolutionBranch": [{ "evolution": "AGGRON", "candyCost": 100 }],
+    "evolutions": { "AGGRON": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "AGGRON": {
     "number": 306,
     "name": "Aggron",
     "familyId": "FAMILY_ARON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MEDITITE": {
     "number": 307,
     "name": "Meditite",
     "familyId": "FAMILY_MEDITITE",
-    "evolutionBranch": [{ "evolution": "MEDICHAM", "candyCost": 50 }],
+    "evolutions": { "MEDICHAM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MEDICHAM": {
     "number": 308,
     "name": "Medicham",
     "familyId": "FAMILY_MEDITITE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ELECTRIKE": {
     "number": 309,
     "name": "Electrike",
     "familyId": "FAMILY_ELECTRIKE",
-    "evolutionBranch": [{ "evolution": "MANECTRIC", "candyCost": 50 }],
+    "evolutions": { "MANECTRIC": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MANECTRIC": {
     "number": 310,
     "name": "Manectric",
     "familyId": "FAMILY_ELECTRIKE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "PLUSLE": {
     "number": 311,
     "name": "Plusle",
     "familyId": "FAMILY_PLUSLE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MINUN": {
     "number": 312,
     "name": "Minun",
     "familyId": "FAMILY_MINUN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VOLBEAT": {
     "number": 313,
     "name": "Volbeat",
     "familyId": "FAMILY_VOLBEAT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "ILLUMISE": {
     "number": 314,
     "name": "Illumise",
     "familyId": "FAMILY_ILLUMISE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "ROSELIA": {
     "number": 315,
     "name": "Roselia",
     "familyId": "FAMILY_ROSELIA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GULPIN": {
     "number": 316,
     "name": "Gulpin",
     "familyId": "FAMILY_GULPIN",
-    "evolutionBranch": [{ "evolution": "SWALOT", "candyCost": 50 }],
+    "evolutions": { "SWALOT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SWALOT": {
     "number": 317,
     "name": "Swalot",
     "familyId": "FAMILY_GULPIN",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CARVANHA": {
     "number": 318,
     "name": "Carvanha",
     "familyId": "FAMILY_CARVANHA",
-    "evolutionBranch": [{ "evolution": "SHARPEDO", "candyCost": 50 }],
+    "evolutions": { "SHARPEDO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHARPEDO": {
     "number": 319,
     "name": "Sharpedo",
     "familyId": "FAMILY_CARVANHA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WAILMER": {
     "number": 320,
     "name": "Wailmer",
     "familyId": "FAMILY_WAILMER",
-    "evolutionBranch": [{ "evolution": "WAILORD", "candyCost": 400 }],
+    "evolutions": { "WAILORD": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WAILORD": {
     "number": 321,
     "name": "Wailord",
     "familyId": "FAMILY_WAILMER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "NUMEL": {
     "number": 322,
     "name": "Numel",
     "familyId": "FAMILY_NUMEL",
-    "evolutionBranch": [{ "evolution": "CAMERUPT", "candyCost": 50 }],
+    "evolutions": { "CAMERUPT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CAMERUPT": {
     "number": 323,
     "name": "Camerupt",
     "familyId": "FAMILY_NUMEL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TORKOAL": {
     "number": 324,
     "name": "Torkoal",
     "familyId": "FAMILY_TORKOAL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SPOINK": {
     "number": 325,
     "name": "Spoink",
     "familyId": "FAMILY_SPOINK",
-    "evolutionBranch": [{ "evolution": "GRUMPIG", "candyCost": 50 }],
+    "evolutions": { "GRUMPIG": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GRUMPIG": {
     "number": 326,
     "name": "Grumpig",
     "familyId": "FAMILY_SPOINK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SPINDA": {
     "number": 327,
     "name": "Spinda",
     "familyId": "FAMILY_SPINDA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TRAPINCH": {
     "number": 328,
     "name": "Trapinch",
     "familyId": "FAMILY_TRAPINCH",
-    "evolutionBranch": [{ "evolution": "VIBRAVA", "candyCost": 25 }],
+    "evolutions": { "VIBRAVA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "VIBRAVA": {
     "number": 329,
     "name": "Vibrava",
     "familyId": "FAMILY_TRAPINCH",
-    "evolutionBranch": [{ "evolution": "FLYGON", "candyCost": 100 }],
+    "evolutions": { "FLYGON": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FLYGON": {
     "number": 330,
     "name": "Flygon",
     "familyId": "FAMILY_TRAPINCH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CACNEA": {
     "number": 331,
     "name": "Cacnea",
     "familyId": "FAMILY_CACNEA",
-    "evolutionBranch": [{ "evolution": "CACTURNE", "candyCost": 50 }],
+    "evolutions": { "CACTURNE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CACTURNE": {
     "number": 332,
     "name": "Cacturne",
     "familyId": "FAMILY_CACNEA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SWABLU": {
     "number": 333,
     "name": "Swablu",
     "familyId": "FAMILY_SWABLU",
-    "evolutionBranch": [{ "evolution": "ALTARIA", "candyCost": 400 }],
+    "evolutions": { "ALTARIA": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ALTARIA": {
     "number": 334,
     "name": "Altaria",
     "familyId": "FAMILY_SWABLU",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ZANGOOSE": {
     "number": 335,
     "name": "Zangoose",
     "familyId": "FAMILY_ZANGOOSE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEVIPER": {
     "number": 336,
     "name": "Seviper",
     "familyId": "FAMILY_SEVIPER",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LUNATONE": {
     "number": 337,
     "name": "Lunatone",
     "familyId": "FAMILY_LUNATONE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "SOLROCK": {
     "number": 338,
     "name": "Solrock",
     "familyId": "FAMILY_SOLROCK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "BARBOACH": {
     "number": 339,
     "name": "Barboach",
     "familyId": "FAMILY_BARBOACH",
-    "evolutionBranch": [{ "evolution": "WHISCASH", "candyCost": 50 }],
+    "evolutions": { "WHISCASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WHISCASH": {
     "number": 340,
     "name": "Whiscash",
     "familyId": "FAMILY_BARBOACH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CORPHISH": {
     "number": 341,
     "name": "Corphish",
     "familyId": "FAMILY_CORPHISH",
-    "evolutionBranch": [{ "evolution": "CRAWDAUNT", "candyCost": 50 }],
+    "evolutions": { "CRAWDAUNT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CRAWDAUNT": {
     "number": 342,
     "name": "Crawdaunt",
     "familyId": "FAMILY_CORPHISH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BALTOY": {
     "number": 343,
     "name": "Baltoy",
     "familyId": "FAMILY_BALTOY",
-    "evolutionBranch": [{ "evolution": "CLAYDOL", "candyCost": 50 }],
+    "evolutions": { "CLAYDOL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "CLAYDOL": {
     "number": 344,
     "name": "Claydol",
     "familyId": "FAMILY_BALTOY",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "LILEEP": {
     "number": 345,
     "name": "Lileep",
     "familyId": "FAMILY_LILEEP",
-    "evolutionBranch": [{ "evolution": "CRADILY", "candyCost": 50 }],
+    "evolutions": { "CRADILY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CRADILY": {
     "number": 346,
     "name": "Cradily",
     "familyId": "FAMILY_LILEEP",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ANORITH": {
     "number": 347,
     "name": "Anorith",
     "familyId": "FAMILY_ANORITH",
-    "evolutionBranch": [{ "evolution": "ARMALDO", "candyCost": 50 }],
+    "evolutions": { "ARMALDO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ARMALDO": {
     "number": 348,
     "name": "Armaldo",
     "familyId": "FAMILY_ANORITH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "FEEBAS": {
     "number": 349,
     "name": "Feebas",
     "familyId": "FAMILY_FEEBAS",
-    "evolutionBranch": [
-      {
-        "evolution": "MILOTIC",
-        "candyCost": 100,
-        "kmBuddyDistanceRequirement": 20
-      }
-    ],
+    "evolutions": { "MILOTIC": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "MILOTIC": {
     "number": 350,
     "name": "Milotic",
     "familyId": "FAMILY_FEEBAS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CASTFORM": {
     "number": 351,
     "name": "Castform",
     "familyId": "FAMILY_CASTFORM",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
@@ -3942,384 +3957,384 @@
     "number": 352,
     "name": "Kecleon",
     "familyId": "FAMILY_KECLEON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHUPPET": {
     "number": 353,
     "name": "Shuppet",
     "familyId": "FAMILY_SHUPPET",
-    "evolutionBranch": [{ "evolution": "BANETTE", "candyCost": 50 }],
+    "evolutions": { "BANETTE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BANETTE": {
     "number": 354,
     "name": "Banette",
     "familyId": "FAMILY_SHUPPET",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DUSKULL": {
     "number": 355,
     "name": "Duskull",
     "familyId": "FAMILY_DUSKULL",
-    "evolutionBranch": [{ "evolution": "DUSCLOPS", "candyCost": 50 }],
+    "evolutions": { "DUSCLOPS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "DUSCLOPS": {
     "number": 356,
     "name": "Dusclops",
     "familyId": "FAMILY_DUSKULL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "TROPIUS": {
     "number": 357,
     "name": "Tropius",
     "familyId": "FAMILY_TROPIUS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CHIMECHO": {
     "number": 358,
     "name": "Chimecho",
     "familyId": "FAMILY_CHIMECHO",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "ABSOL": {
     "number": 359,
     "name": "Absol",
     "familyId": "FAMILY_ABSOL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WYNAUT": {
     "number": 360,
     "name": "Wynaut",
     "familyId": "FAMILY_WOBBUFFET",
-    "evolutionBranch": [{ "evolution": "WOBBUFFET", "candyCost": 25 }],
+    "evolutions": { "WOBBUFFET": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SNORUNT": {
     "number": 361,
     "name": "Snorunt",
     "familyId": "FAMILY_SNORUNT",
-    "evolutionBranch": [{ "evolution": "GLALIE", "candyCost": 50 }],
+    "evolutions": { "GLALIE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GLALIE": {
     "number": 362,
     "name": "Glalie",
     "familyId": "FAMILY_SNORUNT",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SPHEAL": {
     "number": 363,
     "name": "Spheal",
     "familyId": "FAMILY_SPHEAL",
-    "evolutionBranch": [{ "evolution": "SEALEO", "candyCost": 25 }],
+    "evolutions": { "SEALEO": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SEALEO": {
     "number": 364,
     "name": "Sealeo",
     "familyId": "FAMILY_SPHEAL",
-    "evolutionBranch": [{ "evolution": "WALREIN", "candyCost": 100 }],
+    "evolutions": { "WALREIN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "WALREIN": {
     "number": 365,
     "name": "Walrein",
     "familyId": "FAMILY_SPHEAL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "CLAMPERL": {
     "number": 366,
     "name": "Clamperl",
     "familyId": "FAMILY_CLAMPERL",
-    "evolutionBranch": [
-      { "evolution": "HUNTAIL", "candyCost": 50 },
-      { "evolution": "GOREBYSS", "candyCost": 50 }
-    ],
+    "evolutions": {
+      "HUNTAIL": { "candyCost": 50 },
+      "GOREBYSS": { "candyCost": 50 }
+    },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "HUNTAIL": {
     "number": 367,
     "name": "Huntail",
     "familyId": "FAMILY_CLAMPERL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "GOREBYSS": {
     "number": 368,
     "name": "Gorebyss",
     "familyId": "FAMILY_CLAMPERL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "RELICANTH": {
     "number": 369,
     "name": "Relicanth",
     "familyId": "FAMILY_RELICANTH",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": true,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "LUVDISC": {
     "number": 370,
     "name": "Luvdisc",
     "familyId": "FAMILY_LUVDISC",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": true,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BAGON": {
     "number": 371,
     "name": "Bagon",
     "familyId": "FAMILY_BAGON",
-    "evolutionBranch": [{ "evolution": "SHELGON", "candyCost": 25 }],
+    "evolutions": { "SHELGON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SHELGON": {
     "number": 372,
     "name": "Shelgon",
     "familyId": "FAMILY_BAGON",
-    "evolutionBranch": [{ "evolution": "SALAMENCE", "candyCost": 100 }],
+    "evolutions": { "SALAMENCE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "SALAMENCE": {
     "number": 373,
     "name": "Salamence",
     "familyId": "FAMILY_BAGON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "male": true, "female": true },
-    "forms": null
+    "forms": {}
   },
   "BELDUM": {
     "number": 374,
     "name": "Beldum",
     "familyId": "FAMILY_BELDUM",
-    "evolutionBranch": [{ "evolution": "METANG", "candyCost": 25 }],
+    "evolutions": { "METANG": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "METANG": {
     "number": 375,
     "name": "Metang",
     "familyId": "FAMILY_BELDUM",
-    "evolutionBranch": [{ "evolution": "METAGROSS", "candyCost": 100 }],
+    "evolutions": { "METAGROSS": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "METAGROSS": {
     "number": 376,
     "name": "Metagross",
     "familyId": "FAMILY_BELDUM",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": null,
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "REGIROCK": {
     "number": 377,
     "name": "Regirock",
     "familyId": "FAMILY_REGIROCK",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "REGICE": {
     "number": 378,
     "name": "Regice",
     "familyId": "FAMILY_REGICE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "REGISTEEL": {
     "number": 379,
     "name": "Registeel",
     "familyId": "FAMILY_REGISTEEL",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "LATIAS": {
     "number": 380,
     "name": "Latias",
     "familyId": "FAMILY_LATIAS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "female": true },
-    "forms": null
+    "forms": {}
   },
   "LATIOS": {
     "number": 381,
     "name": "Latios",
     "familyId": "FAMILY_LATIOS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "male": true },
-    "forms": null
+    "forms": {}
   },
   "KYOGRE": {
     "number": 382,
     "name": "Kyogre",
     "familyId": "FAMILY_KYOGRE",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "GROUDON": {
     "number": 383,
     "name": "Groudon",
     "familyId": "FAMILY_GROUDON",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": true,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "RAYQUAZA": {
     "number": 384,
     "name": "Rayquaza",
     "familyId": "FAMILY_RAYQUAZA",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "JIRACHI": {
     "number": 385,
     "name": "Jirachi",
     "familyId": "FAMILY_JIRACHI",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
     "active": false,
     "genders": { "genderless": true },
-    "forms": null
+    "forms": {}
   },
   "DEOXYS": {
     "number": 386,
     "name": "Deoxys",
     "familyId": "FAMILY_DEOXYS",
-    "evolutionBranch": null,
+    "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
     "active": false,

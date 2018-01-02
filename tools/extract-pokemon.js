@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const merge = require("deepmerge");
 let gameMaster;
 let names;
 let overrides;
@@ -46,7 +47,7 @@ const genderMap = {
 
 const templateIdRegex = /V(\d+)_POKEMON_.+/;
 
-gameMaster.itemTemplates.forEach(template => {
+for (const template of gameMaster.itemTemplates) {
   if (template.pokemonSettings) {
     const {
       pokemonId,
@@ -65,11 +66,21 @@ gameMaster.itemTemplates.forEach(template => {
       activePokemon[pokemonId] = true;
     }
 
+    const evolutions = {};
+    if (evolutionBranch) {
+      for (const ev of evolutionBranch) {
+        evolutions[ev.evolution] = {
+          candyCost: ev.candyCost,
+          evolutionItemRequirement: ev.evolutionItemRequirement
+        };
+      }
+    }
+
     pokemonEntries[pokemonId] = {
       number: parseInt(template.templateId.match(templateIdRegex)[1], 10),
       name: names[pokemonId],
       familyId,
-      evolutionBranch: evolutionBranch || null,
+      evolutions,
       rarity: rarity || null,
       isRegional: false,
       active: activePokemon[pokemonId]
@@ -79,9 +90,9 @@ gameMaster.itemTemplates.forEach(template => {
   if (template.genderSettings) {
     const { pokemon, gender } = template.genderSettings;
     const entry = {};
-    Object.keys(gender).forEach(key => {
+    for (const key of Object.keys(gender)) {
       entry[genderMap[key]] = true;
-    });
+    }
     gendersEntries[pokemon] = entry;
   }
 
@@ -89,23 +100,23 @@ gameMaster.itemTemplates.forEach(template => {
     const { pokemon, forms } = template.formSettings;
     if (forms) {
       const entry = {};
-      forms.forEach(f => {
+      for (const f of forms) {
         entry[f.form] = true;
-      });
+      }
       formsEntries[pokemon] = entry;
     }
   }
-});
+}
 
-const pokemon = {};
-Object.keys(pokemonEntries).forEach(id => {
+let pokemon = {};
+for (const id of Object.keys(pokemonEntries)) {
   pokemon[id] = {
     ...pokemonEntries[id],
     genders: gendersEntries[id],
-    forms: formsEntries[id] || null,
-    ...overrides[id]
+    forms: formsEntries[id] || {}
   };
-});
+}
+pokemon = merge(pokemon, overrides);
 
 fs.writeFile(
   path.join(__dirname, "pokemon.json"),
