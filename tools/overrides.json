@@ -5,15 +5,38 @@
   "KANGASKHAN": { "isRegional": true },
   "HERACROSS": { "isRegional": true },
   "CORSOLA": { "isRegional": true },
+  "PLUSLE": { "isRegional": true },
+  "MINUN": { "isRegional": true },
+  "ZANGOOSE": { "isRegional": true },
+  "SEVIPER": { "isRegional": true },
+  "RELICANTH": { "isRegional": true },
+  "MAGIKARP": { "canBeShiny": true },
+  "GYARADOS": { "canBeShiny": true },
+  "PICHU": {
+    "canBeShiny": true,
+    "variants": { "santa": true, "ash": true, "witch": true }
+  },
+  "PIKACHU": {
+    "canBeShiny": true,
+    "variants": { "party": true, "santa": true, "ash": true, "witch": true }
+  },
+  "RAICHU": {
+    "canBeShiny": true,
+    "variants": { "party": true, "santa": true, "ash": true, "witch": true }
+  },
+  "SABLEYE": { "canBeShiny": true },
+  "MAWILE": { "canBeShiny": true },
+  "SHUPPET": { "canBeShiny": true },
+  "BANETTE": { "canBeShiny": true },
+  "DUSKULL": { "canBeShiny": true },
+  "DUSCLOPS": { "canBeShiny": true },
+  "ABSOL": { "canBeShiny": true },
+  "SNORUNT": { "canBeShiny": true },
+  "GLALIE": { "canBeShiny": true },
   "UNOWN": {
     "forms": {
       "UNOWN_EXCLAMATION_POINT": false,
       "UNOWN_QUESTION_MARK": false
     }
-  },
-  "PLUSLE": { "isRegional": true },
-  "MINUN": { "isRegional": true },
-  "ZANGOOSE": { "isRegional": true },
-  "SEVIPER": { "isRegional": true },
-  "RELICANTH": { "isRegional": true }
+  }
 }

@@ -6,6 +6,8 @@
     "evolutions": { "IVYSAUR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -17,6 +19,8 @@
     "evolutions": { "VENUSAUR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -28,6 +32,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -39,6 +45,8 @@
     "evolutions": { "CHARMELEON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -50,6 +58,8 @@
     "evolutions": { "CHARIZARD": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -61,6 +71,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -72,6 +84,8 @@
     "evolutions": { "WARTORTLE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -83,6 +97,8 @@
     "evolutions": { "BLASTOISE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -94,6 +110,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -105,6 +123,8 @@
     "evolutions": { "METAPOD": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -116,6 +136,8 @@
     "evolutions": { "BUTTERFREE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -127,6 +149,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -138,6 +162,8 @@
     "evolutions": { "KAKUNA": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -149,6 +175,8 @@
     "evolutions": { "BEEDRILL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -160,6 +188,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -171,6 +201,8 @@
     "evolutions": { "PIDGEOTTO": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -182,6 +214,8 @@
     "evolutions": { "PIDGEOT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -193,6 +227,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -204,6 +240,8 @@
     "evolutions": { "RATICATE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -215,6 +253,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -226,6 +266,8 @@
     "evolutions": { "FEAROW": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -237,6 +279,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -248,6 +292,8 @@
     "evolutions": { "ARBOK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -259,6 +305,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -270,6 +318,8 @@
     "evolutions": { "RAICHU": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": { "party": true, "santa": true, "ash": true, "witch": true },
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -281,6 +331,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": { "party": true, "santa": true, "ash": true, "witch": true },
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -292,6 +344,8 @@
     "evolutions": { "SANDSLASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -303,6 +357,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -314,6 +370,8 @@
     "evolutions": { "NIDORINA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -325,6 +383,8 @@
     "evolutions": { "NIDOQUEEN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -336,6 +396,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -347,6 +409,8 @@
     "evolutions": { "NIDORINO": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -358,6 +422,8 @@
     "evolutions": { "NIDOKING": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -369,6 +435,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -380,6 +448,8 @@
     "evolutions": { "CLEFABLE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -391,6 +461,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -402,6 +474,8 @@
     "evolutions": { "NINETALES": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -413,6 +487,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -424,6 +500,8 @@
     "evolutions": { "WIGGLYTUFF": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -435,6 +513,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -446,6 +526,8 @@
     "evolutions": { "GOLBAT": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -457,6 +539,8 @@
     "evolutions": { "CROBAT": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -468,6 +552,8 @@
     "evolutions": { "GLOOM": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -485,6 +571,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -496,6 +584,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -507,6 +597,8 @@
     "evolutions": { "PARASECT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -518,6 +610,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -529,6 +623,8 @@
     "evolutions": { "VENOMOTH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -540,6 +636,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -551,6 +649,8 @@
     "evolutions": { "DUGTRIO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -562,6 +662,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -573,6 +675,8 @@
     "evolutions": { "PERSIAN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -584,6 +688,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -595,6 +701,8 @@
     "evolutions": { "GOLDUCK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -606,6 +714,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -617,6 +727,8 @@
     "evolutions": { "PRIMEAPE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -628,6 +740,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -639,6 +753,8 @@
     "evolutions": { "ARCANINE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -650,6 +766,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -661,6 +779,8 @@
     "evolutions": { "POLIWHIRL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -678,6 +798,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -689,6 +811,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -700,6 +824,8 @@
     "evolutions": { "KADABRA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -711,6 +837,8 @@
     "evolutions": { "ALAKAZAM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -722,6 +850,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -733,6 +863,8 @@
     "evolutions": { "MACHOKE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -744,6 +876,8 @@
     "evolutions": { "MACHAMP": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -755,6 +889,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -766,6 +902,8 @@
     "evolutions": { "WEEPINBELL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -777,6 +915,8 @@
     "evolutions": { "VICTREEBEL": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -788,6 +928,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -799,6 +941,8 @@
     "evolutions": { "TENTACRUEL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -810,6 +954,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -821,6 +967,8 @@
     "evolutions": { "GRAVELER": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -832,6 +980,8 @@
     "evolutions": { "GOLEM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -843,6 +993,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -854,6 +1006,8 @@
     "evolutions": { "RAPIDASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -865,6 +1019,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -882,6 +1038,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -893,6 +1051,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -904,6 +1064,8 @@
     "evolutions": { "MAGNETON": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -915,6 +1077,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -926,6 +1090,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -937,6 +1103,8 @@
     "evolutions": { "DODRIO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -948,6 +1116,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -959,6 +1129,8 @@
     "evolutions": { "DEWGONG": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -970,6 +1142,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -981,6 +1155,8 @@
     "evolutions": { "MUK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -992,6 +1168,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1003,6 +1181,8 @@
     "evolutions": { "CLOYSTER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1014,6 +1194,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1025,6 +1207,8 @@
     "evolutions": { "HAUNTER": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1036,6 +1220,8 @@
     "evolutions": { "GENGAR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1047,6 +1233,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1063,6 +1251,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1074,6 +1264,8 @@
     "evolutions": { "HYPNO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1085,6 +1277,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1096,6 +1290,8 @@
     "evolutions": { "KINGLER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1107,6 +1303,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1118,6 +1316,8 @@
     "evolutions": { "ELECTRODE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1129,6 +1329,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1140,6 +1342,8 @@
     "evolutions": { "EXEGGUTOR": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1151,6 +1355,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1162,6 +1368,8 @@
     "evolutions": { "MAROWAK": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1173,6 +1381,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1184,6 +1394,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -1195,6 +1407,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -1206,6 +1420,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1217,6 +1433,8 @@
     "evolutions": { "WEEZING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1228,6 +1446,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1239,6 +1459,8 @@
     "evolutions": { "RHYDON": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1250,6 +1472,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1261,6 +1485,8 @@
     "evolutions": { "BLISSEY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -1272,6 +1498,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1283,6 +1511,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -1294,6 +1524,8 @@
     "evolutions": { "SEADRA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1310,6 +1542,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1321,6 +1555,8 @@
     "evolutions": { "SEAKING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1332,6 +1568,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1343,6 +1581,8 @@
     "evolutions": { "STARMIE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1354,6 +1594,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1365,6 +1607,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1381,6 +1625,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1392,6 +1638,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -1403,6 +1651,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1414,6 +1664,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1425,6 +1677,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1436,6 +1690,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -1447,6 +1703,8 @@
     "evolutions": { "GYARADOS": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1458,6 +1716,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1469,6 +1729,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1480,6 +1742,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1497,6 +1761,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1508,6 +1774,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1519,6 +1787,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1530,6 +1800,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1546,6 +1818,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1557,6 +1831,8 @@
     "evolutions": { "OMASTAR": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1568,6 +1844,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1579,6 +1857,8 @@
     "evolutions": { "KABUTOPS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1590,6 +1870,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1601,6 +1883,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1612,6 +1896,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1623,6 +1909,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1634,6 +1922,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1645,6 +1935,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1656,6 +1948,8 @@
     "evolutions": { "DRAGONAIR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1667,6 +1961,8 @@
     "evolutions": { "DRAGONITE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1678,6 +1974,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1689,6 +1987,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -1700,6 +2000,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -1711,6 +2013,8 @@
     "evolutions": { "BAYLEEF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1722,6 +2026,8 @@
     "evolutions": { "MEGANIUM": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1733,6 +2039,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1744,6 +2052,8 @@
     "evolutions": { "QUILAVA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1755,6 +2065,8 @@
     "evolutions": { "TYPHLOSION": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1766,6 +2078,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1777,6 +2091,8 @@
     "evolutions": { "CROCONAW": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1788,6 +2104,8 @@
     "evolutions": { "FERALIGATR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1799,6 +2117,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1810,6 +2130,8 @@
     "evolutions": { "FURRET": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1821,6 +2143,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1832,6 +2156,8 @@
     "evolutions": { "NOCTOWL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1843,6 +2169,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1854,6 +2182,8 @@
     "evolutions": { "LEDIAN": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1865,6 +2195,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1876,6 +2208,8 @@
     "evolutions": { "ARIADOS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1887,6 +2221,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1898,6 +2234,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1909,6 +2247,8 @@
     "evolutions": { "LANTURN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1920,6 +2260,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1931,6 +2273,8 @@
     "evolutions": { "PIKACHU": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": { "santa": true, "ash": true, "witch": true },
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1942,6 +2286,8 @@
     "evolutions": { "CLEFAIRY": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1953,6 +2299,8 @@
     "evolutions": { "JIGGLYPUFF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1964,6 +2312,8 @@
     "evolutions": { "TOGETIC": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1975,6 +2325,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1986,6 +2338,8 @@
     "evolutions": { "XATU": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -1997,6 +2351,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2008,6 +2364,8 @@
     "evolutions": { "FLAAFFY": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2019,6 +2377,8 @@
     "evolutions": { "AMPHAROS": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2030,6 +2390,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2041,6 +2403,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2052,6 +2416,8 @@
     "evolutions": { "AZUMARILL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2063,6 +2429,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2074,6 +2442,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2085,6 +2455,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2096,6 +2468,8 @@
     "evolutions": { "SKIPLOOM": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2107,6 +2481,8 @@
     "evolutions": { "JUMPLUFF": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2118,6 +2494,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2129,6 +2507,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2145,6 +2525,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2156,6 +2538,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2167,6 +2551,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2178,6 +2564,8 @@
     "evolutions": { "QUAGSIRE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2189,6 +2577,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2200,6 +2590,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2211,6 +2603,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2222,6 +2616,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2233,6 +2629,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2244,6 +2642,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2255,6 +2655,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {
@@ -2295,6 +2697,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2306,6 +2710,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2317,6 +2723,8 @@
     "evolutions": { "FORRETRESS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2328,6 +2736,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2339,6 +2749,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2350,6 +2762,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2361,6 +2775,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2372,6 +2788,8 @@
     "evolutions": { "GRANBULL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2383,6 +2801,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2394,6 +2814,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2405,6 +2827,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2416,6 +2840,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2427,6 +2853,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2438,6 +2866,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2449,6 +2879,8 @@
     "evolutions": { "URSARING": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2460,6 +2892,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2471,6 +2905,8 @@
     "evolutions": { "MAGCARGO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2482,6 +2918,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2493,6 +2931,8 @@
     "evolutions": { "PILOSWINE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2504,6 +2944,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2515,6 +2957,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2526,6 +2970,8 @@
     "evolutions": { "OCTILLERY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2537,6 +2983,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2548,6 +2996,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2559,6 +3009,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2570,6 +3022,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2581,6 +3035,8 @@
     "evolutions": { "HOUNDOOM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2592,6 +3048,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2603,6 +3061,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2614,6 +3074,8 @@
     "evolutions": { "DONPHAN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2625,6 +3087,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2636,6 +3100,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2647,6 +3113,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2658,6 +3126,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2673,6 +3143,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -2684,6 +3156,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true },
     "forms": {}
@@ -2695,6 +3169,8 @@
     "evolutions": { "JYNX": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -2706,6 +3182,8 @@
     "evolutions": { "ELECTABUZZ": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2717,6 +3195,8 @@
     "evolutions": { "MAGMAR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2728,6 +3208,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -2739,6 +3221,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "female": true },
     "forms": {}
@@ -2750,6 +3234,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2761,6 +3247,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2772,6 +3260,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2783,6 +3273,8 @@
     "evolutions": { "PUPITAR": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2794,6 +3286,8 @@
     "evolutions": { "TYRANITAR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2805,6 +3299,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2816,6 +3312,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2827,6 +3325,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -2838,6 +3338,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -2849,6 +3351,8 @@
     "evolutions": { "GROVYLE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2860,6 +3364,8 @@
     "evolutions": { "SCEPTILE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2871,6 +3377,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2882,6 +3390,8 @@
     "evolutions": { "COMBUSKEN": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2893,6 +3403,8 @@
     "evolutions": { "BLAZIKEN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2904,6 +3416,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2915,6 +3429,8 @@
     "evolutions": { "MARSHTOMP": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2926,6 +3442,8 @@
     "evolutions": { "SWAMPERT": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2937,6 +3455,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2948,6 +3468,8 @@
     "evolutions": { "MIGHTYENA": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2959,6 +3481,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2970,6 +3494,8 @@
     "evolutions": { "LINOONE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2981,6 +3507,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -2995,6 +3523,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3006,6 +3536,8 @@
     "evolutions": { "BEAUTIFLY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3017,6 +3549,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3028,6 +3562,8 @@
     "evolutions": { "DUSTOX": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3039,6 +3575,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3050,6 +3588,8 @@
     "evolutions": { "LOMBRE": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3061,6 +3601,8 @@
     "evolutions": { "LUDICOLO": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3072,6 +3614,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3083,6 +3627,8 @@
     "evolutions": { "NUZLEAF": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3094,6 +3640,8 @@
     "evolutions": { "SHIFTRY": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3105,6 +3653,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3116,6 +3666,8 @@
     "evolutions": { "SWELLOW": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3127,6 +3679,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3138,6 +3692,8 @@
     "evolutions": { "PELIPPER": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3149,6 +3705,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3160,6 +3718,8 @@
     "evolutions": { "KIRLIA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3171,6 +3731,8 @@
     "evolutions": { "GARDEVOIR": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3182,6 +3744,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3193,6 +3757,8 @@
     "evolutions": { "MASQUERAIN": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3204,6 +3770,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3215,6 +3783,8 @@
     "evolutions": { "BRELOOM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3226,6 +3796,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3237,6 +3809,8 @@
     "evolutions": { "VIGOROTH": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3248,6 +3822,8 @@
     "evolutions": { "SLAKING": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3259,6 +3835,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3273,6 +3851,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3284,6 +3864,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3295,6 +3877,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -3306,6 +3890,8 @@
     "evolutions": { "LOUDRED": { "candyCost": 12 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3317,6 +3903,8 @@
     "evolutions": { "EXPLOUD": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3328,6 +3916,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3339,6 +3929,8 @@
     "evolutions": { "HARIYAMA": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3350,6 +3942,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3361,6 +3955,8 @@
     "evolutions": { "MARILL": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3372,6 +3968,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3383,6 +3981,8 @@
     "evolutions": { "DELCATTY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3394,6 +3994,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3405,6 +4007,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3416,6 +4020,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3427,6 +4033,8 @@
     "evolutions": { "LAIRON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3438,6 +4046,8 @@
     "evolutions": { "AGGRON": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3449,6 +4059,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3460,6 +4072,8 @@
     "evolutions": { "MEDICHAM": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3471,6 +4085,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3482,6 +4098,8 @@
     "evolutions": { "MANECTRIC": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3493,6 +4111,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3504,6 +4124,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3515,6 +4137,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3526,6 +4150,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true },
     "forms": {}
@@ -3537,6 +4163,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "female": true },
     "forms": {}
@@ -3548,6 +4176,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3559,6 +4189,8 @@
     "evolutions": { "SWALOT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3570,6 +4202,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3581,6 +4215,8 @@
     "evolutions": { "SHARPEDO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3592,6 +4228,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3603,6 +4241,8 @@
     "evolutions": { "WAILORD": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3614,6 +4254,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3625,6 +4267,8 @@
     "evolutions": { "CAMERUPT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3636,6 +4280,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3647,6 +4293,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3658,6 +4306,8 @@
     "evolutions": { "GRUMPIG": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3669,6 +4319,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3680,6 +4332,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3691,6 +4345,8 @@
     "evolutions": { "VIBRAVA": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3702,6 +4358,8 @@
     "evolutions": { "FLYGON": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3713,6 +4371,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3724,6 +4384,8 @@
     "evolutions": { "CACTURNE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3735,6 +4397,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3746,6 +4410,8 @@
     "evolutions": { "ALTARIA": { "candyCost": 400 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3757,6 +4423,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3768,6 +4436,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3779,6 +4449,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3790,6 +4462,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -3801,6 +4475,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -3812,6 +4488,8 @@
     "evolutions": { "WHISCASH": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3823,6 +4501,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3834,6 +4514,8 @@
     "evolutions": { "CRAWDAUNT": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3845,6 +4527,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3856,6 +4540,8 @@
     "evolutions": { "CLAYDOL": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -3867,6 +4553,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -3878,6 +4566,8 @@
     "evolutions": { "CRADILY": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3889,6 +4579,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3900,6 +4592,8 @@
     "evolutions": { "ARMALDO": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3911,6 +4605,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3922,6 +4618,8 @@
     "evolutions": { "MILOTIC": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3933,6 +4631,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3944,6 +4644,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {
@@ -3960,6 +4662,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3971,6 +4675,8 @@
     "evolutions": { "BANETTE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3982,6 +4688,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -3993,6 +4701,8 @@
     "evolutions": { "DUSCLOPS": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4004,6 +4714,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4015,6 +4727,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4026,6 +4740,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4037,6 +4753,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4048,6 +4766,8 @@
     "evolutions": { "WOBBUFFET": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4059,6 +4779,8 @@
     "evolutions": { "GLALIE": { "candyCost": 50 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4070,6 +4792,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": true,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4081,6 +4805,8 @@
     "evolutions": { "SEALEO": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4092,6 +4818,8 @@
     "evolutions": { "WALREIN": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4103,6 +4831,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4117,6 +4847,8 @@
     },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4128,6 +4860,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4139,6 +4873,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4150,6 +4886,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": true,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4161,6 +4899,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4172,6 +4912,8 @@
     "evolutions": { "SHELGON": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4183,6 +4925,8 @@
     "evolutions": { "SALAMENCE": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4194,6 +4938,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {}
@@ -4205,6 +4951,8 @@
     "evolutions": { "METANG": { "candyCost": 25 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4216,6 +4964,8 @@
     "evolutions": { "METAGROSS": { "candyCost": 100 } },
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4227,6 +4977,8 @@
     "evolutions": {},
     "rarity": null,
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4238,6 +4990,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4249,6 +5003,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4260,6 +5016,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4271,6 +5029,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "female": true },
     "forms": {}
@@ -4282,6 +5042,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "male": true },
     "forms": {}
@@ -4293,6 +5055,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4304,6 +5068,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": true,
     "genders": { "genderless": true },
     "forms": {}
@@ -4315,6 +5081,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_LEGENDARY",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4326,6 +5094,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {}
@@ -4337,6 +5107,8 @@
     "evolutions": {},
     "rarity": "POKEMON_RARITY_MYTHIC",
     "isRegional": false,
+    "canBeShiny": false,
+    "variants": {},
     "active": false,
     "genders": { "genderless": true },
     "forms": {

@@ -83,6 +83,8 @@ for (const template of gameMaster.itemTemplates) {
       evolutions,
       rarity: rarity || null,
       isRegional: false,
+      canBeShiny: false,
+      variants: {},
       active: activePokemon[pokemonId]
     };
   }
