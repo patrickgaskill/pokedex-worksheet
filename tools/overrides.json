@@ -35,8 +35,8 @@
   "GLALIE": { "canBeShiny": true },
   "UNOWN": {
     "forms": {
-      "UNOWN_EXCLAMATION_POINT": false,
-      "UNOWN_QUESTION_MARK": false
+      "UNOWN_EXCLAMATION_POINT": { "active": false },
+      "UNOWN_QUESTION_MARK": { "active": false }
     }
   }
 }

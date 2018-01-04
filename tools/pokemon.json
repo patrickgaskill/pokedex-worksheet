@@ -2660,34 +2660,42 @@
     "active": true,
     "genders": { "genderless": true },
     "forms": {
-      "UNOWN_F": true,
-      "UNOWN_A": true,
-      "UNOWN_B": true,
-      "UNOWN_C": true,
-      "UNOWN_D": true,
-      "UNOWN_E": true,
-      "UNOWN_G": true,
-      "UNOWN_H": true,
-      "UNOWN_I": true,
-      "UNOWN_J": true,
-      "UNOWN_K": true,
-      "UNOWN_L": true,
-      "UNOWN_M": true,
-      "UNOWN_N": true,
-      "UNOWN_O": true,
-      "UNOWN_P": true,
-      "UNOWN_Q": true,
-      "UNOWN_R": true,
-      "UNOWN_S": true,
-      "UNOWN_T": true,
-      "UNOWN_U": true,
-      "UNOWN_V": true,
-      "UNOWN_W": true,
-      "UNOWN_X": true,
-      "UNOWN_Y": true,
-      "UNOWN_Z": true,
-      "UNOWN_EXCLAMATION_POINT": false,
-      "UNOWN_QUESTION_MARK": false
+      "UNOWN_F": { "displayName": "F", "sortOrder": 16, "active": true },
+      "UNOWN_A": { "displayName": "A", "sortOrder": 11, "active": true },
+      "UNOWN_B": { "displayName": "B", "sortOrder": 12, "active": true },
+      "UNOWN_C": { "displayName": "C", "sortOrder": 13, "active": true },
+      "UNOWN_D": { "displayName": "D", "sortOrder": 14, "active": true },
+      "UNOWN_E": { "displayName": "E", "sortOrder": 15, "active": true },
+      "UNOWN_G": { "displayName": "G", "sortOrder": 17, "active": true },
+      "UNOWN_H": { "displayName": "H", "sortOrder": 18, "active": true },
+      "UNOWN_I": { "displayName": "I", "sortOrder": 19, "active": true },
+      "UNOWN_J": { "displayName": "J", "sortOrder": 20, "active": true },
+      "UNOWN_K": { "displayName": "K", "sortOrder": 21, "active": true },
+      "UNOWN_L": { "displayName": "L", "sortOrder": 22, "active": true },
+      "UNOWN_M": { "displayName": "M", "sortOrder": 23, "active": true },
+      "UNOWN_N": { "displayName": "N", "sortOrder": 24, "active": true },
+      "UNOWN_O": { "displayName": "O", "sortOrder": 25, "active": true },
+      "UNOWN_P": { "displayName": "P", "sortOrder": 26, "active": true },
+      "UNOWN_Q": { "displayName": "Q", "sortOrder": 27, "active": true },
+      "UNOWN_R": { "displayName": "R", "sortOrder": 28, "active": true },
+      "UNOWN_S": { "displayName": "S", "sortOrder": 29, "active": true },
+      "UNOWN_T": { "displayName": "T", "sortOrder": 30, "active": true },
+      "UNOWN_U": { "displayName": "U", "sortOrder": 31, "active": true },
+      "UNOWN_V": { "displayName": "V", "sortOrder": 32, "active": true },
+      "UNOWN_W": { "displayName": "W", "sortOrder": 33, "active": true },
+      "UNOWN_X": { "displayName": "X", "sortOrder": 34, "active": true },
+      "UNOWN_Y": { "displayName": "Y", "sortOrder": 35, "active": true },
+      "UNOWN_Z": { "displayName": "Z", "sortOrder": 36, "active": true },
+      "UNOWN_EXCLAMATION_POINT": {
+        "displayName": "Exclamation Point",
+        "sortOrder": 37,
+        "active": false
+      },
+      "UNOWN_QUESTION_MARK": {
+        "displayName": "Question Mark",
+        "sortOrder": 38,
+        "active": false
+      }
     }
   },
   "WOBBUFFET": {
@@ -4649,10 +4657,26 @@
     "active": false,
     "genders": { "male": true, "female": true },
     "forms": {
-      "CASTFORM_NORMAL": true,
-      "CASTFORM_SUNNY": true,
-      "CASTFORM_RAINY": true,
-      "CASTFORM_SNOWY": true
+      "CASTFORM_NORMAL": {
+        "displayName": "Normal",
+        "sortOrder": 11,
+        "active": true
+      },
+      "CASTFORM_SUNNY": {
+        "displayName": "Sunny",
+        "sortOrder": 12,
+        "active": true
+      },
+      "CASTFORM_RAINY": {
+        "displayName": "Rainy",
+        "sortOrder": 13,
+        "active": true
+      },
+      "CASTFORM_SNOWY": {
+        "displayName": "Snowy",
+        "sortOrder": 14,
+        "active": true
+      }
     }
   },
   "KECLEON": {
@@ -5112,10 +5136,26 @@
     "active": false,
     "genders": { "genderless": true },
     "forms": {
-      "DEOXYS_NORMAL": true,
-      "DEOXYS_ATTACK": true,
-      "DEOXYS_DEFENSE": true,
-      "DEOXYS_SPEED": true
+      "DEOXYS_NORMAL": {
+        "displayName": "Normal",
+        "sortOrder": 11,
+        "active": true
+      },
+      "DEOXYS_ATTACK": {
+        "displayName": "Attack",
+        "sortOrder": 12,
+        "active": true
+      },
+      "DEOXYS_DEFENSE": {
+        "displayName": "Defense",
+        "sortOrder": 13,
+        "active": true
+      },
+      "DEOXYS_SPEED": {
+        "displayName": "Speed",
+        "sortOrder": 14,
+        "active": true
+      }
     }
   }
 }

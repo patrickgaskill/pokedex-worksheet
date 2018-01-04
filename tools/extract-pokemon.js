@@ -100,13 +100,21 @@ for (const template of gameMaster.itemTemplates) {
 
   if (template.formSettings) {
     const { pokemon, forms } = template.formSettings;
+    const entry = {};
     if (forms) {
-      const entry = {};
       for (const f of forms) {
-        entry[f.form] = true;
+        entry[f.form] = {
+          displayName: f.form
+            .split("_")
+            .slice(1)
+            .map(w => w.charAt(0) + w.slice(1).toLowerCase())
+            .join(" "),
+          sortOrder: f.assetBundleValue,
+          active: true
+        };
       }
-      formsEntries[pokemon] = entry;
     }
+    formsEntries[pokemon] = entry;
   }
 }
 
