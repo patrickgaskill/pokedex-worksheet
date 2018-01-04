@@ -2,10 +2,7 @@ const path = require("path");
 const Firestore = require("@google-cloud/firestore");
 const pokemon = require("./pokemon.json");
 
-const firestore = new Firestore({
-  projectId: "pokedex-worksheet",
-  keyFilename: path.join(__dirname, "../serviceAccountKey.json")
-});
+const firestore = new Firestore();
 
 const batch = firestore.batch();
 
