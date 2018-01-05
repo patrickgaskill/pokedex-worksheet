@@ -11,7 +11,8 @@
     "flow": "flow"
   },
   "dependencies": {
-    "@google-cloud/firestore": "^0.10.1",
+    "@firebase/app": "^0.1.5",
+    "@firebase/firestore": "^0.2.2",
     "immutability-helper": "^2.6.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -21,6 +22,7 @@
     "semantic-ui-react": "^0.77.1"
   },
   "devDependencies": {
+    "@google-cloud/firestore": "^0.10.1",
     "deepmerge": "^2.0.1",
     "flow-bin": "^0.62.0",
     "husky": "^0.14.3",
