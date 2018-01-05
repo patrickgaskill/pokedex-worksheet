@@ -2,49 +2,19 @@
 import React from "react";
 import { Table } from "semantic-ui-react";
 import PokedexTableRow from "./PokedexTableRow";
-import type {
-  PokemonId,
-  Pokedex,
-  Collection,
-  Gender,
-  Variant
-} from "./constants";
+import type { Pokemon } from "./types";
 
 type Props = {
-  visibleIds: Array<PokemonId>,
-  pokedex: Pokedex,
-  collection: Collection,
-  onSeenClick: PokemonId => void,
-  onAmazingClick: PokemonId => void,
-  onGenderClick: (PokemonId, Gender) => void,
-  onVariantClick: (PokemonId, Variant) => void
+  pokedex: Array<Pokemon>
 };
 
-export default class PokedexTable extends React.PureComponent<Props> {
+export default class PokedexTable extends React.Component<Props> {
   render() {
-    const {
-      visibleIds,
-      pokedex,
-      collection,
-      onSeenClick,
-      onAmazingClick,
-      onGenderClick,
-      onVariantClick
-    } = this.props;
     return (
-      <Table celled striped>
+      <Table>
         <Table.Body>
-          {visibleIds.map(id => (
-            <PokedexTableRow
-              key={id}
-              id={id}
-              pokedexEntry={pokedex[id]}
-              collectionEntry={collection[id]}
-              onSeenClick={onSeenClick}
-              onAmazingClick={onAmazingClick}
-              onGenderClick={onGenderClick}
-              onVariantClick={onVariantClick}
-            />
+          {this.props.pokedex.map(p => (
+            <PokedexTableRow key={p.id} pokemon={p} />
           ))}
         </Table.Body>
       </Table>

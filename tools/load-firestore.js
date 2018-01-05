@@ -7,7 +7,7 @@ const firestore = new Firestore();
 const batch = firestore.batch();
 
 for (const id of Object.keys(pokemon)) {
-  batch.set(firestore.doc(`pokemon/${id}`), pokemon[id]);
+  batch.set(firestore.doc(`pokedex/${id}`), pokemon[id]);
 }
 
 batch.commit().then(res => {
