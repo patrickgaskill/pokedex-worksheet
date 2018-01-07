@@ -1,12 +1,12 @@
 // @flow
-export type Evolutions = {
+export type PokedexEvolutions = {
   [string]: {
     candyCost: number,
     evolutionItemRequirement?: string
   }
 };
 
-export type Forms = {
+export type PokedexForms = {
   [string]: {
     active: boolean,
     displayName: string,
@@ -14,13 +14,13 @@ export type Forms = {
   }
 };
 
-export type Genders = {
-  male?: boolean,
-  female?: boolean,
-  genderless?: boolean
+export type Gender = "male" | "female" | "genderless";
+
+export type PokedexGenders = {
+  [Gender]: boolean
 };
 
-export type Variants = {
+export type PokedexVariants = {
   ash?: boolean,
   party?: boolean,
   santa?: boolean,
@@ -31,13 +31,34 @@ export type Pokemon = {
   id: string,
   active: boolean,
   canBeShiny: boolean,
-  evolutions: Evolutions,
+  evolutions: PokedexEvolutions,
   familyId: string,
-  forms: Forms,
-  genders: Genders,
+  forms: PokedexForms,
+  genders: PokedexGenders,
   isRegional: boolean,
   name: string,
   number: number,
   rarity: ?string,
-  variants: Variants
+  variants: PokedexVariants
 };
+
+export type GendersCaught = {
+  [Gender]: {
+    normal?: boolean,
+    shiny?: boolean
+  }
+};
+
+export type Collected = {
+  gendersCaught: GendersCaught
+};
+
+export type Collection = {
+  [string]: Collected
+};
+
+export type HandleGenderClick = (
+  gender: Gender,
+  forShiny?: boolean
+) => (e: SyntheticEvent<any>) => void;
+export type HandleGenderClickWithId = (id: string) => HandleGenderClick;
