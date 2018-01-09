@@ -1,4 +1,8 @@
 // @flow
+export type Settings = {
+  enableLegacyCatches?: boolean
+};
+
 export type PokedexEvolutions = {
   [string]: {
     candyCost: number,
@@ -50,6 +54,7 @@ export type GendersCaught = {
 };
 
 export type Collected = {
+  legacyCaught: boolean,
   gendersCaught: GendersCaught
 };
 
@@ -57,8 +62,10 @@ export type Collection = {
   [string]: Collected
 };
 
+export type HandleLegacyClick = (pokemonId: string) => void;
+
 export type HandleGenderClick = (
+  pokemonId: string,
   gender: Gender,
   forShiny?: boolean
-) => (e: SyntheticEvent<any>) => void;
-export type HandleGenderClickWithId = (id: string) => HandleGenderClick;
+) => void;

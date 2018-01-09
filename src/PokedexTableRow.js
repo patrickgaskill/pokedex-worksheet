@@ -1,13 +1,22 @@
 // @flow
 import React from "react";
 import { Table } from "semantic-ui-react";
+import LegacyLabel from "./LegacyLabel";
 import GenderLabels from "./GenderLabels";
-import type { Pokemon, Collected, HandleGenderClickWithId } from "./types";
+import type {
+  Settings,
+  Pokemon,
+  Collected,
+  HandleLegacyClick,
+  HandleGenderClick
+} from "./types";
 
 type Props = {
+  settings: Settings,
   pokemon: Pokemon,
   collected: Collected,
-  onGenderClick: HandleGenderClickWithId
+  onLegacyClick: HandleLegacyClick,
+  onGenderClick: HandleGenderClick
 };
 
 export default class PokedexTableRow extends React.PureComponent<Props> {
@@ -16,8 +25,10 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
 
   render() {
     const {
+      settings,
       pokemon: { id, number, name, genders, canBeShiny },
       collected,
+      onLegacyClick,
       onGenderClick
     } = this.props;
 
@@ -26,12 +37,20 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
         <Table.Cell collapsing>
           {this.formatPokemonNumber(number)} {name}
         </Table.Cell>
-        <Table.Cell>
+        <Table.Cell style={{ lineHeight: "2em" }}>
+          {settings.enableLegacyCatches && (
+            <LegacyLabel
+              pokemonId={id}
+              legacyCaught={collected && collected.legacyCaught}
+              onClick={onLegacyClick}
+            />
+          )}
           <GenderLabels
+            pokemonId={id}
             genders={genders}
             canBeShiny={canBeShiny}
             gendersCaught={collected && collected.gendersCaught}
-            onClick={onGenderClick(id)}
+            onClick={onGenderClick}
           />
         </Table.Cell>
       </Table.Row>

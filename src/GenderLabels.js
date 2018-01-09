@@ -9,6 +9,7 @@ import type {
 } from "./types";
 
 type Props = {
+  pokemonId: string,
   genders: PokedexGenders,
   canBeShiny: boolean,
   gendersCaught?: GendersCaught,
@@ -45,10 +46,14 @@ export default class GenderLabels extends React.PureComponent<Props> {
       : undefined;
   };
 
+  handleClick = (gender: Gender, forShiny: boolean) => () => {
+    const { pokemonId, onClick } = this.props;
+    onClick(pokemonId, gender, forShiny);
+  };
+
   render() {
-    const { canBeShiny, onClick } = this.props;
     return (
-      <span style={{ lineHeight: "2em" }}>
+      <span>
         {Object.keys(this.genderMap).map(g => {
           return (
             this.hasGender(g) && (
@@ -58,16 +63,16 @@ export default class GenderLabels extends React.PureComponent<Props> {
                   content={this.genderMap[g].content}
                   color={this.getColor(g)}
                   icon={this.genderMap[g].icon}
-                  onClick={onClick(g)}
+                  onClick={this.handleClick(g, false)}
                   horizontal
                 />
-                {canBeShiny && (
+                {this.props.canBeShiny && (
                   <Label
                     as="a"
                     content={`${this.genderMap[g].content} Shiny`}
                     color={this.getColor(g, true)}
                     icon={this.genderMap[g].icon}
-                    onClick={onClick(g, true)}
+                    onClick={this.handleClick(g, true)}
                     horizontal
                   />
                 )}
