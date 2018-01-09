@@ -93,12 +93,7 @@ class App extends React.Component<{}, State> {
       firestore
         .collection("settings")
         .doc(user.uid)
-        .set(
-          {
-            [data.name]: data.checked
-          },
-          { merge: true }
-        );
+        .set({ [data.name]: data.checked }, { merge: true });
     }
   };
 
