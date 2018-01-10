@@ -10,8 +10,8 @@ type Props = {
 
 export default class LegacyLabel extends React.PureComponent<Props> {
   handleClick = () => {
-    const { pokemonId, onClick } = this.props;
-    onClick(pokemonId);
+    const { pokemonId, legacyCaught, onClick } = this.props;
+    onClick(pokemonId, !legacyCaught);
   };
 
   render() {

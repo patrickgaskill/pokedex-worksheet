@@ -37,18 +37,25 @@ export default class GenderLabels extends React.PureComponent<Props> {
 
   hasGender = (gender: Gender) => this.props.genders.hasOwnProperty(gender);
 
-  getColor = (gender: Gender, forShiny?: boolean) => {
+  userHasCaught = (gender: Gender, forShiny: boolean) => {
     const { gendersCaught } = this.props;
-    return gendersCaught &&
-      gender in gendersCaught &&
-      gendersCaught[gender][forShiny ? "shiny" : "normal"]
+    const shinyKey = forShiny ? "shiny" : "normal";
+    return Boolean(
+      gendersCaught &&
+        gender in gendersCaught &&
+        gendersCaught[gender][shinyKey]
+    );
+  };
+
+  getColor = (gender: Gender, forShiny: boolean) =>
+    this.userHasCaught(gender, forShiny)
       ? this.genderMap[gender].color
       : undefined;
-  };
 
   handleClick = (gender: Gender, forShiny: boolean) => () => {
     const { pokemonId, onClick } = this.props;
-    onClick(pokemonId, gender, forShiny);
+    const userHasCaught = this.userHasCaught(gender, forShiny);
+    onClick(pokemonId, gender, forShiny, userHasCaught);
   };
 
   render() {
@@ -61,7 +68,7 @@ export default class GenderLabels extends React.PureComponent<Props> {
                 <Label
                   as="a"
                   content={this.genderMap[g].content}
-                  color={this.getColor(g)}
+                  color={this.getColor(g, false)}
                   icon={this.genderMap[g].icon}
                   onClick={this.handleClick(g, false)}
                   horizontal

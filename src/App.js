@@ -97,41 +97,34 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  handleLegacyClick = (id: string) => {
-    const { user, collection } = this.state;
+  handleLegacyClick = (id: string, legacyCaught: boolean) => {
+    const { user } = this.state;
     if (user && user.uid) {
-      const prevValue =
-        collection &&
-        id in collection &&
-        "legacyCaught" in collection[id] &&
-        collection[id].legacyCaught;
       firestore
         .collection("collections")
         .doc(user.uid)
         .collection("pokemon")
         .doc(id)
-        .set({ legacyCaught: !prevValue }, { merge: true });
+        .set({ legacyCaught }, { merge: true });
     }
   };
 
-  handleGenderClick = (id: string, gender: Gender, forShiny?: boolean) => {
-    const { user, collection } = this.state;
+  handleGenderClick = (
+    id: string,
+    gender: Gender,
+    forShiny: boolean,
+    userHasCaught: boolean
+  ) => {
+    const { user } = this.state;
+    const shinyKey = forShiny ? "shiny" : "normal";
     if (user && user.uid) {
-      const shinyKey = forShiny ? "shiny" : "normal";
-      const prevValue =
-        collection &&
-        id in collection &&
-        "gendersCaught" in collection[id] &&
-        gender in collection[id].gendersCaught &&
-        shinyKey in collection[id].gendersCaught[gender] &&
-        collection[id].gendersCaught[gender][shinyKey];
       firestore
         .collection("collections")
         .doc(user.uid)
         .collection("pokemon")
         .doc(id)
         .set(
-          { gendersCaught: { [gender]: { [shinyKey]: !prevValue } } },
+          { gendersCaught: { [gender]: { [shinyKey]: !userHasCaught } } },
           { merge: true }
         );
     }
