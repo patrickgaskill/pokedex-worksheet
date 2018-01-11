@@ -107,20 +107,20 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  handleLegacyClick = (id: string, legacyCaught: boolean) => {
+  handleLegacyClick = (pokemonId: string, legacyCaught: boolean) => {
     const { user } = this.state;
     if (user && user.uid) {
       firestore
         .collection("collections")
         .doc(user.uid)
         .collection("pokemon")
-        .doc(id)
+        .doc(pokemonId)
         .set({ legacyCaught }, { merge: true });
     }
   };
 
   handleGenderClick = (
-    id: string,
+    pokemonId: string,
     gender: Gender,
     forShiny: boolean,
     userHasCaught: boolean
@@ -132,11 +132,27 @@ class App extends React.Component<{}, State> {
         .collection("collections")
         .doc(user.uid)
         .collection("pokemon")
-        .doc(id)
+        .doc(pokemonId)
         .set(
-          { gendersCaught: { [gender]: { [shinyKey]: !userHasCaught } } },
+          { gendersCaught: { [gender]: { [shinyKey]: userHasCaught } } },
           { merge: true }
         );
+    }
+  };
+
+  handleFormClick = (
+    pokemonId: string,
+    form: string,
+    userHasCaught: boolean
+  ) => {
+    const { user } = this.state;
+    if (user && user.uid) {
+      firestore
+        .collection("collections")
+        .doc(user.uid)
+        .collection("pokemon")
+        .doc(pokemonId)
+        .set({ formsCaught: { [form]: userHasCaught } }, { merge: true });
     }
   };
 
@@ -164,6 +180,7 @@ class App extends React.Component<{}, State> {
               collection={collection}
               onLegacyClick={this.handleLegacyClick}
               onGenderClick={this.handleGenderClick}
+              onFormClick={this.handleFormClick}
             />
           )}
         </Container>

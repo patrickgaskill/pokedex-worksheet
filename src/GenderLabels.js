@@ -55,7 +55,7 @@ export default class GenderLabels extends React.PureComponent<Props> {
   handleClick = (gender: Gender, forShiny: boolean) => () => {
     const { pokemonId, onClick } = this.props;
     const userHasCaught = this.userHasCaught(gender, forShiny);
-    onClick(pokemonId, gender, forShiny, userHasCaught);
+    onClick(pokemonId, gender, forShiny, !userHasCaught);
   };
 
   render() {

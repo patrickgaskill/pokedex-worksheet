@@ -7,7 +7,8 @@ import type {
   Pokemon,
   Collection,
   HandleLegacyClick,
-  HandleGenderClick
+  HandleGenderClick,
+  HandleFormClick
 } from "./types";
 
 type Props = {
@@ -15,7 +16,8 @@ type Props = {
   pokedex: Array<Pokemon>,
   collection: Collection,
   onLegacyClick: HandleLegacyClick,
-  onGenderClick: HandleGenderClick
+  onGenderClick: HandleGenderClick,
+  onFormClick: HandleFormClick
 };
 
 export default class PokedexTable extends React.Component<Props> {
@@ -25,7 +27,8 @@ export default class PokedexTable extends React.Component<Props> {
       pokedex,
       collection,
       onLegacyClick,
-      onGenderClick
+      onGenderClick,
+      onFormClick
     } = this.props;
     return (
       <Table attached>
@@ -38,6 +41,7 @@ export default class PokedexTable extends React.Component<Props> {
               collected={collection[p.id]}
               onLegacyClick={onLegacyClick}
               onGenderClick={onGenderClick}
+              onFormClick={onFormClick}
             />
           ))}
         </Table.Body>
