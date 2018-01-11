@@ -1,5 +1,6 @@
 // @flow
 import React from "react";
+import classNames from "classnames";
 import { Table } from "semantic-ui-react";
 import LegacyLabel from "./LegacyLabel";
 import GenderLabels from "./GenderLabels";
@@ -31,7 +32,16 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
   render() {
     const {
       settings,
-      pokemon: { id, number, name, genders, forms, canBeShiny },
+      pokemon: {
+        id,
+        number,
+        name,
+        genders,
+        forms,
+        canBeShiny,
+        isRegional,
+        rarity
+      },
       collected,
       onLegacyClick,
       onGenderClick,
@@ -39,7 +49,13 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
     } = this.props;
 
     return (
-      <Table.Row>
+      <Table.Row
+        className={classNames({
+          regional: isRegional,
+          legendary: rarity === "POKEMON_RARITY_LEGENDARY",
+          mythic: rarity === "POKEMON_RARITY_MYTHIC"
+        })}
+      >
         <Table.Cell collapsing>
           {this.formatPokemonNumber(number)} {name}
         </Table.Cell>

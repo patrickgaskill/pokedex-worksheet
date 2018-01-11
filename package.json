@@ -16,6 +16,7 @@
     "@firebase/app": "^0.1.5",
     "@firebase/auth": "^0.3.1",
     "@firebase/firestore": "^0.2.2",
+    "classnames": "^2.2.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
