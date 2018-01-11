@@ -8,7 +8,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "@firebase/app": "^0.1.5",
