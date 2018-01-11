@@ -25,16 +25,26 @@ class App extends React.Component<{}, State> {
     collection: {}
   };
 
+  unsubscribeFromCollection: () => void;
+  unsubscribeFromSettings: () => void;
+  unsubscribeFromAuth: () => void;
+
   componentDidMount() {
     this.initializeUser();
     this.fetchPokedex();
   }
 
+  componentWillUnmount() {
+    this.unsubscribeFromCollection();
+    this.unsubscribeFromSettings();
+    this.unsubscribeFromAuth();
+  }
+
   initializeUser = () => {
-    auth.onAuthStateChanged(user => {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
       if (user) {
         this.setState({ user });
-        firestore
+        this.unsubscribeFromCollection = firestore
           .collection("collections")
           .doc(user.uid)
           .collection("pokemon")
@@ -52,7 +62,7 @@ class App extends React.Component<{}, State> {
             }));
           });
 
-        firestore
+        this.unsubscribeFromSettings = firestore
           .collection("settings")
           .doc(user.uid)
           .onSnapshot(doc => {
