@@ -44,34 +44,41 @@ class App extends React.Component<{}, State> {
     this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
       if (user) {
         this.setState({ user });
-        this.unsubscribeFromCollection = firestore
-          .collection("collections")
-          .doc(user.uid)
-          .collection("pokemon")
-          .onSnapshot(snapshot => {
-            const collection = {};
-            snapshot.docChanges.forEach(change => {
-              collection[change.doc.id] = change.doc.data();
-            });
-
-            this.setState(prevState => ({
-              collection: {
-                ...prevState.collection,
-                ...collection
-              }
-            }));
-          });
-
-        this.unsubscribeFromSettings = firestore
-          .collection("settings")
-          .doc(user.uid)
-          .onSnapshot(doc => {
-            if (doc.exists) {
-              this.setState({ settings: doc.data() });
-            }
-          });
+        this.subscribeToCollection(user.uid);
+        this.subscribeToSettings(user.uid);
       }
     });
+  };
+
+  subscribeToCollection = (uid: string) => {
+    this.unsubscribeFromCollection = firestore
+      .collection("collections")
+      .doc(uid)
+      .collection("pokemon")
+      .onSnapshot(snapshot => {
+        const collection = {};
+        snapshot.docChanges.forEach(change => {
+          collection[change.doc.id] = change.doc.data();
+        });
+
+        this.setState(prevState => ({
+          collection: {
+            ...prevState.collection,
+            ...collection
+          }
+        }));
+      });
+  };
+
+  subscribeToSettings = (uid: string) => {
+    this.unsubscribeFromSettings = firestore
+      .collection("settings")
+      .doc(uid)
+      .onSnapshot(doc => {
+        if (doc.exists) {
+          this.setState({ settings: doc.data() });
+        }
+      });
   };
 
   fetchPokedex = async () => {
