@@ -11,7 +11,7 @@ type Props = {
 export default class TopMenu extends React.Component<Props> {
   renderSignedOut = () => (
     <Menu.Item position={"right"}>
-      <Button primary={true} onClick={this.props.onLoginClick}>
+      <Button primary onClick={this.props.onLoginClick}>
         Sign in to save your progress
       </Button>
     </Menu.Item>
@@ -22,14 +22,15 @@ export default class TopMenu extends React.Component<Props> {
     return [
       <Menu.Item key={0} position="right">
         <Responsive {...Responsive.onlyMobile}>
-          <Image src={user.photoURL} avatar />
+          <Image src={user.photoURL} avatar alt="User photo" />
         </Responsive>
         <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-          <Image src={user.photoURL} avatar /> {user.displayName}
+          <Image src={user.photoURL} avatar alt="User photo" />{" "}
+          {user.displayName}
         </Responsive>
       </Menu.Item>,
       <Menu.Item key={1}>
-        <Button primary={true} onClick={onLogoutClick}>
+        <Button primary onClick={onLogoutClick}>
           Sign out
         </Button>
       </Menu.Item>
