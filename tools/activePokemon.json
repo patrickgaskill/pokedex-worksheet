@@ -380,7 +380,7 @@
   "REGISTEEL": false,
   "LATIAS": false,
   "LATIOS": false,
-  "KYOGRE": false,
+  "KYOGRE": true,
   "GROUDON": true,
   "RAYQUAZA": false,
   "JIRACHI": false,

@@ -5081,7 +5081,7 @@
     "isRegional": false,
     "canBeShiny": false,
     "variants": {},
-    "active": false,
+    "active": true,
     "genders": { "genderless": true },
     "forms": {}
   },
