@@ -46,6 +46,8 @@ class App extends React.Component<{}, State> {
         this.setState({ user });
         this.subscribeToCollection(user.uid);
         this.subscribeToSettings(user.uid);
+      } else {
+        auth.signInAnonymously();
       }
     });
   };
@@ -95,8 +97,19 @@ class App extends React.Component<{}, State> {
   };
 
   login = async () => {
-    const result = await auth.signInWithPopup(provider);
-    this.setState({ user: result.user });
+    const { user } = this.state;
+    if (user) {
+      user.linkWithPopup(provider).then(
+        result => {
+          this.setState({ user: result.user });
+        },
+        error => {
+          if (error.code === "auth/credential-already-in-use") {
+            auth.signInWithCredential(error.credential);
+          }
+        }
+      );
+    }
   };
 
   logout = async () => {

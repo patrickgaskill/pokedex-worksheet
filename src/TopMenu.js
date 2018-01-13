@@ -43,7 +43,9 @@ export default class TopMenu extends React.Component<Props> {
       <Menu borderless>
         <Container>
           <Menu.Item header>Pokédex Worksheet</Menu.Item>
-          {user ? this.renderSignedIn() : this.renderSignedOut()}
+          {user && !user.isAnonymous
+            ? this.renderSignedIn()
+            : this.renderSignedOut()}
         </Container>
       </Menu>
     );
