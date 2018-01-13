@@ -20,7 +20,7 @@ export default class FormLabels extends React.PureComponent<Props> {
 
   userHasCaught = (form: string) => {
     const { formsCaught } = this.props;
-    return Boolean(formsCaught && form in formsCaught && formsCaught[form]);
+    return Boolean(formsCaught && formsCaught[form]);
   };
 
   getColor = (form: string) => (this.userHasCaught(form) ? "grey" : undefined);
