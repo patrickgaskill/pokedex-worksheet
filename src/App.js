@@ -117,6 +117,16 @@ class App extends React.Component<{}, State> {
     this.setState({ user: null });
   };
 
+  handleFilterChange = (e: SyntheticEvent<any>, data: any) => {
+    const { user } = this.state;
+    if (user && user.uid) {
+      firestore
+        .collection("settings")
+        .doc(user.uid)
+        .set({ filter: data.value }, { merge: true });
+    }
+  };
+
   handleSettingsClick = (e: SyntheticEvent<any>, data: any) => {
     const { user } = this.state;
     if (user && user.uid) {
@@ -153,7 +163,8 @@ class App extends React.Component<{}, State> {
           {!loading && (
             <SettingsMenu
               settings={settings}
-              onClick={this.handleSettingsClick}
+              onSettingsClick={this.handleSettingsClick}
+              onFilterChange={this.handleFilterChange}
             />
           )}
           {loading ? (

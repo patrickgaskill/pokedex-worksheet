@@ -13,6 +13,7 @@ type Props = {
   genders: PokedexGenders,
   canBeShiny: boolean,
   gendersCaught?: GendersCaught,
+  shiniesCaught?: GendersCaught,
   onClick: HandleCollectionClick
 };
 
@@ -36,13 +37,12 @@ export default class GenderLabels extends React.PureComponent<Props> {
   };
 
   userHasCaught = (gender: Gender, forShiny: boolean) => {
-    const { gendersCaught } = this.props;
-    const shinyKey = forShiny ? "shiny" : "normal";
-    return Boolean(
-      gendersCaught &&
-        gender in gendersCaught &&
-        gendersCaught[gender][shinyKey]
-    );
+    const { gendersCaught, shiniesCaught } = this.props;
+    if (forShiny) {
+      return Boolean(shiniesCaught && shiniesCaught[gender]);
+    } else {
+      return Boolean(gendersCaught && gendersCaught[gender]);
+    }
   };
 
   getColor = (gender: Gender, forShiny: boolean) =>
@@ -52,11 +52,9 @@ export default class GenderLabels extends React.PureComponent<Props> {
 
   handleClick = (gender: Gender, forShiny: boolean) => () => {
     const { pokemonId, onClick } = this.props;
-    const shinyKey = forShiny ? "shiny" : "normal";
+    const shinyKey = forShiny ? "shiniesCaught" : "gendersCaught";
     const userHasCaught = this.userHasCaught(gender, forShiny);
-    onClick(pokemonId, {
-      gendersCaught: { [gender]: { [shinyKey]: !userHasCaught } }
-    });
+    onClick(pokemonId, { [shinyKey]: { [gender]: !userHasCaught } });
   };
 
   render() {

@@ -78,6 +78,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               genders={genders}
               canBeShiny={canBeShiny}
               gendersCaught={collected && collected.gendersCaught}
+              shiniesCaught={collected && collected.shiniesCaught}
               onClick={onClick}
             />
           )}

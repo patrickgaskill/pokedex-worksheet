@@ -1,5 +1,6 @@
 // @flow
 export type Settings = {
+  filter?: string,
   enableLegacyCatches?: boolean
 };
 
@@ -64,6 +65,7 @@ export type VariantsCaught = {
 export type Collected = {
   legacyCaught: boolean,
   gendersCaught: GendersCaught,
+  shiniesCaught: GendersCaught,
   formsCaught: FormsCaught,
   variantsCaught: VariantsCaught
 };
