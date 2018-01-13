@@ -39,7 +39,7 @@ export default class VariantLabels extends React.PureComponent<Props> {
   render() {
     const { variants } = this.props;
     return (
-      <span>
+      <div>
         {Object.keys(variants).map(variant => (
           <Label
             key={variant}
@@ -51,7 +51,7 @@ export default class VariantLabels extends React.PureComponent<Props> {
             horizontal
           />
         ))}
-      </span>
+      </div>
     );
   }
 }
