@@ -4,14 +4,14 @@ import { Label } from "semantic-ui-react";
 import type {
   PokedexVariants,
   VariantsCaught,
-  HandleVariantClick
+  HandleCollectionClick
 } from "./types";
 
 type Props = {
   pokemonId: string,
   variants: PokedexVariants,
   variantsCaught: VariantsCaught,
-  onClick: HandleVariantClick
+  onClick: HandleCollectionClick
 };
 
 export default class VariantLabels extends React.PureComponent<Props> {
@@ -33,7 +33,7 @@ export default class VariantLabels extends React.PureComponent<Props> {
   handleClick = (variant: string) => () => {
     const { pokemonId, onClick } = this.props;
     const userHasCaught = this.userHasCaught(variant);
-    onClick(pokemonId, variant, !userHasCaught);
+    onClick(pokemonId, { variantsCaught: { [variant]: !userHasCaught } });
   };
 
   render() {

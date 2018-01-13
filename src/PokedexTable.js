@@ -6,33 +6,19 @@ import type {
   Settings,
   Pokemon,
   Collection,
-  HandleLegacyClick,
-  HandleGenderClick,
-  HandleFormClick,
-  HandleVariantClick
+  HandleCollectionClick
 } from "./types";
 
 type Props = {
   settings: Settings,
   pokedex: Array<Pokemon>,
   collection: Collection,
-  onLegacyClick: HandleLegacyClick,
-  onGenderClick: HandleGenderClick,
-  onFormClick: HandleFormClick,
-  onVariantClick: HandleVariantClick
+  onClick: HandleCollectionClick
 };
 
 export default class PokedexTable extends React.Component<Props> {
   render() {
-    const {
-      settings,
-      pokedex,
-      collection,
-      onLegacyClick,
-      onGenderClick,
-      onFormClick,
-      onVariantClick
-    } = this.props;
+    const { settings, pokedex, collection, onClick } = this.props;
     return (
       <Table attached>
         <Table.Body>
@@ -42,10 +28,7 @@ export default class PokedexTable extends React.Component<Props> {
               key={p.id}
               pokemon={p}
               collected={collection[p.id]}
-              onLegacyClick={onLegacyClick}
-              onGenderClick={onGenderClick}
-              onFormClick={onFormClick}
-              onVariantClick={onVariantClick}
+              onClick={onClick}
             />
           ))}
         </Table.Body>

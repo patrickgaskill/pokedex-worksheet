@@ -72,26 +72,4 @@ export type Collection = {
   [string]: Collected
 };
 
-export type HandleLegacyClick = (
-  pokemonId: string,
-  legacyCaught: boolean
-) => void;
-
-export type HandleGenderClick = (
-  pokemonId: string,
-  gender: Gender,
-  forShiny: boolean,
-  userHasCaught: boolean
-) => void;
-
-export type HandleFormClick = (
-  pokemonId: string,
-  form: string,
-  userHasCaught: boolean
-) => void;
-
-export type HandleVariantClick = (
-  pokemonId: string,
-  variant: string,
-  userHasCaught: boolean
-) => void;
+export type HandleCollectionClick = (pokemonId: string, data: any) => void;

@@ -1,17 +1,17 @@
 // @flow
 import React from "react";
-import { HandleLegacyClick, Label } from "semantic-ui-react";
+import { HandleCollectionClick, Label } from "semantic-ui-react";
 
 type Props = {
   pokemonId: string,
   legacyCaught?: boolean,
-  onClick: HandleLegacyClick
+  onClick: HandleCollectionClick
 };
 
 export default class LegacyLabel extends React.PureComponent<Props> {
   handleClick = () => {
     const { pokemonId, legacyCaught, onClick } = this.props;
-    onClick(pokemonId, !legacyCaught);
+    onClick(pokemonId, { legacyCaught: !legacyCaught });
   };
 
   render() {

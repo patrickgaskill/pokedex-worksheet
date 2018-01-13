@@ -1,13 +1,13 @@
 // @flow
 import React from "react";
 import { Label } from "semantic-ui-react";
-import type { PokedexForms, FormsCaught, HandleFormClick } from "./types";
+import type { PokedexForms, FormsCaught, HandleCollectionClick } from "./types";
 
 type Props = {
   pokemonId: string,
   forms: PokedexForms,
   formsCaught: FormsCaught,
-  onClick: HandleFormClick
+  onClick: HandleCollectionClick
 };
 
 export default class FormLabels extends React.PureComponent<Props> {
@@ -28,7 +28,7 @@ export default class FormLabels extends React.PureComponent<Props> {
   handleClick = (form: string) => () => {
     const { pokemonId, onClick } = this.props;
     const userHasCaught = this.userHasCaught(form);
-    onClick(pokemonId, form, !userHasCaught);
+    onClick(pokemonId, { formsCaught: { [form]: !userHasCaught } });
   };
 
   render() {

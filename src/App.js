@@ -6,7 +6,7 @@ import { auth, provider, firestore } from "./firebase";
 import TopMenu from "./TopMenu";
 import SettingsMenu from "./SettingsMenu";
 import PokedexTable from "./PokedexTable";
-import type { Settings, Pokemon, Collection, Gender } from "./types";
+import type { Settings, Pokemon, Collection } from "./types";
 
 type State = {
   user: any,
@@ -127,7 +127,7 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  handleLegacyClick = (pokemonId: string, legacyCaught: boolean) => {
+  handleCollectionClick = (pokemonId: string, data: any) => {
     const { user } = this.state;
     if (user && user.uid) {
       firestore
@@ -135,60 +135,7 @@ class App extends React.Component<{}, State> {
         .doc(user.uid)
         .collection("pokemon")
         .doc(pokemonId)
-        .set({ legacyCaught }, { merge: true });
-    }
-  };
-
-  handleGenderClick = (
-    pokemonId: string,
-    gender: Gender,
-    forShiny: boolean,
-    userHasCaught: boolean
-  ) => {
-    const { user } = this.state;
-    const shinyKey = forShiny ? "shiny" : "normal";
-    if (user && user.uid) {
-      firestore
-        .collection("collections")
-        .doc(user.uid)
-        .collection("pokemon")
-        .doc(pokemonId)
-        .set(
-          { gendersCaught: { [gender]: { [shinyKey]: userHasCaught } } },
-          { merge: true }
-        );
-    }
-  };
-
-  handleFormClick = (
-    pokemonId: string,
-    form: string,
-    userHasCaught: boolean
-  ) => {
-    const { user } = this.state;
-    if (user && user.uid) {
-      firestore
-        .collection("collections")
-        .doc(user.uid)
-        .collection("pokemon")
-        .doc(pokemonId)
-        .set({ formsCaught: { [form]: userHasCaught } }, { merge: true });
-    }
-  };
-
-  handleVariantClick = (
-    pokemonId: string,
-    variant: string,
-    userHasCaught: boolean
-  ) => {
-    const { user } = this.state;
-    if (user && user.uid) {
-      firestore
-        .collection("collections")
-        .doc(user.uid)
-        .collection("pokemon")
-        .doc(pokemonId)
-        .set({ variantsCaught: { [variant]: userHasCaught } }, { merge: true });
+        .set(data, { merge: true });
     }
   };
 
@@ -216,10 +163,7 @@ class App extends React.Component<{}, State> {
               settings={settings}
               pokedex={pokedex}
               collection={collection}
-              onLegacyClick={this.handleLegacyClick}
-              onGenderClick={this.handleGenderClick}
-              onFormClick={this.handleFormClick}
-              onVariantClick={this.handleVariantClick}
+              onClick={this.handleCollectionClick}
             />
           )}
         </Container>

@@ -10,20 +10,14 @@ import type {
   Settings,
   Pokemon,
   Collected,
-  HandleLegacyClick,
-  HandleGenderClick,
-  HandleFormClick,
-  HandleVariantClick
+  HandleCollectionClick
 } from "./types";
 
 type Props = {
   settings: Settings,
   pokemon: Pokemon,
   collected: Collected,
-  onLegacyClick: HandleLegacyClick,
-  onGenderClick: HandleGenderClick,
-  onFormClick: HandleFormClick,
-  onVariantClick: HandleVariantClick
+  onClick: HandleCollectionClick
 };
 
 export default class PokedexTableRow extends React.PureComponent<Props> {
@@ -49,10 +43,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
         rarity
       },
       collected,
-      onLegacyClick,
-      onGenderClick,
-      onFormClick,
-      onVariantClick
+      onClick
     } = this.props;
 
     return (
@@ -71,7 +62,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
             <LegacyLabel
               pokemonId={id}
               legacyCaught={collected && collected.legacyCaught}
-              onClick={onLegacyClick}
+              onClick={onClick}
             />
           )}
           {this.hasForms() ? (
@@ -79,7 +70,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               pokemonId={id}
               forms={forms}
               formsCaught={collected && collected.formsCaught}
-              onClick={onFormClick}
+              onClick={onClick}
             />
           ) : (
             <GenderLabels
@@ -87,7 +78,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               genders={genders}
               canBeShiny={canBeShiny}
               gendersCaught={collected && collected.gendersCaught}
-              onClick={onGenderClick}
+              onClick={onClick}
             />
           )}
           {this.hasVariants() && (
@@ -95,7 +86,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               pokemonId={id}
               variants={variants}
               variantsCaught={collected && collected.variantsCaught}
-              onClick={onVariantClick}
+              onClick={onClick}
             />
           )}
         </Table.Cell>

@@ -5,7 +5,7 @@ import type {
   PokedexGenders,
   GendersCaught,
   Gender,
-  HandleGenderClick
+  HandleCollectionClick
 } from "./types";
 
 type Props = {
@@ -13,7 +13,7 @@ type Props = {
   genders: PokedexGenders,
   canBeShiny: boolean,
   gendersCaught?: GendersCaught,
-  onClick: HandleGenderClick
+  onClick: HandleCollectionClick
 };
 
 export default class GenderLabels extends React.PureComponent<Props> {
@@ -52,8 +52,11 @@ export default class GenderLabels extends React.PureComponent<Props> {
 
   handleClick = (gender: Gender, forShiny: boolean) => () => {
     const { pokemonId, onClick } = this.props;
+    const shinyKey = forShiny ? "shiny" : "normal";
     const userHasCaught = this.userHasCaught(gender, forShiny);
-    onClick(pokemonId, gender, forShiny, !userHasCaught);
+    onClick(pokemonId, {
+      gendersCaught: { [gender]: { [shinyKey]: !userHasCaught } }
+    });
   };
 
   render() {
