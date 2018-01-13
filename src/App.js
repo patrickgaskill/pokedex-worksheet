@@ -96,7 +96,7 @@ class App extends React.Component<{}, State> {
     this.setState({ pokedex, loading: false });
   };
 
-  login = async () => {
+  login = () => {
     const { user } = this.state;
     if (user) {
       user.linkWithPopup(provider).then(
@@ -112,8 +112,8 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  logout = async () => {
-    await auth.signOut();
+  logout = () => {
+    auth.signOut();
     this.setState({ user: null });
   };
 
