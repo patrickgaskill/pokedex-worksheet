@@ -35,8 +35,6 @@ export default class GenderLabels extends React.PureComponent<Props> {
     }
   };
 
-  hasGender = (gender: Gender) => this.props.genders.hasOwnProperty(gender);
-
   userHasCaught = (gender: Gender, forShiny: boolean) => {
     const { gendersCaught } = this.props;
     const shinyKey = forShiny ? "shiny" : "normal";
@@ -63,7 +61,7 @@ export default class GenderLabels extends React.PureComponent<Props> {
       <span>
         {Object.keys(this.genderMap).map(g => {
           return (
-            this.hasGender(g) && (
+            this.props.genders[g] && (
               <span key={g}>
                 <Label
                   as="a"

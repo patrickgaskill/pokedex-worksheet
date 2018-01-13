@@ -9,7 +9,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "IVYSAUR": {
@@ -22,7 +22,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VENUSAUR": {
@@ -35,7 +35,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHARMANDER": {
@@ -48,7 +48,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHARMELEON": {
@@ -61,7 +61,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHARIZARD": {
@@ -74,7 +74,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SQUIRTLE": {
@@ -87,7 +87,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WARTORTLE": {
@@ -100,7 +100,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BLASTOISE": {
@@ -113,7 +113,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CATERPIE": {
@@ -126,7 +126,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "METAPOD": {
@@ -139,7 +139,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BUTTERFREE": {
@@ -152,7 +152,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WEEDLE": {
@@ -165,7 +165,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KAKUNA": {
@@ -178,7 +178,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BEEDRILL": {
@@ -191,7 +191,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PIDGEY": {
@@ -204,7 +204,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PIDGEOTTO": {
@@ -217,7 +217,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PIDGEOT": {
@@ -230,7 +230,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RATTATA": {
@@ -243,7 +243,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RATICATE": {
@@ -256,7 +256,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SPEAROW": {
@@ -269,7 +269,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FEAROW": {
@@ -282,7 +282,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "EKANS": {
@@ -295,7 +295,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARBOK": {
@@ -308,7 +308,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PIKACHU": {
@@ -321,7 +321,7 @@
     "canBeShiny": true,
     "variants": { "party": true, "santa": true, "ash": true, "witch": true },
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RAICHU": {
@@ -334,7 +334,7 @@
     "canBeShiny": true,
     "variants": { "party": true, "santa": true, "ash": true, "witch": true },
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SANDSHREW": {
@@ -347,7 +347,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SANDSLASH": {
@@ -360,7 +360,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NIDORAN_FEMALE": {
@@ -373,7 +373,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "NIDORINA": {
@@ -386,7 +386,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "NIDOQUEEN": {
@@ -399,7 +399,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "NIDORAN_MALE": {
@@ -412,7 +412,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "NIDORINO": {
@@ -425,7 +425,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "NIDOKING": {
@@ -438,7 +438,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "CLEFAIRY": {
@@ -451,7 +451,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CLEFABLE": {
@@ -464,7 +464,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VULPIX": {
@@ -477,7 +477,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NINETALES": {
@@ -490,7 +490,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "JIGGLYPUFF": {
@@ -503,7 +503,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WIGGLYTUFF": {
@@ -516,7 +516,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ZUBAT": {
@@ -529,7 +529,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GOLBAT": {
@@ -542,7 +542,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ODDISH": {
@@ -555,7 +555,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GLOOM": {
@@ -574,7 +574,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VILEPLUME": {
@@ -587,7 +587,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PARAS": {
@@ -600,7 +600,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PARASECT": {
@@ -613,7 +613,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VENONAT": {
@@ -626,7 +626,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VENOMOTH": {
@@ -639,7 +639,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DIGLETT": {
@@ -652,7 +652,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DUGTRIO": {
@@ -665,7 +665,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MEOWTH": {
@@ -678,7 +678,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PERSIAN": {
@@ -691,7 +691,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PSYDUCK": {
@@ -704,7 +704,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GOLDUCK": {
@@ -717,7 +717,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MANKEY": {
@@ -730,7 +730,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PRIMEAPE": {
@@ -743,7 +743,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GROWLITHE": {
@@ -756,7 +756,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARCANINE": {
@@ -769,7 +769,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "POLIWAG": {
@@ -782,7 +782,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "POLIWHIRL": {
@@ -801,7 +801,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "POLIWRATH": {
@@ -814,7 +814,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ABRA": {
@@ -827,7 +827,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KADABRA": {
@@ -840,7 +840,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ALAKAZAM": {
@@ -853,7 +853,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MACHOP": {
@@ -866,7 +866,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MACHOKE": {
@@ -879,7 +879,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MACHAMP": {
@@ -892,7 +892,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BELLSPROUT": {
@@ -905,7 +905,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WEEPINBELL": {
@@ -918,7 +918,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VICTREEBEL": {
@@ -931,7 +931,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TENTACOOL": {
@@ -944,7 +944,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TENTACRUEL": {
@@ -957,7 +957,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GEODUDE": {
@@ -970,7 +970,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GRAVELER": {
@@ -983,7 +983,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GOLEM": {
@@ -996,7 +996,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PONYTA": {
@@ -1009,7 +1009,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RAPIDASH": {
@@ -1022,7 +1022,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLOWPOKE": {
@@ -1041,7 +1041,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLOWBRO": {
@@ -1054,7 +1054,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAGNEMITE": {
@@ -1067,7 +1067,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "MAGNETON": {
@@ -1080,7 +1080,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "FARFETCHD": {
@@ -1093,7 +1093,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DODUO": {
@@ -1106,7 +1106,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DODRIO": {
@@ -1119,7 +1119,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEEL": {
@@ -1132,7 +1132,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DEWGONG": {
@@ -1145,7 +1145,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GRIMER": {
@@ -1158,7 +1158,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MUK": {
@@ -1171,7 +1171,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHELLDER": {
@@ -1184,7 +1184,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CLOYSTER": {
@@ -1197,7 +1197,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GASTLY": {
@@ -1210,7 +1210,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HAUNTER": {
@@ -1223,7 +1223,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GENGAR": {
@@ -1236,7 +1236,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ONIX": {
@@ -1254,7 +1254,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DROWZEE": {
@@ -1267,7 +1267,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HYPNO": {
@@ -1280,7 +1280,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KRABBY": {
@@ -1293,7 +1293,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KINGLER": {
@@ -1306,7 +1306,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VOLTORB": {
@@ -1319,7 +1319,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "ELECTRODE": {
@@ -1332,7 +1332,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "EXEGGCUTE": {
@@ -1345,7 +1345,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "EXEGGUTOR": {
@@ -1358,7 +1358,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CUBONE": {
@@ -1371,7 +1371,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAROWAK": {
@@ -1384,7 +1384,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HITMONLEE": {
@@ -1397,7 +1397,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "HITMONCHAN": {
@@ -1410,7 +1410,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "LICKITUNG": {
@@ -1423,7 +1423,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KOFFING": {
@@ -1436,7 +1436,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WEEZING": {
@@ -1449,7 +1449,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RHYHORN": {
@@ -1462,7 +1462,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RHYDON": {
@@ -1475,7 +1475,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHANSEY": {
@@ -1488,7 +1488,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "TANGELA": {
@@ -1501,7 +1501,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KANGASKHAN": {
@@ -1514,7 +1514,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "HORSEA": {
@@ -1527,7 +1527,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEADRA": {
@@ -1545,7 +1545,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GOLDEEN": {
@@ -1558,7 +1558,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEAKING": {
@@ -1571,7 +1571,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "STARYU": {
@@ -1584,7 +1584,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "STARMIE": {
@@ -1597,7 +1597,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "MR_MIME": {
@@ -1610,7 +1610,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SCYTHER": {
@@ -1628,7 +1628,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "JYNX": {
@@ -1641,7 +1641,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "ELECTABUZZ": {
@@ -1654,7 +1654,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAGMAR": {
@@ -1667,7 +1667,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PINSIR": {
@@ -1680,7 +1680,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TAUROS": {
@@ -1693,7 +1693,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "MAGIKARP": {
@@ -1706,7 +1706,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GYARADOS": {
@@ -1719,7 +1719,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LAPRAS": {
@@ -1732,7 +1732,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DITTO": {
@@ -1745,7 +1745,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "EEVEE": {
@@ -1764,7 +1764,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VAPOREON": {
@@ -1777,7 +1777,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "JOLTEON": {
@@ -1790,7 +1790,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FLAREON": {
@@ -1803,7 +1803,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PORYGON": {
@@ -1821,7 +1821,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "OMANYTE": {
@@ -1834,7 +1834,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "OMASTAR": {
@@ -1847,7 +1847,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KABUTO": {
@@ -1860,7 +1860,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KABUTOPS": {
@@ -1873,7 +1873,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AERODACTYL": {
@@ -1886,7 +1886,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SNORLAX": {
@@ -1899,7 +1899,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARTICUNO": {
@@ -1912,7 +1912,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "ZAPDOS": {
@@ -1925,7 +1925,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "MOLTRES": {
@@ -1938,7 +1938,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "DRATINI": {
@@ -1951,7 +1951,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DRAGONAIR": {
@@ -1964,7 +1964,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DRAGONITE": {
@@ -1977,7 +1977,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MEWTWO": {
@@ -1990,7 +1990,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "MEW": {
@@ -2003,7 +2003,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "CHIKORITA": {
@@ -2016,7 +2016,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BAYLEEF": {
@@ -2029,7 +2029,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MEGANIUM": {
@@ -2042,7 +2042,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CYNDAQUIL": {
@@ -2055,7 +2055,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "QUILAVA": {
@@ -2068,7 +2068,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TYPHLOSION": {
@@ -2081,7 +2081,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TOTODILE": {
@@ -2094,7 +2094,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CROCONAW": {
@@ -2107,7 +2107,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FERALIGATR": {
@@ -2120,7 +2120,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SENTRET": {
@@ -2133,7 +2133,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FURRET": {
@@ -2146,7 +2146,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HOOTHOOT": {
@@ -2159,7 +2159,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NOCTOWL": {
@@ -2172,7 +2172,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LEDYBA": {
@@ -2185,7 +2185,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LEDIAN": {
@@ -2198,7 +2198,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SPINARAK": {
@@ -2211,7 +2211,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARIADOS": {
@@ -2224,7 +2224,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CROBAT": {
@@ -2237,7 +2237,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHINCHOU": {
@@ -2250,7 +2250,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LANTURN": {
@@ -2263,7 +2263,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PICHU": {
@@ -2276,7 +2276,7 @@
     "canBeShiny": true,
     "variants": { "santa": true, "ash": true, "witch": true },
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CLEFFA": {
@@ -2289,7 +2289,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "IGGLYBUFF": {
@@ -2302,7 +2302,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TOGEPI": {
@@ -2315,7 +2315,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TOGETIC": {
@@ -2328,7 +2328,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NATU": {
@@ -2341,7 +2341,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "XATU": {
@@ -2354,7 +2354,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAREEP": {
@@ -2367,7 +2367,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FLAAFFY": {
@@ -2380,7 +2380,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AMPHAROS": {
@@ -2393,7 +2393,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BELLOSSOM": {
@@ -2406,7 +2406,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MARILL": {
@@ -2419,7 +2419,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AZUMARILL": {
@@ -2432,7 +2432,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SUDOWOODO": {
@@ -2445,7 +2445,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "POLITOED": {
@@ -2458,7 +2458,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HOPPIP": {
@@ -2471,7 +2471,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SKIPLOOM": {
@@ -2484,7 +2484,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "JUMPLUFF": {
@@ -2497,7 +2497,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AIPOM": {
@@ -2510,7 +2510,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SUNKERN": {
@@ -2528,7 +2528,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SUNFLORA": {
@@ -2541,7 +2541,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "YANMA": {
@@ -2554,7 +2554,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WOOPER": {
@@ -2567,7 +2567,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "QUAGSIRE": {
@@ -2580,7 +2580,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ESPEON": {
@@ -2593,7 +2593,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "UMBREON": {
@@ -2606,7 +2606,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MURKROW": {
@@ -2619,7 +2619,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLOWKING": {
@@ -2632,7 +2632,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MISDREAVUS": {
@@ -2645,7 +2645,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "UNOWN": {
@@ -2658,7 +2658,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {
       "UNOWN_F": { "displayName": "F", "sortOrder": 16, "active": true },
       "UNOWN_A": { "displayName": "A", "sortOrder": 11, "active": true },
@@ -2708,7 +2708,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GIRAFARIG": {
@@ -2721,7 +2721,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PINECO": {
@@ -2734,7 +2734,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FORRETRESS": {
@@ -2747,7 +2747,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DUNSPARCE": {
@@ -2760,7 +2760,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GLIGAR": {
@@ -2773,7 +2773,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "STEELIX": {
@@ -2786,7 +2786,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SNUBBULL": {
@@ -2799,7 +2799,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GRANBULL": {
@@ -2812,7 +2812,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "QWILFISH": {
@@ -2825,7 +2825,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SCIZOR": {
@@ -2838,7 +2838,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHUCKLE": {
@@ -2851,7 +2851,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HERACROSS": {
@@ -2864,7 +2864,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SNEASEL": {
@@ -2877,7 +2877,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TEDDIURSA": {
@@ -2890,7 +2890,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "URSARING": {
@@ -2903,7 +2903,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLUGMA": {
@@ -2916,7 +2916,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAGCARGO": {
@@ -2929,7 +2929,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SWINUB": {
@@ -2942,7 +2942,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PILOSWINE": {
@@ -2955,7 +2955,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CORSOLA": {
@@ -2968,7 +2968,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "REMORAID": {
@@ -2981,7 +2981,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "OCTILLERY": {
@@ -2994,7 +2994,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DELIBIRD": {
@@ -3007,7 +3007,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MANTINE": {
@@ -3020,7 +3020,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SKARMORY": {
@@ -3033,7 +3033,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HOUNDOUR": {
@@ -3046,7 +3046,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HOUNDOOM": {
@@ -3059,7 +3059,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KINGDRA": {
@@ -3072,7 +3072,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PHANPY": {
@@ -3085,7 +3085,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DONPHAN": {
@@ -3098,7 +3098,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PORYGON2": {
@@ -3111,7 +3111,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "STANTLER": {
@@ -3124,7 +3124,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SMEARGLE": {
@@ -3137,7 +3137,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TYROGUE": {
@@ -3154,7 +3154,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "HITMONTOP": {
@@ -3167,7 +3167,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "SMOOCHUM": {
@@ -3180,7 +3180,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "ELEKID": {
@@ -3193,7 +3193,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAGBY": {
@@ -3206,7 +3206,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MILTANK": {
@@ -3219,7 +3219,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "BLISSEY": {
@@ -3232,7 +3232,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "RAIKOU": {
@@ -3245,7 +3245,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "ENTEI": {
@@ -3258,7 +3258,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "SUICUNE": {
@@ -3271,7 +3271,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "LARVITAR": {
@@ -3284,7 +3284,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PUPITAR": {
@@ -3297,7 +3297,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TYRANITAR": {
@@ -3310,7 +3310,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LUGIA": {
@@ -3323,7 +3323,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "HO_OH": {
@@ -3336,7 +3336,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "CELEBI": {
@@ -3349,7 +3349,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "TREECKO": {
@@ -3362,7 +3362,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GROVYLE": {
@@ -3375,7 +3375,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SCEPTILE": {
@@ -3388,7 +3388,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TORCHIC": {
@@ -3401,7 +3401,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "COMBUSKEN": {
@@ -3414,7 +3414,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BLAZIKEN": {
@@ -3427,7 +3427,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MUDKIP": {
@@ -3440,7 +3440,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MARSHTOMP": {
@@ -3453,7 +3453,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SWAMPERT": {
@@ -3466,7 +3466,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "POOCHYENA": {
@@ -3479,7 +3479,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MIGHTYENA": {
@@ -3492,7 +3492,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ZIGZAGOON": {
@@ -3505,7 +3505,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LINOONE": {
@@ -3518,7 +3518,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WURMPLE": {
@@ -3534,7 +3534,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SILCOON": {
@@ -3547,7 +3547,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BEAUTIFLY": {
@@ -3560,7 +3560,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CASCOON": {
@@ -3573,7 +3573,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DUSTOX": {
@@ -3586,7 +3586,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LOTAD": {
@@ -3599,7 +3599,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LOMBRE": {
@@ -3612,7 +3612,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LUDICOLO": {
@@ -3625,7 +3625,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEEDOT": {
@@ -3638,7 +3638,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NUZLEAF": {
@@ -3651,7 +3651,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHIFTRY": {
@@ -3664,7 +3664,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TAILLOW": {
@@ -3677,7 +3677,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SWELLOW": {
@@ -3690,7 +3690,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WINGULL": {
@@ -3703,7 +3703,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PELIPPER": {
@@ -3716,7 +3716,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RALTS": {
@@ -3729,7 +3729,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "KIRLIA": {
@@ -3742,7 +3742,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GARDEVOIR": {
@@ -3755,7 +3755,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SURSKIT": {
@@ -3768,7 +3768,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MASQUERAIN": {
@@ -3781,7 +3781,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHROOMISH": {
@@ -3794,7 +3794,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BRELOOM": {
@@ -3807,7 +3807,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLAKOTH": {
@@ -3820,7 +3820,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VIGOROTH": {
@@ -3833,7 +3833,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SLAKING": {
@@ -3846,7 +3846,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NINCADA": {
@@ -3862,7 +3862,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NINJASK": {
@@ -3875,7 +3875,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHEDINJA": {
@@ -3888,7 +3888,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "WHISMUR": {
@@ -3901,7 +3901,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LOUDRED": {
@@ -3914,7 +3914,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "EXPLOUD": {
@@ -3927,7 +3927,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAKUHITA": {
@@ -3940,7 +3940,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HARIYAMA": {
@@ -3953,7 +3953,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AZURILL": {
@@ -3966,7 +3966,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NOSEPASS": {
@@ -3979,7 +3979,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SKITTY": {
@@ -3992,7 +3992,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DELCATTY": {
@@ -4005,7 +4005,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SABLEYE": {
@@ -4018,7 +4018,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MAWILE": {
@@ -4031,7 +4031,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARON": {
@@ -4044,7 +4044,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LAIRON": {
@@ -4057,7 +4057,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "AGGRON": {
@@ -4070,7 +4070,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MEDITITE": {
@@ -4083,7 +4083,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MEDICHAM": {
@@ -4096,7 +4096,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ELECTRIKE": {
@@ -4109,7 +4109,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MANECTRIC": {
@@ -4122,7 +4122,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "PLUSLE": {
@@ -4135,7 +4135,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MINUN": {
@@ -4148,7 +4148,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VOLBEAT": {
@@ -4161,7 +4161,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "ILLUMISE": {
@@ -4174,7 +4174,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "ROSELIA": {
@@ -4187,7 +4187,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GULPIN": {
@@ -4200,7 +4200,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SWALOT": {
@@ -4213,7 +4213,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CARVANHA": {
@@ -4226,7 +4226,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHARPEDO": {
@@ -4239,7 +4239,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WAILMER": {
@@ -4252,7 +4252,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WAILORD": {
@@ -4265,7 +4265,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "NUMEL": {
@@ -4278,7 +4278,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CAMERUPT": {
@@ -4291,7 +4291,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TORKOAL": {
@@ -4304,7 +4304,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SPOINK": {
@@ -4317,7 +4317,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GRUMPIG": {
@@ -4330,7 +4330,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SPINDA": {
@@ -4343,7 +4343,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TRAPINCH": {
@@ -4356,7 +4356,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "VIBRAVA": {
@@ -4369,7 +4369,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FLYGON": {
@@ -4382,7 +4382,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CACNEA": {
@@ -4395,7 +4395,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CACTURNE": {
@@ -4408,7 +4408,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SWABLU": {
@@ -4421,7 +4421,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ALTARIA": {
@@ -4434,7 +4434,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ZANGOOSE": {
@@ -4447,7 +4447,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEVIPER": {
@@ -4460,7 +4460,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LUNATONE": {
@@ -4473,7 +4473,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "SOLROCK": {
@@ -4486,7 +4486,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "BARBOACH": {
@@ -4499,7 +4499,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WHISCASH": {
@@ -4512,7 +4512,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CORPHISH": {
@@ -4525,7 +4525,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CRAWDAUNT": {
@@ -4538,7 +4538,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BALTOY": {
@@ -4551,7 +4551,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "CLAYDOL": {
@@ -4564,7 +4564,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "LILEEP": {
@@ -4577,7 +4577,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CRADILY": {
@@ -4590,7 +4590,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ANORITH": {
@@ -4603,7 +4603,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ARMALDO": {
@@ -4616,7 +4616,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "FEEBAS": {
@@ -4629,7 +4629,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "MILOTIC": {
@@ -4642,7 +4642,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CASTFORM": {
@@ -4655,7 +4655,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {
       "CASTFORM_NORMAL": {
         "displayName": "Normal",
@@ -4689,7 +4689,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHUPPET": {
@@ -4702,7 +4702,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BANETTE": {
@@ -4715,7 +4715,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DUSKULL": {
@@ -4728,7 +4728,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "DUSCLOPS": {
@@ -4741,7 +4741,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "TROPIUS": {
@@ -4754,7 +4754,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CHIMECHO": {
@@ -4767,7 +4767,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "ABSOL": {
@@ -4780,7 +4780,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WYNAUT": {
@@ -4793,7 +4793,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SNORUNT": {
@@ -4806,7 +4806,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GLALIE": {
@@ -4819,7 +4819,7 @@
     "canBeShiny": true,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SPHEAL": {
@@ -4832,7 +4832,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SEALEO": {
@@ -4845,7 +4845,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "WALREIN": {
@@ -4858,7 +4858,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "CLAMPERL": {
@@ -4874,7 +4874,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "HUNTAIL": {
@@ -4887,7 +4887,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "GOREBYSS": {
@@ -4900,7 +4900,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "RELICANTH": {
@@ -4913,7 +4913,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "LUVDISC": {
@@ -4926,7 +4926,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BAGON": {
@@ -4939,7 +4939,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SHELGON": {
@@ -4952,7 +4952,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "SALAMENCE": {
@@ -4965,7 +4965,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true, "female": true },
+    "genders": { "male": true, "female": true, "genderless": false },
     "forms": {}
   },
   "BELDUM": {
@@ -4978,7 +4978,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "METANG": {
@@ -4991,7 +4991,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "METAGROSS": {
@@ -5004,7 +5004,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "REGIROCK": {
@@ -5017,7 +5017,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "REGICE": {
@@ -5030,7 +5030,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "REGISTEEL": {
@@ -5043,7 +5043,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "LATIAS": {
@@ -5056,7 +5056,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "female": true },
+    "genders": { "male": false, "female": true, "genderless": false },
     "forms": {}
   },
   "LATIOS": {
@@ -5069,7 +5069,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "male": true },
+    "genders": { "male": true, "female": false, "genderless": false },
     "forms": {}
   },
   "KYOGRE": {
@@ -5082,7 +5082,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "GROUDON": {
@@ -5095,7 +5095,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": true,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "RAYQUAZA": {
@@ -5108,7 +5108,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "JIRACHI": {
@@ -5121,7 +5121,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {}
   },
   "DEOXYS": {
@@ -5134,7 +5134,7 @@
     "canBeShiny": false,
     "variants": {},
     "active": false,
-    "genders": { "genderless": true },
+    "genders": { "male": false, "female": false, "genderless": true },
     "forms": {
       "DEOXYS_NORMAL": {
         "displayName": "Normal",

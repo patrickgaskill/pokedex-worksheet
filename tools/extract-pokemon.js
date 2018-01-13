@@ -91,7 +91,7 @@ for (const template of gameMaster.itemTemplates) {
 
   if (template.genderSettings) {
     const { pokemon, gender } = template.genderSettings;
-    const entry = {};
+    const entry = { male: false, female: false, genderless: false };
     for (const key of Object.keys(gender)) {
       entry[genderMap[key]] = true;
     }
