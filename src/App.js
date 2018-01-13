@@ -174,10 +174,12 @@ class App extends React.Component<{}, State> {
           onLogoutClick={this.logout}
         />
         <Container>
-          <SettingsMenu
-            settings={settings}
-            onClick={this.handleSettingsClick}
-          />
+          {!loading && (
+            <SettingsMenu
+              settings={settings}
+              onClick={this.handleSettingsClick}
+            />
+          )}
           {loading ? (
             <Segment style={{ paddingTop: "10em" }} attached loading />
           ) : (
