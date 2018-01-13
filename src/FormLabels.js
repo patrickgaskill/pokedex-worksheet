@@ -11,27 +11,6 @@ type Props = {
 };
 
 export default class FormLabels extends React.PureComponent<Props> {
-  // userHasCaught = (gender: Gender, forShiny: boolean) => {
-  //   const { gendersCaught } = this.props;
-  //   const shinyKey = forShiny ? "shiny" : "normal";
-  //   return Boolean(
-  //     gendersCaught &&
-  //       gender in gendersCaught &&
-  //       gendersCaught[gender][shinyKey]
-  //   );
-  // };
-
-  // getColor = (gender: Gender, forShiny: boolean) =>
-  //   this.userHasCaught(gender, forShiny)
-  //     ? this.genderMap[gender].color
-  //     : undefined;
-
-  // handleClick = (gender: Gender, forShiny: boolean) => () => {
-  //   const { pokemonId, onClick } = this.props;
-  //   const userHasCaught = this.userHasCaught(gender, forShiny);
-  //   onClick(pokemonId, gender, forShiny, userHasCaught);
-  // };
-
   activeFormIds = () => {
     const { forms } = this.props;
     return Object.keys(forms)
