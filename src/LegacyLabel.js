@@ -1,6 +1,7 @@
 // @flow
 import React from "react";
-import { HandleCollectionClick, Label } from "semantic-ui-react";
+import { Label } from "semantic-ui-react";
+import type { HandleCollectionClick } from "./types";
 
 type Props = {
   pokemonId: string,
