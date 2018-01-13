@@ -4,8 +4,8 @@ import { Menu, Container, Responsive, Image, Button } from "semantic-ui-react";
 
 type Props = {
   user: any,
-  onLoginClick: () => Promise<void>,
-  onLogoutClick: () => Promise<void>
+  onLoginClick: () => void,
+  onLogoutClick: () => void
 };
 
 export default class TopMenu extends React.Component<Props> {
