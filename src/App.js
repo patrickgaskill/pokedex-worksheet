@@ -176,6 +176,22 @@ class App extends React.Component<{}, State> {
     }
   };
 
+  handleVariantClick = (
+    pokemonId: string,
+    variant: string,
+    userHasCaught: boolean
+  ) => {
+    const { user } = this.state;
+    if (user && user.uid) {
+      firestore
+        .collection("collections")
+        .doc(user.uid)
+        .collection("pokemon")
+        .doc(pokemonId)
+        .set({ variantsCaught: { [variant]: userHasCaught } }, { merge: true });
+    }
+  };
+
   render() {
     const { user, settings, loading, pokedex, collection } = this.state;
     return (
@@ -203,6 +219,7 @@ class App extends React.Component<{}, State> {
               onLegacyClick={this.handleLegacyClick}
               onGenderClick={this.handleGenderClick}
               onFormClick={this.handleFormClick}
+              onVariantClick={this.handleVariantClick}
             />
           )}
         </Container>

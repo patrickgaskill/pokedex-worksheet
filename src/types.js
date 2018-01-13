@@ -57,10 +57,15 @@ export type FormsCaught = {
   [string]: boolean
 };
 
+export type VariantsCaught = {
+  [string]: boolean
+};
+
 export type Collected = {
   legacyCaught: boolean,
   gendersCaught: GendersCaught,
-  formsCaught: FormsCaught
+  formsCaught: FormsCaught,
+  variantsCaught: VariantsCaught
 };
 
 export type Collection = {
@@ -82,5 +87,11 @@ export type HandleGenderClick = (
 export type HandleFormClick = (
   pokemonId: string,
   form: string,
+  userHasCaught: boolean
+) => void;
+
+export type HandleVariantClick = (
+  pokemonId: string,
+  variant: string,
   userHasCaught: boolean
 ) => void;

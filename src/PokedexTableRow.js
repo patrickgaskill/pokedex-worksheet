@@ -5,13 +5,15 @@ import { Table } from "semantic-ui-react";
 import LegacyLabel from "./LegacyLabel";
 import GenderLabels from "./GenderLabels";
 import FormLabels from "./FormLabels";
+import VariantLabels from "./VariantLabels";
 import type {
   Settings,
   Pokemon,
   Collected,
   HandleLegacyClick,
   HandleGenderClick,
-  HandleFormClick
+  HandleFormClick,
+  HandleVariantClick
 } from "./types";
 
 type Props = {
@@ -20,7 +22,8 @@ type Props = {
   collected: Collected,
   onLegacyClick: HandleLegacyClick,
   onGenderClick: HandleGenderClick,
-  onFormClick: HandleFormClick
+  onFormClick: HandleFormClick,
+  onVariantClick: HandleVariantClick
 };
 
 export default class PokedexTableRow extends React.PureComponent<Props> {
@@ -28,6 +31,8 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
     `#${number.toString().padStart(3, "0")}`;
 
   hasForms = () => Object.keys(this.props.pokemon.forms).length > 0;
+
+  hasVariants = () => Object.keys(this.props.pokemon.variants).length > 0;
 
   render() {
     const {
@@ -38,6 +43,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
         name,
         genders,
         forms,
+        variants,
         canBeShiny,
         isRegional,
         rarity
@@ -45,7 +51,8 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
       collected,
       onLegacyClick,
       onGenderClick,
-      onFormClick
+      onFormClick,
+      onVariantClick
     } = this.props;
 
     return (
@@ -81,6 +88,14 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               canBeShiny={canBeShiny}
               gendersCaught={collected && collected.gendersCaught}
               onClick={onGenderClick}
+            />
+          )}
+          {this.hasVariants() && (
+            <VariantLabels
+              pokemonId={id}
+              variants={variants}
+              variantsCaught={collected && collected.variantsCaught}
+              onClick={onVariantClick}
             />
           )}
         </Table.Cell>
