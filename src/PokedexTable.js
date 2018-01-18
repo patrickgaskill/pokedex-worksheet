@@ -1,8 +1,9 @@
 // @flow
 import React from "react";
 import { Table } from "semantic-ui-react";
-import { filters } from "./constants";
 import PokedexTableRow from "./PokedexTableRow";
+import { filters } from "./constants";
+import { hasTrueValue, hasKeys } from "./utils";
 import type {
   Settings,
   Pokedex,
@@ -29,21 +30,11 @@ export default class PokedexTable extends React.Component<Props> {
 
       const c = collection[p.id];
       if (filter === filters.UNCAUGHT) {
-        const caughtSomeGender =
-          "gendersCaught" in c && Object.values(c.gendersCaught).includes(true);
-
-        const caughtSomeShiny =
-          "shiniesCaught" in c && Object.values(c.shiniesCaught).includes(true);
-
-        const caughtSomeForm =
-          "formsCaught" in c && Object.values(c.formsCaught).includes(true);
-
-        const caughtSomeVariant =
-          "variantsCaught" in c &&
-          Object.values(c.variantsCaught).includes(true);
-
+        const caughtSomeGender = hasTrueValue(c.gendersCaught);
+        const caughtSomeShiny = hasTrueValue(c.shiniesCaught);
+        const caughtSomeForm = hasTrueValue(c.formsCaught);
+        const caughtSomeVariant = hasTrueValue(c.variantsCaught);
         const caughtLegacy = enableLegacyCatches && c.legacyCaught;
-
         return (
           !caughtSomeGender &&
           !caughtSomeShiny &&
@@ -52,33 +43,24 @@ export default class PokedexTable extends React.Component<Props> {
           !caughtLegacy
         );
       } else if (filter === filters.UNCAUGHT_GFV) {
-        const activeGenders = Object.keys(p.genders).filter(g => p.genders[g]);
-        const missingGenders = activeGenders.some(
-          g => !(c.gendersCaught && g in c.gendersCaught && c.gendersCaught[g])
+        const missingGenders = Object.keys(p.genders).some(
+          g => p.genders[g] && !(c.gendersCaught && c.gendersCaught[g])
         );
-        const missingShinies =
-          p.canBeShiny &&
-          activeGenders.some(
-            g =>
-              !(c.shiniesCaught && g in c.shiniesCaught && c.shiniesCaught[g])
-          );
-
-        const activeForms = Object.keys(p.forms).filter(f => p.forms[f].active);
-        const missingForms = activeForms.some(
-          f => !(c.formsCaught && f in c.formsCaught && c.formsCaught[f])
+        const missingShinies = Object.keys(p.genders).some(
+          g =>
+            p.canBeShiny &&
+            p.genders[g] &&
+            !(c.shiniesCaught && c.shiniesCaught[g])
         );
-
-        const activeVariants = Object.keys(p.variants).filter(
-          v => p.variants[v]
+        const missingForms = Object.keys(p.forms).some(
+          f => p.forms[f].active && !(c.formsCaught && c.formsCaught[f])
         );
-        const missingVariants = activeVariants.some(
-          v =>
-            !(c.variantsCaught && v in c.variantsCaught && c.variantsCaught[v])
+        const missingVariants = Object.keys(p.variants).some(
+          v => p.variants[v] && !(c.variantsCaught && c.variantsCaught[v])
         );
-
         return (
           missingForms ||
-          (activeForms.length === 0 && missingGenders) ||
+          (!hasKeys(p.forms) && missingGenders) ||
           missingShinies ||
           missingVariants
         );

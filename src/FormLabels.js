@@ -11,7 +11,7 @@ type Props = {
 };
 
 export default class FormLabels extends React.PureComponent<Props> {
-  activeFormIds = () => {
+  getActiveFormIds = () => {
     const { forms } = this.props;
     return Object.keys(forms)
       .filter(f => forms[f].active)
@@ -35,7 +35,7 @@ export default class FormLabels extends React.PureComponent<Props> {
     const { forms } = this.props;
     return (
       <span>
-        {this.activeFormIds().map(form => (
+        {this.getActiveFormIds().map(form => (
           <Label
             key={form}
             as="a"

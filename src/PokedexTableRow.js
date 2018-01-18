@@ -1,12 +1,12 @@
 // @flow
 import React from "react";
-import classNames from "classnames";
 import { Table } from "semantic-ui-react";
 import LegacyLabel from "./LegacyLabel";
 import GenderLabels from "./GenderLabels";
 import FormLabels from "./FormLabels";
 import VariantLabels from "./VariantLabels";
-import { formatPokemonNumber } from "./utils";
+import { rarities } from "./constants";
+import { formatPokemonNumber, hasKeys } from "./utils";
 import type { Pokemon, Collected, HandleCollectionClick } from "./types";
 
 type Props = {
@@ -17,36 +17,24 @@ type Props = {
 };
 
 export default class PokedexTableRow extends React.PureComponent<Props> {
-  hasForms = () => Object.keys(this.props.pokemon.forms).length > 0;
-
-  hasVariants = () => Object.keys(this.props.pokemon.variants).length > 0;
+  getClassName = () => {
+    const { isRegional, rarity } = this.props.pokemon;
+    if (rarity === rarities.MYTHIC) return "mythic";
+    if (rarity === rarities.LEGENDARY) return "legendary";
+    if (isRegional) return "regional";
+    return null;
+  };
 
   render() {
     const {
-      pokemon: {
-        id,
-        number,
-        name,
-        genders,
-        forms,
-        variants,
-        canBeShiny,
-        isRegional,
-        rarity
-      },
+      pokemon: { id, number, name, genders, forms, variants, canBeShiny },
       collected,
       enableLegacyCatches,
       onClick
     } = this.props;
 
     return (
-      <Table.Row
-        className={classNames({
-          regional: isRegional,
-          legendary: rarity === "POKEMON_RARITY_LEGENDARY",
-          mythic: rarity === "POKEMON_RARITY_MYTHIC"
-        })}
-      >
+      <Table.Row className={this.getClassName()}>
         <Table.Cell collapsing>
           {formatPokemonNumber(number)} {name}
         </Table.Cell>
@@ -58,7 +46,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               onClick={onClick}
             />
           )}
-          {this.hasForms() ? (
+          {hasKeys(forms) ? (
             <FormLabels
               pokemonId={id}
               forms={forms}
@@ -75,7 +63,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
               onClick={onClick}
             />
           )}
-          {this.hasVariants() && (
+          {hasKeys(variants) && (
             <VariantLabels
               pokemonId={id}
               variants={variants}

@@ -58,11 +58,12 @@ export default class GenderLabels extends React.PureComponent<Props> {
   };
 
   render() {
+    const { genders, canBeShiny } = this.props;
     return (
       <span>
         {Object.keys(this.genderMap).map(g => {
           return (
-            this.props.genders[g] && (
+            genders[g] && (
               <span key={g}>
                 <Label
                   as="a"
@@ -72,7 +73,7 @@ export default class GenderLabels extends React.PureComponent<Props> {
                   onClick={this.handleClick(g, false)}
                   horizontal
                 />
-                {this.props.canBeShiny && (
+                {canBeShiny && (
                   <Label
                     as="a"
                     content={`${this.genderMap[g].content} Shiny`}
