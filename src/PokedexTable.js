@@ -5,14 +5,14 @@ import { filters } from "./constants";
 import PokedexTableRow from "./PokedexTableRow";
 import type {
   Settings,
-  Pokemon,
+  Pokedex,
   Collection,
   HandleCollectionClick
 } from "./types";
 
 type Props = {
   settings: Settings,
-  pokedex: Array<Pokemon>,
+  pokedex: Pokedex,
   collection: Collection,
   onClick: HandleCollectionClick
 };

@@ -5,14 +5,22 @@ import "semantic-ui-css/semantic.min.css";
 import { auth, provider, firestore } from "./firebase";
 import TopMenu from "./TopMenu";
 import SettingsMenu from "./SettingsMenu";
+import ProgressBars from "./ProgressBars";
 import PokedexTable from "./PokedexTable";
-import type { Settings, Pokemon, Collection } from "./types";
+import type {
+  Settings,
+  Pokedex,
+  Collection,
+  HandleFilterChange,
+  HandleSettingsClick,
+  HandleCollectionClick
+} from "./types";
 
 type State = {
   user: any,
   settings: Settings,
   loading: boolean,
-  pokedex: Array<Pokemon>,
+  pokedex: Pokedex,
   collection: Collection
 };
 
@@ -117,7 +125,7 @@ class App extends React.Component<{}, State> {
     this.setState({ user: null });
   };
 
-  handleFilterChange = (e: SyntheticEvent<any>, data: any) => {
+  handleFilterChange: HandleFilterChange = (e, data) => {
     const { user } = this.state;
     if (user && user.uid) {
       firestore
@@ -127,7 +135,7 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  handleSettingsClick = (e: SyntheticEvent<any>, data: any) => {
+  handleSettingsClick: HandleSettingsClick = (e, data) => {
     const { user } = this.state;
     if (user && user.uid) {
       firestore
@@ -137,7 +145,7 @@ class App extends React.Component<{}, State> {
     }
   };
 
-  handleCollectionClick = (pokemonId: string, data: any) => {
+  handleCollectionClick: HandleCollectionClick = (pokemonId, data) => {
     const { user } = this.state;
     if (user && user.uid) {
       firestore
@@ -160,22 +168,27 @@ class App extends React.Component<{}, State> {
           onLogoutClick={this.logout}
         />
         <Container>
-          {!loading && (
-            <SettingsMenu
-              settings={settings}
-              onSettingsClick={this.handleSettingsClick}
-              onFilterChange={this.handleFilterChange}
-            />
-          )}
           {loading ? (
             <Segment style={{ paddingTop: "10em" }} attached loading />
           ) : (
-            <PokedexTable
-              settings={settings}
-              pokedex={pokedex}
-              collection={collection}
-              onClick={this.handleCollectionClick}
-            />
+            <div>
+              <SettingsMenu
+                settings={settings}
+                onSettingsClick={this.handleSettingsClick}
+                onFilterChange={this.handleFilterChange}
+              />
+              <ProgressBars
+                settings={settings}
+                pokedex={pokedex}
+                collection={collection}
+              />
+              <PokedexTable
+                settings={settings}
+                pokedex={pokedex}
+                collection={collection}
+                onClick={this.handleCollectionClick}
+              />
+            </div>
           )}
         </Container>
       </div>

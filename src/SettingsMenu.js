@@ -2,12 +2,16 @@
 import React from "react";
 import { Menu, Dropdown, Checkbox } from "semantic-ui-react";
 import { filters } from "./constants";
-import type { Settings } from "./types";
+import type {
+  Settings,
+  HandleSettingsClick,
+  HandleFilterChange
+} from "./types";
 
 type Props = {
   settings: Settings,
-  onSettingsClick: (SyntheticEvent<any>, any) => void,
-  onFilterChange: (SyntheticEvent<any>, any) => void
+  onSettingsClick: HandleSettingsClick,
+  onFilterChange: HandleFilterChange
 };
 
 export default class SettingsMenu extends React.Component<Props> {

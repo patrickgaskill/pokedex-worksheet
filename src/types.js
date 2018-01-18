@@ -47,6 +47,8 @@ export type Pokemon = {
   variants: PokedexVariants
 };
 
+export type Pokedex = Array<Pokemon>;
+
 export type GendersCaught = {
   [Gender]: {
     normal?: boolean,
@@ -74,4 +76,6 @@ export type Collection = {
   [string]: Collected
 };
 
+export type HandleFilterChange = (SyntheticEvent<any>, any) => void;
+export type HandleSettingsClick = (SyntheticEvent<any>, any) => void;
 export type HandleCollectionClick = (pokemonId: string, data: any) => void;
