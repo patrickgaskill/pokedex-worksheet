@@ -72,7 +72,7 @@ export default class ProgressBars extends React.PureComponent<Props> {
 
     return (
       <Segment attached>
-        <Grid columns={2} textAlign="center">
+        <Grid stackable columns={2} textAlign="center">
           <Grid.Row>
             <Grid.Column>
               <Progress
