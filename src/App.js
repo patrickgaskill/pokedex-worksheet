@@ -19,7 +19,9 @@ import type {
 type State = {
   user: any,
   settings: Settings,
-  loading: boolean,
+  fetchedPokedex: boolean,
+  fetchedCollection: boolean,
+  fetchedSettings: boolean,
   pokedex: Pokedex,
   collection: Collection
 };
@@ -28,7 +30,9 @@ class App extends React.Component<{}, State> {
   state = {
     user: null,
     settings: {},
-    loading: true,
+    fetchedPokedex: false,
+    fetchedCollection: false,
+    fetchedSettings: false,
     pokedex: [],
     collection: {}
   };
@@ -75,7 +79,8 @@ class App extends React.Component<{}, State> {
           collection: {
             ...prevState.collection,
             ...collection
-          }
+          },
+          fetchedCollection: true
         }));
       });
   };
@@ -86,7 +91,7 @@ class App extends React.Component<{}, State> {
       .doc(uid)
       .onSnapshot(doc => {
         if (doc.exists) {
-          this.setState({ settings: doc.data() });
+          this.setState({ settings: doc.data(), fetchedSettings: true });
         }
       });
   };
@@ -101,7 +106,12 @@ class App extends React.Component<{}, State> {
     snapshot.forEach(doc => {
       pokedex.push({ id: doc.id, ...doc.data() });
     });
-    this.setState({ pokedex, loading: false });
+    this.setState({ pokedex, fetchedPokedex: true });
+  };
+
+  isLoaded = () => {
+    const { fetchedPokedex, fetchedCollection, fetchedSettings } = this.state;
+    return fetchedPokedex && fetchedCollection && fetchedSettings;
   };
 
   login = () => {
@@ -158,7 +168,7 @@ class App extends React.Component<{}, State> {
   };
 
   render() {
-    const { user, settings, loading, pokedex, collection } = this.state;
+    const { user, settings, pokedex, collection } = this.state;
     return (
       <div>
         <TopMenu
@@ -168,9 +178,7 @@ class App extends React.Component<{}, State> {
           onLogoutClick={this.logout}
         />
         <Container>
-          {loading ? (
-            <Segment style={{ paddingTop: "10em" }} attached loading />
-          ) : (
+          {this.isLoaded() ? (
             <div>
               <SettingsMenu
                 settings={settings}
@@ -189,6 +197,8 @@ class App extends React.Component<{}, State> {
                 onClick={this.handleCollectionClick}
               />
             </div>
+          ) : (
+            <Segment style={{ paddingTop: "10em" }} attached loading />
           )}
         </Container>
       </div>
