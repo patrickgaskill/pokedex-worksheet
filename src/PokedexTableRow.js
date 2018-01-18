@@ -6,31 +6,23 @@ import LegacyLabel from "./LegacyLabel";
 import GenderLabels from "./GenderLabels";
 import FormLabels from "./FormLabels";
 import VariantLabels from "./VariantLabels";
-import type {
-  Settings,
-  Pokemon,
-  Collected,
-  HandleCollectionClick
-} from "./types";
+import { formatPokemonNumber } from "./utils";
+import type { Pokemon, Collected, HandleCollectionClick } from "./types";
 
 type Props = {
-  settings: Settings,
   pokemon: Pokemon,
   collected: Collected,
-  onClick: HandleCollectionClick
+  onClick: HandleCollectionClick,
+  enableLegacyCatches: boolean
 };
 
 export default class PokedexTableRow extends React.PureComponent<Props> {
-  formatPokemonNumber = (number: number) =>
-    `#${number.toString().padStart(3, "0")}`;
-
   hasForms = () => Object.keys(this.props.pokemon.forms).length > 0;
 
   hasVariants = () => Object.keys(this.props.pokemon.variants).length > 0;
 
   render() {
     const {
-      settings,
       pokemon: {
         id,
         number,
@@ -43,6 +35,7 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
         rarity
       },
       collected,
+      enableLegacyCatches,
       onClick
     } = this.props;
 
@@ -55,10 +48,10 @@ export default class PokedexTableRow extends React.PureComponent<Props> {
         })}
       >
         <Table.Cell collapsing>
-          {this.formatPokemonNumber(number)} {name}
+          {formatPokemonNumber(number)} {name}
         </Table.Cell>
         <Table.Cell style={{ lineHeight: "2em" }}>
-          {settings.enableLegacyCatches && (
+          {enableLegacyCatches && (
             <LegacyLabel
               pokemonId={id}
               legacyCaught={collected && collected.legacyCaught}

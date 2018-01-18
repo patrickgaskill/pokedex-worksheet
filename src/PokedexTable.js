@@ -89,16 +89,20 @@ export default class PokedexTable extends React.Component<Props> {
   };
 
   render() {
-    const { settings, collection, onClick } = this.props;
+    const {
+      settings: { enableLegacyCatches },
+      collection,
+      onClick
+    } = this.props;
     return (
       <Table attached>
         <Table.Body>
           {this.getFilteredPokedex().map(p => (
             <PokedexTableRow
-              settings={settings}
               key={p.id}
               pokemon={p}
               collected={collection[p.id]}
+              enableLegacyCatches={enableLegacyCatches}
               onClick={onClick}
             />
           ))}

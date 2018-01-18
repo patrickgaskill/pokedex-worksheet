@@ -12,7 +12,11 @@ type Props = {
 
 export default class ProgressBars extends React.PureComponent<Props> {
   render() {
-    const { settings, pokedex, collection } = this.props;
+    const {
+      settings: { enableLegacyCatches },
+      pokedex,
+      collection
+    } = this.props;
     const pokedexTotal = pokedex.length;
     let pokedexValue = 0;
     let gfvValue = 0;
@@ -59,7 +63,7 @@ export default class ProgressBars extends React.PureComponent<Props> {
           gendersCaughtCount ||
           shiniesCaughtCount ||
           variantsCaughtCount ||
-          (settings.enableLegacyCatches && legacyCaught)
+          (enableLegacyCatches && legacyCaught)
         ) {
           pokedexValue++;
         }

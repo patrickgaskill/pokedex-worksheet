@@ -7,6 +7,7 @@ import TopMenu from "./TopMenu";
 import SettingsMenu from "./SettingsMenu";
 import ProgressBars from "./ProgressBars";
 import PokedexTable from "./PokedexTable";
+import { filters } from "./constants";
 import type {
   Settings,
   Pokedex,
@@ -29,7 +30,7 @@ type State = {
 class App extends React.Component<{}, State> {
   state = {
     user: null,
-    settings: {},
+    settings: { filter: filters.ALL, enableLegacyCatches: false },
     fetchedPokedex: false,
     fetchedCollection: false,
     fetchedSettings: false,
@@ -91,7 +92,10 @@ class App extends React.Component<{}, State> {
       .doc(uid)
       .onSnapshot(doc => {
         if (doc.exists) {
-          this.setState({ settings: doc.data(), fetchedSettings: true });
+          this.setState(prevState => ({
+            settings: { ...prevState.settings, ...doc.data() },
+            fetchedSettings: true
+          }));
         }
       });
   };

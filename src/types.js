@@ -1,7 +1,11 @@
 // @flow
+import { filters } from "./constants";
+
+export type Filter = $Keys<typeof filters>;
+
 export type Settings = {
-  filter?: string,
-  enableLegacyCatches?: boolean
+  filter: Filter,
+  enableLegacyCatches: boolean
 };
 
 export type PokedexEvolutions = {
