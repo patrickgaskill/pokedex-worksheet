@@ -44,8 +44,7 @@ export default class SettingsMenu extends React.Component<Props> {
             <Dropdown
               inline
               options={this.filterOptions}
-              value={filter}
-              defaultValue={this.filterOptions[0].value}
+              value={filter || filters.ALL}
               onChange={onFilterChange}
             />
           </span>
