@@ -1,5 +1,5 @@
 // @flow
-import { filters } from "./constants";
+import { filters, rarities } from "./constants";
 
 export type Filter = $Keys<typeof filters>;
 
@@ -25,6 +25,8 @@ export type PokedexForms = {
 
 export type Gender = "male" | "female" | "genderless";
 
+export type Rarity = $Keys<typeof rarities> | null;
+
 export type PokedexGenders = {
   [Gender]: boolean
 };
@@ -47,7 +49,7 @@ export type Pokemon = {
   isRegional: boolean,
   name: string,
   number: number,
-  rarity: ?string,
+  rarity: Rarity,
   variants: PokedexVariants
 };
 
