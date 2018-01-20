@@ -129,12 +129,12 @@ for (const id of Object.keys(pokemonEntries)) {
 pokemon = merge(pokemon, overrides);
 
 fs.writeFile(
-  path.join(__dirname, "pokemon.json"),
+  path.join(__dirname, "pokedex.json"),
   JSON.stringify(pokemon),
   err => {
     if (err) {
       throw err;
-      console.error("Cannot save pokemon.json:", err);
+      console.error("Cannot save pokedex.json:", err);
     }
   }
 );

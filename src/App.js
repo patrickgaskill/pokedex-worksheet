@@ -100,17 +100,21 @@ class App extends React.Component<{}, State> {
       });
   };
 
-  fetchPokedex = async () => {
-    const pokedex = [];
-    const snapshot = await firestore
+  fetchPokedex = () => {
+    firestore
       .collection("pokedex")
-      .where("active", "==", true)
-      .orderBy("number")
-      .get();
-    snapshot.forEach(doc => {
-      pokedex.push({ id: doc.id, ...doc.data() });
-    });
-    this.setState({ pokedex, fetchedPokedex: true });
+      .doc("pokedex")
+      .get()
+      .then(doc => {
+        if (doc.exists) {
+          const data = doc.data();
+          const pokedex = Object.keys(data)
+            .map(id => ({ id, ...data[id] }))
+            .filter(p => p.active)
+            .sort((a, b) => a.number - b.number);
+          this.setState({ pokedex, fetchedPokedex: true });
+        }
+      });
   };
 
   isLoaded = () => {
