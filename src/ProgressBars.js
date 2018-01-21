@@ -2,7 +2,7 @@
 import React from "react";
 import { Segment, Grid, Progress } from "semantic-ui-react";
 import { countTrueValues } from "./utils";
-import type { Settings, Pokedex, Collection } from "./types";
+import type { Settings, Form, Pokedex, Collection } from "./types";
 
 type Props = {
   settings: Settings,
@@ -24,6 +24,7 @@ export default class ProgressBars extends React.PureComponent<Props> {
 
     for (let p of pokedex) {
       // Forms supercede genders, but we always add variants
+      // $FlowFixMe
       const formsCount = countTrueValues(p.forms, f => f.active);
       const gendersCount = countTrueValues(p.genders);
       const variantsCount = countTrueValues(p.variants);
