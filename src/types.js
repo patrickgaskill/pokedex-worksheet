@@ -3,16 +3,16 @@ import { filters, rarities } from "./constants";
 
 export type Filter = $Keys<typeof filters>;
 
-export type Settings = {
+export type Settings = {|
   filter: Filter,
   enableLegacyCatches: boolean
-};
+|};
 
 export type PokedexEvolutions = {
-  [string]: {
+  [string]: {|
     candyCost: number,
     evolutionItemRequirement?: string
-  }
+  |}
 };
 
 export type PokedexForms = {
@@ -25,20 +25,20 @@ export type PokedexForms = {
 
 export type Gender = "male" | "female" | "genderless";
 
-export type Rarity = $Keys<typeof rarities> | null;
-
 export type PokedexGenders = {
   [Gender]: boolean
 };
 
-export type PokedexVariants = {
+export type PokedexVariants = {|
   ash?: boolean,
   party?: boolean,
   santa?: boolean,
   witch?: boolean
-};
+|};
 
-export type Pokemon = {
+export type Rarity = $Values<typeof rarities>;
+
+export type Pokemon = {|
   id: string,
   active: boolean,
   canBeShiny: boolean,
@@ -49,17 +49,18 @@ export type Pokemon = {
   isRegional: boolean,
   name: string,
   number: number,
-  rarity: Rarity,
+  rarity: ?Rarity,
   variants: PokedexVariants
-};
+|};
 
 export type Pokedex = Array<Pokemon>;
 
 export type GendersCaught = {
-  [Gender]: {
-    normal?: boolean,
-    shiny?: boolean
-  }
+  [Gender]: boolean
+};
+
+export type ShiniesCaught = {
+  [Gender]: boolean
 };
 
 export type FormsCaught = {
@@ -70,13 +71,13 @@ export type VariantsCaught = {
   [string]: boolean
 };
 
-export type Collected = {
+export type Collected = {|
   legacyCaught: boolean,
   gendersCaught: GendersCaught,
-  shiniesCaught: GendersCaught,
+  shiniesCaught: ShiniesCaught,
   formsCaught: FormsCaught,
   variantsCaught: VariantsCaught
-};
+|};
 
 export type Collection = {
   [string]: Collected
