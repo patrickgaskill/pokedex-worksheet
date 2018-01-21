@@ -24,6 +24,7 @@ export default class ProgressBars extends React.PureComponent<Props> {
 
     for (let p of pokedex) {
       // Forms supercede genders, but we always add variants
+      // $FlowFixMe
       const formsCount = countTrueValues(p.forms, f => f.active);
       const gendersCount = countTrueValues(p.genders);
       const variantsCount = countTrueValues(p.variants);

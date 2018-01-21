@@ -16,11 +16,11 @@ export type PokedexEvolutions = {
 };
 
 export type PokedexForms = {
-  [string]: {
+  [string]: {|
     active: boolean,
     displayName: string,
     sortOrder: number
-  }
+  |}
 };
 
 export type Gender = "male" | "female" | "genderless";
