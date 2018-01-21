@@ -2,7 +2,7 @@
 import React from "react";
 import { Segment, Grid, Progress } from "semantic-ui-react";
 import { countTrueValues } from "./utils";
-import type { Settings, Form, Pokedex, Collection } from "./types";
+import type { Settings, Pokedex, Collection } from "./types";
 
 type Props = {
   settings: Settings,
