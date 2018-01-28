@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Segment } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+import "./App.css";
 import { auth, provider, firestore } from "./firebase";
 import TopMenu from "./TopMenu";
 import SettingsMenu from "./SettingsMenu";
