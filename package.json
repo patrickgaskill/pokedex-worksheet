@@ -13,9 +13,9 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "@firebase/app": "^0.4.9",
-    "@firebase/auth": "^0.11.3",
-    "@firebase/firestore": "^1.4.3",
+    "@firebase/app": "^0.4.11",
+    "@firebase/auth": "^0.11.5",
+    "@firebase/firestore": "^1.4.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
@@ -27,10 +27,10 @@
     "deepmerge": "^4.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "firebase": "^6.2.4",
-    "flow-bin": "^0.102.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.1.0",
+    "firebase": "^6.3.1",
+    "flow-bin": "^0.103.0",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.8.6"
   },
